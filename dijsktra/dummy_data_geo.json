@@ -1,0 +1,56 @@
+[
+  {
+    "node_id": "1",
+    "node_name": "Node A",
+    "latitude": 40.712776,
+    "longitude": -74.005974
+  },
+  {
+    "node_id": "2",
+    "node_name": "Node B",
+    "latitude": 40.713776,
+    "longitude": -74.000974
+  },
+  {
+    "node_id": "3",
+    "node_name": "Node C",
+    "latitude": 40.715000,
+    "longitude": -74.002000
+  },
+  {
+    "node_id": "4",
+    "node_name": "Node D",
+    "latitude": 40.716000,
+    "longitude": -74.006000
+  },
+  {
+    "node_id": "5",
+    "node_name": "Node E",
+    "latitude": 40.718000,
+    "longitude": -74.004000
+  },
+  {
+    "node_id": "6",
+    "node_name": "Node F",
+    "latitude": 40.719000,
+    "longitude": -74.001000
+  },
+  {
+    "node_id": "7",
+    "node_name": "Node G",
+    "latitude": 40.720000,
+    "longitude": -74.003000
+  },
+  {
+    "node_id": "8",
+    "node_name": "Node H",
+    "latitude": 40.721000,
+    "longitude": -74.007000
+  },
+  {
+    "node_id": "9",
+    "node_name": "Node I",
+    "latitude": 40.722000,
+    "longitude": -74.008000
+  }
+]

@@ -1,0 +1,65 @@
+[
+  {
+    "dist_id": "D1",
+    "dist_name": "A-B",
+    "lower_node": "1",
+    "upper_node": "2",
+    "distance": 140
+  },
+  {
+    "dist_id": "D2",
+    "dist_name": "A-C",
+    "lower_node": "1",
+    "upper_node": "3",
+    "distance": 80
+  },
+  {
+    "dist_id": "D3",
+    "dist_name": "A-F",
+    "lower_node": "1",
+    "upper_node": "6",
+    "distance": 200
+  },
+  {
+    "dist_id": "D4",
+    "dist_name": "B-C",
+    "lower_node": "2",
+    "upper_node": "3",
+    "distance": 120
+  },
+  {
+    "dist_id": "D5",
+    "dist_name": "B-D",
+    "lower_node": "2",
+    "upper_node": "4",
+    "distance": 150
+  },
+  {
+    "dist_id": "D6",
+    "dist_name": "C-D",
+    "lower_node": "3",
+    "upper_node": "4",
+    "distance": 90
+  },
+  {
+    "dist_id": "D7",
+    "dist_name": "C-F",
+    "lower_node": "3",
+    "upper_node": "6",
+    "distance": 70
+  },
+  {
+    "dist_id": "D8",
+    "dist_name": "D-E",
+    "lower_node": "4",
+    "upper_node": "5",
+    "distance": 60
+  },
+  {
+    "dist_id": "D9",
+    "dist_name": "E-F",
+    "lower_node": "5",
+    "upper_node": "6",
+    "distance": 95
+  }
+]
