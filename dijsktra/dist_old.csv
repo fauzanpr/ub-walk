@@ -1,0 +1,15 @@
+dist_id;upper_node;lower_node;dist_type
+1;Gerbang Veteran;FKG_P1;pvb
+2;FKG_P1;JLUB_T1;trotoar
+3;JLUB_T1;JLUB_T2;trotoar
+4;JLUB_T2;JLUB_T3;trotoar
+5;JLUB_T3;JLUB_T4;trotoar
+6;JLUB_T4;FILKOM_P1;pvb
+7;FILKOM_P1;Junction FILKOM UB;pvb
+8;FKG_P1;FKG_P2;pvb
+9;FKG_P2;FKG_P3;pvb
+10;FKG_P3;FKG_P4;pvb
+11;FKG_P4;FKG_P5;pvb
+12;FKG_P5;FILKOM_P3;pvb
+13;FILKOM_P3;FILKOM_P2;pvb
+14;FILKOM_P2;FILKOM_P1;pvb

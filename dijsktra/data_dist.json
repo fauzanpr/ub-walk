@@ -1,0 +1,114 @@
+[
+  {
+    "dist_id": "D1",
+    "dist_name": "Gerbang Veteran-FKG_P1",
+    "lower_node": "FKG_P1",
+    "upper_node": "Gerbang Veteran",
+    "distance": 21.96,
+    "dist_type": "pvb"
+  },
+  {
+    "dist_id": "D2",
+    "dist_name": "FKG_P1-JLUB_T1",
+    "lower_node": "JLUB_T1",
+    "upper_node": "FKG_P1",
+    "distance": 21.37,
+    "dist_type": "trotoar"
+  },
+  {
+    "dist_id": "D3",
+    "dist_name": "JLUB_T1-JLUB_T2",
+    "lower_node": "JLUB_T2",
+    "upper_node": "JLUB_T1",
+    "distance": 77.28,
+    "dist_type": "trotoar"
+  },
+  {
+    "dist_id": "D4",
+    "dist_name": "JLUB_T2-JLUB_T3",
+    "lower_node": "JLUB_T3",
+    "upper_node": "JLUB_T2",
+    "distance": 55.28,
+    "dist_type": "trotoar"
+  },
+  {
+    "dist_id": "D5",
+    "dist_name": "JLUB_T3-JLUB_T4",
+    "lower_node": "JLUB_T4",
+    "upper_node": "JLUB_T3",
+    "distance": 44.55,
+    "dist_type": "trotoar"
+  },
+  {
+    "dist_id": "D6",
+    "dist_name": "JLUB_T4-FILKOM_P1",
+    "lower_node": "FILKOM_P1",
+    "upper_node": "JLUB_T4",
+    "distance": 73.34,
+    "dist_type": "pvb"
+  },
+  {
+    "dist_id": "D7",
+    "dist_name": "FILKOM_P1-Junction FILKOM UB",
+    "lower_node": "Junction FILKOM UB",
+    "upper_node": "FILKOM_P1",
+    "distance": 27.93,
+    "dist_type": "pvb"
+  },
+  {
+    "dist_id": "D8",
+    "dist_name": "FKG_P1-FKG_P2",
+    "lower_node": "FKG_P2",
+    "upper_node": "FKG_P1",
+    "distance": 52.12,
+    "dist_type": "pvb"
+  },
+  {
+    "dist_id": "D9",
+    "dist_name": "FKG_P2-FKG_P3",
+    "lower_node": "FKG_P3",
+    "upper_node": "FKG_P2",
+    "distance": 32.46,
+    "dist_type": "pvb"
+  },
+  {
+    "dist_id": "D10",
+    "dist_name": "FKG_P3-FKG_P4",
+    "lower_node": "FKG_P4",
+    "upper_node": "FKG_P3",
+    "distance": 72.09,
+    "dist_type": "pvb"
+  },
+  {
+    "dist_id": "D11",
+    "dist_name": "FKG_P4-FKG_P5",
+    "lower_node": "FKG_P5",
+    "upper_node": "FKG_P4",
+    "distance": 27.8,
+    "dist_type": "pvb"
+  },
+  {
+    "dist_id": "D12",
+    "dist_name": "FKG_P5-FILKOM_P3",
+    "lower_node": "FILKOM_P3",
+    "upper_node": "FKG_P5",
+    "distance": 11.1,
+    "dist_type": "pvb"
+  },
+  {
+    "dist_id": "D13",
+    "dist_name": "FILKOM_P3-FILKOM_P2",
+    "lower_node": "FILKOM_P2",
+    "upper_node": "FILKOM_P3",
+    "distance": 19.96,
+    "dist_type": "pvb"
+  },
+  {
+    "dist_id": "D14",
+    "dist_name": "FILKOM_P2-FILKOM_P1",
+    "lower_node": "FILKOM_P1",
+    "upper_node": "FILKOM_P2",
+    "distance": 75.28,
+    "dist_type": "pvb"
+  }
+]

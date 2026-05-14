@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+
+    <!-- BLUE -->
+    <Style id="blueLine">
+        <LineStyle>
+            <color>ffff0000</color>
+            <width>4</width>
+        </LineStyle>
+    </Style>
+
+    <!-- YELLOW -->
+    <Style id="yellowLine">
+        <LineStyle>
+            <color>ff00ffff</color>
+            <width>4</width>
+        </LineStyle>
+    </Style>
+
+    <!-- RED -->
+    <Style id="redLine">
+        <LineStyle>
+            <color>ff0000ff</color>
+            <width>4</width>
+        </LineStyle>
+    </Style>
+
+
+    <Placemark>
+        <name>Gerbang Veteran-FKG_P1</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6134785177867,-7.95599497746258,0
+                112.6134963027616,-7.955798296792707,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>FKG_P1-JLUB_T1</name>
+
+        <styleUrl>#yellowLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6134963027616,-7.955798296792707,0
+                112.6134522557837,-7.955611095122627,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLUB_T1-JLUB_T2</name>
+
+        <styleUrl>#yellowLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6134522557837,-7.955611095122627,0
+                112.6135877431234,-7.954929174984172,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLUB_T2-JLUB_T3</name>
+
+        <styleUrl>#yellowLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6135877431234,-7.954929174984172,0
+                112.6138040223184,-7.954480553037804,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLUB_T3-JLUB_T4</name>
+
+        <styleUrl>#yellowLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6138040223184,-7.954480553037804,0
+                112.6140264936862,-7.954145892287871,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLUB_T4-FILKOM_P1</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6140264936862,-7.954145892287871,0
+                112.6146870421824,-7.954229643706517,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>FILKOM_P1-Junction FILKOM UB</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6146870421824,-7.954229643706517,0
+                112.614711486797,-7.953979608577411,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>FKG_P1-FKG_P2</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6134963027616,-7.955798296792707,0
+                112.6139671324146,-7.955845958294043,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>FKG_P2-FKG_P3</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6139671324146,-7.955845958294043,0
+                112.6140774496729,-7.955575283943623,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>FKG_P3-FKG_P4</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6140774496729,-7.955575283943623,0
+                112.614140036725,-7.954929952671532,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>FKG_P4-FKG_P5</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.614140036725,-7.954929952671532,0
+                112.6143887904722,-7.954972668493096,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>FKG_P5-FILKOM_P3</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6143887904722,-7.954972668493096,0
+                112.6144064801701,-7.954874356659299,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>FILKOM_P3-FILKOM_P2</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6144064801701,-7.954874356659299,0
+                112.6145859693161,-7.954899204417528,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>FILKOM_P2-FILKOM_P1</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6145859693161,-7.954899204417528,0
+                112.6146870421824,-7.954229643706517,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+</Document>
+</kml>

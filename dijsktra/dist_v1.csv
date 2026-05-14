@@ -1,0 +1,15 @@
+source,target,dist_type
+Gerbang Veteran,FKG_P1,pvb
+FKG_P1,JLUB_T1,trotoar
+JLUB_T1,JLUB_T2,trotoar
+JLUB_T2,JLUB_T3,trotoar
+JLUB_T3,JLUB_T4,trotoar
+JLUB_T4,FILKOM_P1,pvb
+FILKOM_P1,Junction FILKOM UB,pvb
+FKG_P1,FKG_P2,pvb
+FKG_P2,FKG_P3,pvb
+FKG_P3,FKG_P4,pvb
+FKG_P4,FKG_P5,pvb
+FKG_P5,FILKOM_P3,pvb
+FILKOM_P3,FILKOM_P2,pvb
+FILKOM_P2,FILKOM_P1,pvb

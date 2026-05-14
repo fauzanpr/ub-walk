@@ -3,7 +3,7 @@
 import json
 import xml.etree.ElementTree as ET
 
-KML_FILE = "data_v1.kml"
+KML_FILE = "data.kml"
 OUTPUT_FILE = "data_geo.json"
 
 # Namespace KML
