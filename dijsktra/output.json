@@ -8,10 +8,5 @@
     "source_id": "3",
     "destination_id": "4",
     "distance": 90
-  },
-  {
-    "source_id": "4",
-    "destination_id": "5",
-    "distance": 60
   }
 ]
