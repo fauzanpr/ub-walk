@@ -34,8 +34,8 @@ def save_output_json(base_dir: str, path: List[str], per_edge: List[float]):
 
 def main():
     base = os.path.dirname(__file__)
-    nodes_json = os.path.join(base, 'dummy_data_geo.json')
-    edges_json = os.path.join(base, 'dummy_data_dist.json')
+    nodes_json = os.path.join(base, 'data_geo.json')
+    edges_json = os.path.join(base, 'data_dist.json')
 
     # load nodes first so we can resolve user-provided labels to node IDs
     nodes = dijsktra_json.load_nodes(nodes_json)
