@@ -1,0 +1,100 @@
+[
+  {
+    "node_id": "1",
+    "node_name": "Gerbang Veteran",
+    "latitude": -7.95599497746258,
+    "longitude": 112.6134785177867,
+    "node_type": "hotspot"
+  },
+  {
+    "node_id": "2",
+    "node_name": "FKG_P1",
+    "latitude": -7.955798296792707,
+    "longitude": 112.6134963027616,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "3",
+    "node_name": "JLUB_T1",
+    "latitude": -7.955611095122627,
+    "longitude": 112.6134522557837,
+    "node_type": "trotoar"
+  },
+  {
+    "node_id": "4",
+    "node_name": "JLUB_T2",
+    "latitude": -7.954929174984172,
+    "longitude": 112.6135877431234,
+    "node_type": "trotoar"
+  },
+  {
+    "node_id": "5",
+    "node_name": "JLUB_T3",
+    "latitude": -7.954480553037804,
+    "longitude": 112.6138040223184,
+    "node_type": "trotoar"
+  },
+  {
+    "node_id": "6",
+    "node_name": "JLUB_T4",
+    "latitude": -7.954145892287871,
+    "longitude": 112.6140264936862,
+    "node_type": "trotoar"
+  },
+  {
+    "node_id": "7",
+    "node_name": "FILKOM_P1",
+    "latitude": -7.954229643706517,
+    "longitude": 112.6146870421824,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "8",
+    "node_name": "Junction FILKOM UB",
+    "latitude": -7.953979608577411,
+    "longitude": 112.614711486797,
+    "node_type": "hotspot"
+  },
+  {
+    "node_id": "9",
+    "node_name": "FKG_P2",
+    "latitude": -7.955845958294043,
+    "longitude": 112.6139671324146,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "10",
+    "node_name": "FKG_P3",
+    "latitude": -7.955575283943623,
+    "longitude": 112.6140774496729,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "11",
+    "node_name": "FKG_P4",
+    "latitude": -7.954929952671532,
+    "longitude": 112.614140036725,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "12",
+    "node_name": "FILKOM_P2",
+    "latitude": -7.954899204417528,
+    "longitude": 112.6145859693161,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "13",
+    "node_name": "FILKOM_P3",
+    "latitude": -7.954874356659299,
+    "longitude": 112.6144064801701,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "14",
+    "node_name": "FKG_P5",
+    "latitude": -7.954972668493096,
+    "longitude": 112.6143887904722,
+    "node_type": "pvb"
+  }
+]

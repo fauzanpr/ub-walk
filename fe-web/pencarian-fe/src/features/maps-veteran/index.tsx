@@ -1,8 +1,10 @@
 "use client";
 
+import Maps from "@/components/Maps";
+
 function MapsVeteran() {
   return (
-    <div>Maps Veteran</div>
+    <Maps sourceNodeId="1" />
   )
 }
 

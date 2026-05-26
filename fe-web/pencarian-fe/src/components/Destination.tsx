@@ -1,17 +1,116 @@
+// "use client";
+
+// import { useDijsktraMutation } from "@/features/maps/hooks";
+// import { destionationData } from "@/utils/generate-data";
+// import { Autocomplete, Button, CircularProgress, TextField } from "@mui/material";
+// import { useState } from "react";
+
+// type TDestination = {
+//   source_node_id: string;
+// }
+
+// function Destination({ source_node_id }: TDestination) {
+//   const [destinationSelected, setDestinationSelected] = useState<{ label: string; value: string } | null>(null);
+
+//   const { mutate, isPending } = useDijsktraMutation({
+//     onSuccess: (res) => {
+//       alert("Success");
+//       console.log(JSON.stringify(res, null, 2));
+//     },
+//     onError: () => {
+//       alert("ERROR");
+//     }
+//   });
+
+//   return (
+//     <div className="p-6 bg-white rounded-lg shadow-2xl fixed left-[350px] top-6 w-1/3 z-[999999] flex flex-col gap-2">
+//       <p className="text-xl text-blue-500 font-semibold">
+//         Mau ke mana kamu?
+//       </p>
+
+//       <Autocomplete
+//         options={destionationData.map(destination => ({
+//           label: destination.node_name,
+//           value: destination.node_id
+//         }))}
+//         value={destinationSelected}
+//         onChange={(_, value) => {
+//           setDestinationSelected(value);
+//         }}
+//         getOptionLabel={(option) => option.label}
+//         sx={{
+//           width: "100%",
+//           "& .MuiPopper-root": {
+//             zIndex: 999999999,
+//           },
+//         }}
+//         renderInput={(params) => (
+//           <TextField
+//             {...params}
+//             size="small"
+//             placeholder="Cari tujuan..."
+//           />
+//         )}
+//       />
+
+//       <Button fullWidth variant="contained"
+//         onClick={() => {
+//           if (!destinationSelected) {
+//             alert("Tujuan Wajib dipilih");
+
+//             return;
+//           }
+
+//           mutate({
+//             method: "POST",
+//             data: {
+//               source_id: source_node_id,
+//               destination_id: destinationSelected?.value,
+//             }
+//           });
+//         }}
+//       >
+//         { isPending ? <CircularProgress size={18} sx={{ color: "white" }} /> : "Telusuri" }
+//       </Button>
+//     </div>
+//   );
+// }
+
+// export default Destination;
+
 "use client";
 
 import { useDijsktraMutation } from "@/features/maps/hooks";
-import { Autocomplete, Button, TextField } from "@mui/material";
+import { geoData } from "@/utils/generate-data";
+import { Autocomplete, Button, CircularProgress, TextField } from "@mui/material";
+import { useState } from "react";
 
-function Destination() {
+type TDijkstraRoute = {
+  source_id: string;
+  destination_id: string;
+  distance: number;
+};
+
+type TDestination = {
+  source_node_id: string;
+  onRouteFound: (routes: TDijkstraRoute[]) => void;
+};
+
+function Destination({ source_node_id, onRouteFound }: TDestination) {
+  const [destinationSelected, setDestinationSelected] = useState<{
+    label: string;
+    value: string;
+  } | null>(null);
+
   const { mutate, isPending } = useDijsktraMutation({
     onSuccess: (res) => {
-      alert("Success");
-      console.log(res);
+      console.log("HASIL DIJKSTRA:", JSON.stringify(res, null, 2));
+
+      onRouteFound(res.data);
     },
     onError: () => {
       alert("ERROR");
-    }
+    },
   });
 
   return (
@@ -21,10 +120,14 @@ function Destination() {
       </p>
 
       <Autocomplete
-        options={[
-          { label: "GKM", value: "gkm" },
-          { label: "Filkom Gedung F", value: "gedung-f" },
-        ]}
+        options={geoData.filter(geo => geo.node_type === "hotspot").map((destination) => ({
+          label: destination.node_name,
+          value: destination.node_id,
+        }))}
+        value={destinationSelected}
+        onChange={(_, value) => {
+          setDestinationSelected(value);
+        }}
         getOptionLabel={(option) => option.label}
         sx={{
           width: "100%",
@@ -41,17 +144,31 @@ function Destination() {
         )}
       />
 
-      <Button fullWidth variant="contained"
+      <Button
+        fullWidth
+        variant="contained"
+        disabled={isPending}
         onClick={() => {
+          if (!destinationSelected) {
+            alert("Tujuan wajib dipilih");
+            return;
+          }
+
           mutate({
             method: "POST",
             data: {
-              source_id: "1",
-              destination_id: "4",
-            }
+              source_id: source_node_id,
+              destination_id: destinationSelected.value,
+            },
           });
         }}
-      >Telusuri</Button>
+      >
+        {isPending ? (
+          <CircularProgress size={18} sx={{ color: "white" }} />
+        ) : (
+          "Telusuri"
+        )}
+      </Button>
     </div>
   );
 }
