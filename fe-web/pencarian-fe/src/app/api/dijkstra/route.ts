@@ -146,6 +146,7 @@ function runPythonScript(
     });
 
     let stderr = '';
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     let stdout = '';
 
     pythonProcess.stdout.on('data', (data) => {
