@@ -7,7 +7,7 @@ export async function POST(request: Request) {
   try {
     const body = await request.json();
 
-    const { source_id, destination_id } = body;
+    const { source_id, destination_id, algorithm = 'dijkstra' } = body;
 
     if (!source_id || !destination_id) {
       return NextResponse.json(
@@ -17,7 +17,10 @@ export async function POST(request: Request) {
     }
 
     const dijkstraDir = path.join(process.cwd(), '..', '..', 'dijsktra');
-    const pythonFile = path.join(dijkstraDir, 'main_json_forweb.py');
+    const pythonFile =
+      algorithm === 'bellman-ford'
+        ? path.join(dijkstraDir, 'main_bellman_ford_forweb.py')
+        : path.join(dijkstraDir, 'main_json_forweb.py');
     const outputFile = path.join(dijkstraDir, 'output.json');
 
     console.log('CWD:', process.cwd());
@@ -36,6 +39,7 @@ export async function POST(request: Request) {
 
     return NextResponse.json({
       message: 'Shortest path berhasil dihitung',
+      algorithm,
       data: jsonOutput,
     });
   } catch (error) {
@@ -43,7 +47,7 @@ export async function POST(request: Request) {
 
     return NextResponse.json(
       {
-        message: 'Terjadi error saat menjalankan Dijkstra',
+        message: 'Terjadi error saat menjalankan shortest path',
         error: String(error),
       },
       { status: 500 }
