@@ -6,12 +6,32 @@
   },
   {
     "source_id": "2",
-    "destination_id": "9",
-    "distance": 52.12
+    "destination_id": "3",
+    "distance": 21.37
   },
   {
-    "source_id": "9",
-    "destination_id": "10",
-    "distance": 32.46
+    "source_id": "3",
+    "destination_id": "4",
+    "distance": 77.28
+  },
+  {
+    "source_id": "4",
+    "destination_id": "5",
+    "distance": 55.28
+  },
+  {
+    "source_id": "5",
+    "destination_id": "6",
+    "distance": 44.55
+  },
+  {
+    "source_id": "6",
+    "destination_id": "7",
+    "distance": 73.34
+  },
+  {
+    "source_id": "7",
+    "destination_id": "8",
+    "distance": 27.93
   }
 ]
