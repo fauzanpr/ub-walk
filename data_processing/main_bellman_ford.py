@@ -2,8 +2,7 @@ import json
 import os
 from typing import List
 
-import data_processing.algorithms.bellman_ford_json as bellman_ford_json
-
+import algorithms.bellman_ford_json as bellman_ford_json
 
 def format_distance(v: float) -> str:
     if abs(v - int(v)) < 1e-9:

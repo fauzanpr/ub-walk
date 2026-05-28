@@ -5,7 +5,7 @@ import { apiRequest } from "@/utils/api"
 export const postDijkstraService = (data: Record<any,any>): Promise<TDijkstraPostResponse> => {
     return apiRequest({
         method: "POST",
-        urlKey: "/api/dijkstra",
+        urlKey: "/api/route",
         data: data
     });
 }

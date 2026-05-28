@@ -2,7 +2,7 @@ import json
 import os
 from typing import List
 
-import data_processing.algorithms.dijkstra_json as dijkstra_json
+import algorithms.dijkstra_json as dijkstra_json
 
 def format_distance(v: float) -> str:
     if abs(v - int(v)) < 1e-9:

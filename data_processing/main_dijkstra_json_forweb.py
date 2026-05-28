@@ -55,7 +55,7 @@ def main():
     if not os.path.exists(output_path):
         print(
             'output.json tidak dibuat. Kemungkinan node tidak valid atau rute tidak ditemukan.',
-            file=sys.stderr
+        file=sys.stderr
         )
         sys.exit(1)
 
