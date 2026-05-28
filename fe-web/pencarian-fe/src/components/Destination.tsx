@@ -1,6 +1,6 @@
 // "use client";
 
-// import { useDijsktraMutation } from "@/features/maps/hooks";
+// import { useDijkstraMutation } from "@/features/maps/hooks";
 // import { destionationData } from "@/utils/generate-data";
 // import { Autocomplete, Button, CircularProgress, TextField } from "@mui/material";
 // import { useState } from "react";
@@ -12,7 +12,7 @@
 // function Destination({ source_node_id }: TDestination) {
 //   const [destinationSelected, setDestinationSelected] = useState<{ label: string; value: string } | null>(null);
 
-//   const { mutate, isPending } = useDijsktraMutation({
+//   const { mutate, isPending } = useDijkstraMutation({
 //     onSuccess: (res) => {
 //       alert("Success");
 //       console.log(JSON.stringify(res, null, 2));
@@ -80,7 +80,7 @@
 
 "use client";
 
-import { useDijsktraMutation } from "@/features/maps/hooks";
+import { useDijkstraMutation } from "@/features/maps/hooks";
 import { geoData } from "@/utils/generate-data";
 import { Autocomplete, Button, CircularProgress, TextField } from "@mui/material";
 import { useState } from "react";
@@ -102,7 +102,7 @@ function Destination({ source_node_id, onRouteFound }: TDestination) {
     value: string;
   } | null>(null);
 
-  const { mutate, isPending } = useDijsktraMutation({
+  const { mutate, isPending } = useDijkstraMutation({
     onSuccess: (res) => {
       console.log("HASIL DIJKSTRA:", JSON.stringify(res, null, 2));
 

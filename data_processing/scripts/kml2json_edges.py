@@ -1,5 +1,5 @@
-# kml2json_dist.py
-# Konversi dist.kml -> data_dist.json
+# kml2json_edges.py
+# Konversi edges.kml -> edges.json
 #
 # Rules:
 # - dist_id: D1, D2, ...
@@ -14,12 +14,14 @@
 
 import json
 import math
+import os
 import re
 import xml.etree.ElementTree as ET
 
-
-INPUT_KML = "dist.kml"
-OUTPUT_JSON = "data_dist.json"
+# Resolve paths relative to the repository `data_processing` directory
+BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+INPUT_KML = os.path.join(BASE, 'data', 'edges.kml')
+OUTPUT_JSON = os.path.join(BASE, 'data', 'edges.json')
 
 
 def haversine(lat1, lon1, lat2, lon2):

@@ -2,7 +2,7 @@ import json
 import os
 from typing import List
 
-import bellman_ford_json
+import data_processing.algorithms.bellman_ford_json as bellman_ford_json
 
 
 def format_distance(v: float) -> str:
@@ -35,8 +35,9 @@ def save_output_json(base_dir: str, path: List[str], per_edge: List[float]):
 
 def main():
     base = os.path.dirname(__file__)
-    nodes_json = os.path.join(base, 'data_geo.json')
-    edges_json = os.path.join(base, 'data_dist.json')
+    # Use data files from the `data` subdirectory
+    nodes_json = os.path.join(base, 'data', 'nodes.json')
+    edges_json = os.path.join(base, 'data', 'edges.json')
 
     nodes = bellman_ford_json.load_nodes(nodes_json)
 

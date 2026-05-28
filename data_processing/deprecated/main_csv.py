@@ -1,7 +1,7 @@
 import os
 from typing import List
 
-import dijsktra_csv
+import data_processing.deprecated.dijkstra_csv as dijkstra_csv
 
 def format_distance(v: float) -> str:
     if abs(v - int(v)) < 1e-9:
@@ -10,12 +10,13 @@ def format_distance(v: float) -> str:
 
 
 def main():
-    base = os.path.dirname(__file__)
-    nodes_csv = os.path.join(base, 'dummy_data_geo.csv')
-    edges_csv = os.path.join(base, 'dummy_data_dist.csv')
+    # dummy CSVs live in the parent `dummy_data` directory
+    base = os.path.dirname(os.path.dirname(__file__))
+    nodes_csv = os.path.join(base, 'dummy_data', 'dummy_nodes.csv')
+    edges_csv = os.path.join(base, 'dummy_data', 'dummy_edges.csv')
 
     # load nodes first so we can resolve user-provided labels to node IDs
-    nodes = dijsktra_csv.load_nodes(nodes_csv)
+    nodes = dijkstra_csv.load_nodes(nodes_csv)
 
     start_raw = input('Enter source node id: ').strip()
     goal_raw = input('Enter destination node id: ').strip()
@@ -41,7 +42,7 @@ def main():
         print(f'Unknown source or destination: {start_raw} -> {goal_raw}')
         return
 
-    _, result = dijsktra_csv.shortest_path_from_csvs(nodes_csv, edges_csv, start, goal)
+    _, result = dijkstra_csv.shortest_path_from_csvs(nodes_csv, edges_csv, start, goal)
     path, per_edge, total = result
 
     if path is None:

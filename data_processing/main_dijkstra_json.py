@@ -2,7 +2,7 @@ import json
 import os
 from typing import List
 
-import dijsktra_json
+import data_processing.algorithms.dijkstra_json as dijkstra_json
 
 def format_distance(v: float) -> str:
     if abs(v - int(v)) < 1e-9:
@@ -34,11 +34,12 @@ def save_output_json(base_dir: str, path: List[str], per_edge: List[float]):
 
 def main():
     base = os.path.dirname(__file__)
-    nodes_json = os.path.join(base, 'data_geo.json')
-    edges_json = os.path.join(base, 'data_dist.json')
+    # Use data files from the `data` subdirectory
+    nodes_json = os.path.join(base, 'data', 'nodes.json')
+    edges_json = os.path.join(base, 'data', 'edges.json')
 
     # load nodes first so we can resolve user-provided labels to node IDs
-    nodes = dijsktra_json.load_nodes(nodes_json)
+    nodes = dijkstra_json.load_nodes(nodes_json)
 
     start_raw = input('Enter source node id: ').strip()
     goal_raw = input('Enter destination node id: ').strip()
@@ -64,7 +65,7 @@ def main():
         print(f'Unknown source or destination: {start_raw} -> {goal_raw}')
         return
 
-    _, result = dijsktra_json.shortest_path_from_jsons(nodes_json, edges_json, start, goal)
+    _, result = dijkstra_json.shortest_path_from_jsons(nodes_json, edges_json, start, goal)
     path, per_edge, total = result
 
     if path is None:

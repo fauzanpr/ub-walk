@@ -16,7 +16,7 @@ export async function POST(request: Request) {
       );
     }
 
-    const dijkstraDir = path.join(process.cwd(), '..', '..', 'dijsktra');
+    const dijkstraDir = path.join(process.cwd(), '..', '..', 'dijkstra');
     const pythonFile =
       algorithm === 'bellman-ford'
         ? path.join(dijkstraDir, 'main_bellman_ford_forweb.py')

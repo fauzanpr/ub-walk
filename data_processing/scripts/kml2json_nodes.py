@@ -1,10 +1,13 @@
 # kml2json.py
 
 import json
+import os
 import xml.etree.ElementTree as ET
 
-KML_FILE = "data.kml"
-OUTPUT_FILE = "data_geo.json"
+# Resolve paths relative to the repository `data_processing` directory
+BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+KML_FILE = os.path.join(BASE, 'data', 'nodes.kml')
+OUTPUT_FILE = os.path.join(BASE, 'data', 'nodes.json')
 
 # Namespace KML
 ns = {

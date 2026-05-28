@@ -1,11 +1,14 @@
 # csv2kml.py
 
 import csv
+import os
 import xml.etree.ElementTree as ET
 
-KML_FILE = "data.kml"
-CSV_FILE = "dist.csv"
-OUTPUT_FILE = "dist.kml"
+# Resolve paths relative to the repository `data_processing` directory
+BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+KML_FILE = os.path.join(BASE, 'data', 'nodes.kml')
+CSV_FILE = os.path.join(BASE, 'data', 'edges.csv')
+OUTPUT_FILE = os.path.join(BASE, 'data', 'edges.kml')
 
 # =========================
 # LOAD NODE DATA FROM KML

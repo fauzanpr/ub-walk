@@ -6,18 +6,17 @@ import subprocess
 
 def main():
     base = os.path.dirname(os.path.abspath(__file__))
-
-    main_json_path = os.path.join(base, 'main_json.py')
+    # call the correct main script
+    main_json_path = os.path.join(base, 'main_dijkstra_json.py')
     output_path = os.path.join(base, 'output.json')
-
-    print('=== main_json_forweb.py DEBUG ===')
+    print('=== main_dijkstra_json_forweb.py DEBUG ===')
     print('BASE DIR:', base)
     print('MAIN JSON PATH:', main_json_path)
     print('OUTPUT PATH:', output_path)
     print('ARGS:', sys.argv)
 
     if len(sys.argv) < 3:
-        print('Usage: python main_json_forweb.py <source_id> <destination_id>')
+        print('Usage: python main_dijkstra_json_forweb.py <source_id> <destination_id>')
         sys.exit(1)
 
     source_id = sys.argv[1].strip()
@@ -41,16 +40,16 @@ def main():
         capture_output=True
     )
 
-    print('=== STDOUT dari main_json.py ===')
+    print('=== STDOUT dari main_dijkstra_json.py ===')
     print(process.stdout)
 
-    print('=== STDERR dari main_json.py ===')
+    print('=== STDERR dari main_dijkstra_json.py ===')
     print(process.stderr)
 
     print('RETURN CODE:', process.returncode)
 
     if process.returncode != 0:
-        print('main_json.py gagal dijalankan', file=sys.stderr)
+        print('main_dijkstra_json.py gagal dijalankan', file=sys.stderr)
         sys.exit(process.returncode)
 
     if not os.path.exists(output_path):

@@ -1,44 +1,36 @@
-import csv
+import json
 import heapq
 import os
 from typing import Dict, List, Tuple, Optional
 
 
-def load_nodes(csv_path: str) -> Dict[str, Dict]:
+def load_nodes(json_path: str) -> Dict[str, Dict]:
     nodes: Dict[str, Dict] = {}
-    with open(csv_path, newline='') as f:
-        reader = csv.DictReader(f, delimiter=';')
-        for row in reader:
+    with open(json_path, 'r') as f:
+        data = json.load(f)
+        for row in data:
             nid = row['node_id'].strip()
             name = row.get('node_name', '').strip()
-            lat = row.get('latitude', '').strip()
-            lon = row.get('longitude', '').strip()
-            try:
-                latf = float(lat) if lat != '' else None
-            except ValueError:
-                latf = None
-            try:
-                lonf = float(lon) if lon != '' else None
-            except ValueError:
-                lonf = None
-            nodes[nid] = {'name': name, 'lat': latf, 'lon': lonf}
+            lat = row.get('latitude')
+            lon = row.get('longitude')
+            nodes[nid] = {'name': name, 'lat': lat, 'lon': lon}
     return nodes
 
 
-def load_edges(csv_path: str) -> Dict[str, List[Tuple[str, float, str]]]:
+def load_edges(json_path: str) -> Dict[str, List[Tuple[str, float, str]]]:
     adj: Dict[str, List[Tuple[str, float, str]]] = {}
-    with open(csv_path, newline='') as f:
-        reader = csv.DictReader(f, delimiter=';')
-        for row in reader:
+    with open(json_path, 'r') as f:
+        data = json.load(f)
+        for row in data:
             dist_id = row.get('dist_id', '').strip()
             lower = row.get('lower_node', '').strip()
             upper = row.get('upper_node', '').strip()
-            dist_raw = row.get('distance', '').strip()
-            if lower == '' or upper == '' or dist_raw == '':
+            dist_raw = row.get('distance')
+            if lower == '' or upper == '' or dist_raw is None:
                 continue
             try:
                 d = float(dist_raw)
-            except ValueError:
+            except (ValueError, TypeError):
                 continue
             if d < 0:
                 raise ValueError('Negative distance not allowed')
@@ -98,18 +90,19 @@ def dijkstra(start: str, goal: str, adj: Dict[str, List[Tuple[str, float, str]]]
     return path, per_edge, total
 
 
-def shortest_path_from_csvs(nodes_csv: str, edges_csv: str, start: str, goal: str):
-    nodes = load_nodes(nodes_csv)
-    edges = load_edges(edges_csv)
+def shortest_path_from_jsons(nodes_json: str, edges_json: str, start: str, goal: str):
+    nodes = load_nodes(nodes_json)
+    edges = load_edges(edges_json)
     return nodes, dijkstra(start, goal, edges)
 
 
 if __name__ == '__main__':
     # simple smoke test when run directly
-    base = os.path.dirname(__file__)
-    nodes_csv = os.path.join(base, 'dummy_data_geo.csv')
-    edges_csv = os.path.join(base, 'dummy_data_dist.csv')
-    nodes, result = shortest_path_from_csvs(nodes_csv, edges_csv, '1', '10')
+    # dummy data lives in the parent `dummy_data` directory
+    base = os.path.dirname(os.path.dirname(__file__))
+    nodes_json = os.path.join(base, 'dummy_data', 'dummy_nodes.json')
+    edges_json = os.path.join(base, 'dummy_data', 'dummy_edges.json')
+    nodes, result = shortest_path_from_jsons(nodes_json, edges_json, '1', '10')
     path, per_edge, total = result
     print('Path:', path)
     print('Per-edge:', per_edge)
