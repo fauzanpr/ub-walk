@@ -1,4 +1,4 @@
-export type TDijkstraPostResponse = {
+export type TShortestPathResponse = {
     message: string;
     data: Datum[];
 }

@@ -1,11 +1,11 @@
 import { MutateFunctionType, MutationFunctionType } from "@/types/api";
 import { useMutation } from "@tanstack/react-query";
-import { postDijkstraService } from "./services";
-import { TDijkstraPostResponse } from "@/types/dijkstra";
+import { postShortestPathService } from "./services";
+import { TShortestPathResponse } from "@/types/dijkstra";
 
-export const useDijkstraMutation = ({ onSuccess, onError }: MutationFunctionType<TDijkstraPostResponse>) => {
+export const useShortestPathMutation = ({ onSuccess, onError }: MutationFunctionType<TShortestPathResponse>) => {
     return useMutation({
-        mutationFn: ({ data }: MutateFunctionType) => postDijkstraService(data || {}),
+        mutationFn: ({ data }: MutateFunctionType) => postShortestPathService(data || {}),
         onSuccess: onSuccess,
         onError: onError
     });

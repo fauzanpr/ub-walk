@@ -1,8 +1,8 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import { TDijkstraPostResponse } from "@/types/dijkstra";
+import { TShortestPathResponse } from "@/types/dijkstra";
 import { apiRequest } from "@/utils/api"
 
-export const postDijkstraService = (data: Record<any,any>): Promise<TDijkstraPostResponse> => {
+export const postShortestPathService = (data: Record<any,any>): Promise<TShortestPathResponse> => {
     return apiRequest({
         method: "POST",
         urlKey: "/api/route",

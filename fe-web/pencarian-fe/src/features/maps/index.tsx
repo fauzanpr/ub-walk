@@ -11,12 +11,6 @@ const MapsBNI = dynamic(() => import("./../maps-bni"), {
     ssr: false,
 });
 
-// { label: "Gerbang Veteran", value: "veteran" },
-//     { label: "Gerbang BNI", value: "bni" },
-//     { label: "Perpustakaan UB", value: "perpus" },
-//     { label: "CL", value: "cl" },
-//     { label: "Masjid Raden Patah UB", value: "mrp" },
-
 const CONTENT: Record<string, ReactNode> = {
   bni: <MapsBNI />,
   veteran: <MapsVeteran />,

@@ -81,7 +81,7 @@
 "use client";
 
 import { AlgorithmsAtom } from "@/atom/algorithm";
-import { useDijkstraMutation } from "@/features/maps/hooks";
+import { useShortestPathMutation } from "@/features/maps/hooks";
 import { geoData } from "@/utils/generate-data";
 import { Autocomplete, Button, CircularProgress, TextField } from "@mui/material";
 import { useAtomValue } from "jotai";
@@ -107,7 +107,7 @@ function Destination({ source_node_id, onRouteFound }: TDestination) {
 
   const algorithm = useAtomValue(AlgorithmsAtom);
 
-  const { mutate, isPending } = useDijkstraMutation({
+  const { mutate, isPending } = useShortestPathMutation({
     onSuccess: (res) => {
       console.log("HASIL DIJKSTRA:", JSON.stringify(res, null, 2));
       toast.success("Rute berhasil ditemukan!");
