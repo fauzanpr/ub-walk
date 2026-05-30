@@ -55,6 +55,14 @@ kml = '''<?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document>
 
+    <!-- YELLOW -->
+    <Style id="yellowLine">
+        <LineStyle>
+            <color>ff00ffff</color>
+            <width>4</width>
+        </LineStyle>
+    </Style>
+
     <!-- BLUE -->
     <Style id="blueLine">
         <LineStyle>
@@ -63,10 +71,10 @@ kml = '''<?xml version="1.0" encoding="UTF-8"?>
         </LineStyle>
     </Style>
 
-    <!-- YELLOW -->
-    <Style id="yellowLine">
+    <!-- GREEN -->
+    <Style id="greenLine">
         <LineStyle>
-            <color>ff00ffff</color>
+            <color>ff00ff00</color>
             <width>4</width>
         </LineStyle>
     </Style>
@@ -88,9 +96,9 @@ kml = '''<?xml version="1.0" encoding="UTF-8"?>
 # Expected CSV format:
 #
 # source,target,dist_type
-# A,B,pvb
+# A,B,pca
 # A,C,trotoar
-#
+# C,D,cross
 
 with open(CSV_FILE, newline="", encoding="utf-8") as f:
 
@@ -110,11 +118,14 @@ with open(CSV_FILE, newline="", encoding="utf-8") as f:
         dst = nodes[target]
 
         # style
-        if dist_type == "pvb":
+        if dist_type == "trotoar":
+            style = "#yellowLine"
+
+        elif dist_type == "pca":
             style = "#blueLine"
 
-        elif dist_type == "trotoar":
-            style = "#yellowLine"
+        elif dist_type == "cross":
+            style = "#greenLine"
 
         else:
             style = "#redLine"

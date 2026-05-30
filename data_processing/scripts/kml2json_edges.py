@@ -8,8 +8,9 @@
 # - lower_node: setelah "-"
 # - distance: dihitung dari coordinates dengan haversine
 # - dist_type:
-#     #blueLine   -> "pvb"
+#     #blueLine   -> "pca"
 #     #yellowLine -> "trotoar"
+#     #greenLine  -> "cross"
 #     selain itu  -> "other"
 
 import json
@@ -74,9 +75,11 @@ def style_to_type(style_url):
     style_url = (style_url or "").strip()
 
     if style_url == "#blueLine":
-        return "pvb"
+        return "pca"
     elif style_url == "#yellowLine":
         return "trotoar"
+    elif style_url == "#greenLine":
+        return "cross"
     else:
         return "other"
 
@@ -147,8 +150,8 @@ def main():
         item = {
             "dist_id": f"D{idx}",
             "dist_name": dist_name,
-            "lower_node": lower_node,
             "upper_node": upper_node,
+            "lower_node": lower_node,
             "distance": round(distance, 2),
             "dist_type": dist_type
         }
