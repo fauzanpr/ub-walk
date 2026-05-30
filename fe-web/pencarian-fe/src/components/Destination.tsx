@@ -82,7 +82,7 @@
 
 import { AlgorithmsAtom } from "@/atom/algorithm";
 import { useShortestPathMutation } from "@/features/maps/hooks";
-import { geoData } from "@/utils/generate-data";
+import { destionationData } from "@/utils/generate-data";
 import { Autocomplete, Button, CircularProgress, TextField } from "@mui/material";
 import { useAtomValue } from "jotai";
 import { useState } from "react";
@@ -126,7 +126,7 @@ function Destination({ source_node_id, onRouteFound }: TDestination) {
       </p>
 
       <Autocomplete
-        options={geoData.filter(geo => geo.node_type === "hotspot").map((destination) => ({
+        options={destionationData?.map((destination) => ({
           label: destination.node_name,
           value: destination.node_id,
         }))}

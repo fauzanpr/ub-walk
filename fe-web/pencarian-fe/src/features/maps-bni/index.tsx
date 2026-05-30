@@ -745,7 +745,7 @@ import Maps from "@/components/Maps";
 function MapsBNI() {
   return (
     <Maps
-        sourceNodeId="2"
+        sourceNodeId="4"
     />
   )
 }

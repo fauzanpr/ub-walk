@@ -13,18 +13,24 @@ import UbWalk from "@/assets/walk.jpeg";
 
 import Image from "next/image";
 import Utilities from "./Utilities";
+import { destionationData, geoData } from "@/utils/generate-data";
 
 type TAppLayout = {
     children: ReactNode;
 }
 
-const ROUTES: { label: string; value: string }[] = [
-    { label: "Gerbang Veteran", value: "veteran" },
-    { label: "Gerbang BNI", value: "bni" },
-    { label: "Perpustakaan UB", value: "perpus" },
-    { label: "CL", value: "cl" },
-    { label: "Masjid Raden Patah UB", value: "mrp" },
-]
+// const ROUTES: { label: string; value: string }[] = [
+//     { label: "Gerbang Veteran", value: "veteran" },
+//     { label: "Gerbang BNI", value: "bni" },
+//     { label: "Perpustakaan UB", value: "perpus" },
+//     { label: "CL", value: "cl" },
+//     { label: "Masjid Raden Patah UB", value: "mrp" },
+// ]
+
+const ROUTES: { label: string; value: string }[] = geoData.filter(geo => geo.node_type === "hotspot" && !destionationData.find(des => des.node_id === geo.node_id)).map(geo => ({
+    label: geo.node_name,
+    value: geo.node_id,
+}))
 
 function AppLayout({ children }: TAppLayout) {
     const params = useParams();

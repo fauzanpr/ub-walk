@@ -39,14 +39,14 @@ type TDist = {
     lower_node: string;
     upper_node: string;
     distance: number;
-    dist_type: "pvb" | "trotoar";
+    dist_type: "pca" | "trotoar" | "cross";
 };
 
 type TRouteSegment = {
     source_id: string;
     destination_id: string;
     distance: number;
-    dist_type: "pvb" | "trotoar";
+    dist_type: "pca" | "trotoar" | "cross";
     positions: [L.LatLngExpression, L.LatLngExpression];
 };
 
@@ -131,7 +131,7 @@ export default function Maps({ sourceNodeId }: TMaps) {
             .filter((node): node is TGeoNode => node !== undefined);
     }, [routeNodeIds, geoMap]);
 
-    function findEdgeType(sourceId: string, destinationId: string): "pvb" | "trotoar" {
+    function findEdgeType(sourceId: string, destinationId: string): "pca" | "trotoar" | "cross" {
         const edge = distData.find((item) => {
             const forward =
                 item.upper_node === sourceId &&
@@ -147,9 +147,11 @@ export default function Maps({ sourceNodeId }: TMaps) {
         return edge?.dist_type ?? "trotoar";
     }
 
-    function getEdgeColor(distType: "pvb" | "trotoar") {
-        if (distType === "pvb") {
+    function getEdgeColor(distType: "pca" | "trotoar" | "cross") {
+        if (distType === "pca") {
             return "blue";
+        } else if (distType === "cross") {
+            return "green";
         }
 
         return "#FFC000";

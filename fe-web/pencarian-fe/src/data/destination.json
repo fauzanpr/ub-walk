@@ -1,9 +1,37 @@
 [
     {
+        "node_id": "1",
+        "node_name": "Gedung A FILKOM UB",
+        "latitude": -7.953752530253885,
+        "longitude": 112.6150731732175,
+        "node_type": "hotspot"
+    },
+    {
+        "node_id": "2",
+        "node_name": "Gedung F FILKOM UB",
+        "latitude": -7.953965873119801,
+        "longitude": 112.6144971031106,
+        "node_type": "hotspot"
+    },
+    {
+        "node_id": "3",
+        "node_name": "Gedung G FILKOM UB",
+        "latitude": -7.954074196463951,
+        "longitude": 112.6150549851666,
+        "node_type": "hotspot"
+    },
+    {
         "node_id": "8",
+        "node_name": "GKM FILKOM UB",
+        "latitude": -7.95466285877497,
+        "longitude": 112.6144443788477,
+        "node_type": "hotspot"
+    },
+    {
+        "node_id": "11",
         "node_name": "Junction FILKOM UB",
-        "latitude": -7.953979608577411,
-        "longitude": 112.614711486797,
+        "latitude": -7.954023907016904,
+        "longitude": 112.6147726344043,
         "node_type": "hotspot"
     }
 ]

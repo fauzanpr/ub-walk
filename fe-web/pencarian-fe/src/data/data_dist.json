@@ -1,114 +1,2178 @@
 [
   {
     "dist_id": "D1",
-    "dist_name": "Gerbang Veteran-FKG_P1",
-    "lower_node": "2",
+    "dist_name": "Gedung A FILKOM UB-FILKOM_P13",
     "upper_node": "1",
-    "distance": 21.96,
-    "dist_type": "pvb"
+    "lower_node": "31",
+    "distance": 12.08,
+    "dist_type": "pca"
   },
   {
     "dist_id": "D2",
-    "dist_name": "FKG_P1-JLUB_T1",
-    "lower_node": "3",
+    "dist_name": "Gedung A FILKOM UB-FILKOM_P16",
+    "upper_node": "1",
+    "lower_node": "34",
+    "distance": 22.04,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D3",
+    "dist_name": "Gedung A FILKOM UB-FILKOM_P17",
+    "upper_node": "1",
+    "lower_node": "35",
+    "distance": 11.42,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D4",
+    "dist_name": "Gedung A FILKOM UB-FILKOM_P18",
+    "upper_node": "1",
+    "lower_node": "36",
+    "distance": 23.25,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D5",
+    "dist_name": "Gedung F FILKOM UB-FILKOM_P21",
     "upper_node": "2",
+    "lower_node": "39",
+    "distance": 17.4,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D6",
+    "dist_name": "Gedung F FILKOM UB-Junction FILKOM UB",
+    "upper_node": "2",
+    "lower_node": "11",
+    "distance": 31.02,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D7",
+    "dist_name": "Gedung G FILKOM UB-Junction FILKOM UB",
+    "upper_node": "3",
+    "lower_node": "11",
+    "distance": 31.59,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D8",
+    "dist_name": "Gedung G FILKOM UB-FILKOM_P5",
+    "upper_node": "3",
+    "lower_node": "23",
+    "distance": 27.17,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D9",
+    "dist_name": "Gedung G FILKOM UB-FILKOM_P36",
+    "upper_node": "3",
+    "lower_node": "54",
+    "distance": 25.81,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D10",
+    "dist_name": "Gerbang BNI-JLGOR_T1",
+    "upper_node": "4",
+    "lower_node": "126",
+    "distance": 20.99,
+    "dist_type": "trotoar"
+  },
+  {
+    "dist_id": "D11",
+    "dist_name": "Gerbang Pandjaitan-JLGOR_T24",
+    "upper_node": "5",
+    "lower_node": "149",
+    "distance": 40.1,
+    "dist_type": "trotoar"
+  },
+  {
+    "dist_id": "D12",
+    "dist_name": "Gerbang Soehat-JLUB_T13",
+    "upper_node": "6",
+    "lower_node": "176",
+    "distance": 53.12,
+    "dist_type": "trotoar"
+  },
+  {
+    "dist_id": "D13",
+    "dist_name": "Gerbang Veteran-FKG_P1",
+    "upper_node": "7",
+    "lower_node": "55",
+    "distance": 21.96,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D14",
+    "dist_name": "GKM FILKOM UB-FILKOM_P3",
+    "upper_node": "8",
+    "lower_node": "21",
+    "distance": 23.88,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D15",
+    "dist_name": "GKM FILKOM UB-FILKOM_P28",
+    "upper_node": "8",
+    "lower_node": "46",
+    "distance": 9.24,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D16",
+    "dist_name": "GKM FILKOM UB-FILKOM_P32",
+    "upper_node": "8",
+    "lower_node": "50",
+    "distance": 15.83,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D17",
+    "dist_name": "GKM FILKOM UB-FILKOM_P35",
+    "upper_node": "8",
+    "lower_node": "53",
+    "distance": 20.85,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D18",
+    "dist_name": "GOR Pertamina-GOR_P2",
+    "upper_node": "9",
+    "lower_node": "72",
+    "distance": 14.5,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D19",
+    "dist_name": "GOR Pertamina-JLCL_T1",
+    "upper_node": "9",
+    "lower_node": "120",
+    "distance": 13.82,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D20",
+    "dist_name": "Griya Brawijaya-GRIYA_P3",
+    "upper_node": "10",
+    "lower_node": "76",
+    "distance": 6.78,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D21",
+    "dist_name": "Griya Brawijaya-JLGOR_T13",
+    "upper_node": "10",
+    "lower_node": "138",
+    "distance": 15.55,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D22",
+    "dist_name": "Griya Brawijaya-JLGOR_T14",
+    "upper_node": "10",
+    "lower_node": "139",
+    "distance": 15.22,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D23",
+    "dist_name": "Junction FILKOM UB-FILKOM_P1",
+    "upper_node": "11",
+    "lower_node": "19",
+    "distance": 24.5,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D24",
+    "dist_name": "Junction FILKOM UB-FILKOM_P15",
+    "upper_node": "11",
+    "lower_node": "33",
+    "distance": 21.87,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D25",
+    "dist_name": "Junction FILKOM UB-FILKOM_P31",
+    "upper_node": "11",
+    "lower_node": "49",
+    "distance": 26.95,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D26",
+    "dist_name": "Kantin CL-JLCL_P7",
+    "upper_node": "12",
+    "lower_node": "104",
+    "distance": 12.21,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D27",
+    "dist_name": "Kantin CL-JLCL_P9",
+    "upper_node": "12",
+    "lower_node": "106",
+    "distance": 33.39,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D28",
+    "dist_name": "Masjid Raden Patah-JLGOR_T18",
+    "upper_node": "13",
+    "lower_node": "143",
+    "distance": 53.97,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D29",
+    "dist_name": "Masjid Raden Patah-JLMRP_T3",
+    "upper_node": "13",
+    "lower_node": "153",
+    "distance": 35.81,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D30",
+    "dist_name": "Masjid Raden Patah-MRP_P1",
+    "upper_node": "13",
+    "lower_node": "77",
+    "distance": 40.43,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D31",
+    "dist_name": "Perpustakaan UB-PERPUS_P7",
+    "upper_node": "14",
+    "lower_node": "84",
+    "distance": 9.52,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D32",
+    "dist_name": "Rusunawa UB-RUSUN_P3",
+    "upper_node": "15",
+    "lower_node": "87",
+    "distance": 11.54,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D33",
+    "dist_name": "Samantha Krida-SAKRI_P1",
+    "upper_node": "16",
+    "lower_node": "89",
+    "distance": 10.79,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D34",
+    "dist_name": "CL_P1-CL_P2",
+    "upper_node": "17",
+    "lower_node": "18",
+    "distance": 34.2,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D35",
+    "dist_name": "CL_P1-JLCL_P4",
+    "upper_node": "17",
+    "lower_node": "101",
+    "distance": 19.97,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D36",
+    "dist_name": "CL_P2-JLCL_P8",
+    "upper_node": "18",
+    "lower_node": "105",
+    "distance": 8.13,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D37",
+    "dist_name": "CL_P2-SAKRI_P2",
+    "upper_node": "18",
+    "lower_node": "90",
+    "distance": 85.61,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D38",
+    "dist_name": "FILKOM_P1-FILKOM_P31",
+    "upper_node": "19",
+    "lower_node": "49",
+    "distance": 11.99,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D39",
+    "dist_name": "FILKOM_P1-FILKOM_P34",
+    "upper_node": "19",
+    "lower_node": "52",
+    "distance": 51.61,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D40",
+    "dist_name": "FILKOM_P2-FILKOM_P3",
+    "upper_node": "20",
+    "lower_node": "21",
+    "distance": 17.01,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D41",
+    "dist_name": "FILKOM_P2-FILKOM_P4",
+    "upper_node": "20",
+    "lower_node": "22",
+    "distance": 12.41,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D42",
+    "dist_name": "FILKOM_P2-FILKOM_P33",
+    "upper_node": "20",
+    "lower_node": "51",
+    "distance": 19.65,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D43",
+    "dist_name": "FILKOM_P3-FKG_P5",
+    "upper_node": "21",
+    "lower_node": "59",
+    "distance": 7.71,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D44",
+    "dist_name": "FILKOM_P4-FILKOM_P32",
+    "upper_node": "22",
+    "lower_node": "50",
+    "distance": 9.53,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D45",
+    "dist_name": "FILKOM_P4-FILKOM_P33",
+    "upper_node": "22",
+    "lower_node": "51",
+    "distance": 15.36,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D46",
+    "dist_name": "FILKOM_P4-FILKOM_P34",
+    "upper_node": "22",
+    "lower_node": "52",
+    "distance": 17.76,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D47",
+    "dist_name": "FILKOM_P5-JLGOR_T5",
+    "upper_node": "23",
+    "lower_node": "130",
+    "distance": 29.3,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D48",
+    "dist_name": "FILKOM_P5-JLGOR_T6",
+    "upper_node": "23",
+    "lower_node": "131",
+    "distance": 21.03,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D49",
+    "dist_name": "FILKOM_P5-JLGOR_T7",
+    "upper_node": "23",
+    "lower_node": "132",
+    "distance": 26.94,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D50",
+    "dist_name": "FILKOM_P6-FILKOM_P7",
+    "upper_node": "24",
+    "lower_node": "25",
+    "distance": 10.72,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D51",
+    "dist_name": "FILKOM_P6-JLGOR_T7",
+    "upper_node": "24",
+    "lower_node": "132",
+    "distance": 21.28,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D52",
+    "dist_name": "FILKOM_P7-FILKOM_P16",
+    "upper_node": "25",
+    "lower_node": "34",
+    "distance": 9.76,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D53",
+    "dist_name": "FILKOM_P7-FILKOM_P17",
+    "upper_node": "25",
+    "lower_node": "35",
+    "distance": 21.3,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D54",
+    "dist_name": "FILKOM_P8-FILKOM_P9",
+    "upper_node": "26",
+    "lower_node": "27",
+    "distance": 22.95,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D55",
+    "dist_name": "FILKOM_P8-FILKOM_P11",
+    "upper_node": "26",
+    "lower_node": "29",
+    "distance": 13.97,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D56",
+    "dist_name": "FILKOM_P8-FILKOM_P16",
+    "upper_node": "26",
+    "lower_node": "34",
+    "distance": 18.33,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D57",
+    "dist_name": "FILKOM_P9-FILKOM_P10",
+    "upper_node": "27",
+    "lower_node": "28",
+    "distance": 14.79,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D58",
+    "dist_name": "FILKOM_P9-FTP_P1",
+    "upper_node": "27",
+    "lower_node": "68",
+    "distance": 12.37,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D59",
+    "dist_name": "FILKOM_P10-FILKOM_P11",
+    "upper_node": "28",
+    "lower_node": "29",
+    "distance": 23.14,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D60",
+    "dist_name": "FILKOM_P11-FILKOM_P12",
+    "upper_node": "29",
+    "lower_node": "30",
+    "distance": 8.76,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D61",
+    "dist_name": "FILKOM_P12-FILKOM_P13",
+    "upper_node": "30",
+    "lower_node": "31",
+    "distance": 5.32,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D62",
+    "dist_name": "FILKOM_P13-FILKOM_P14",
+    "upper_node": "31",
+    "lower_node": "32",
+    "distance": 22.85,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D63",
+    "dist_name": "FILKOM_P14-FILKOM_P18",
+    "upper_node": "32",
+    "lower_node": "36",
+    "distance": 10.49,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D64",
+    "dist_name": "FILKOM_P14-FILKOM_P22",
+    "upper_node": "32",
+    "lower_node": "40",
+    "distance": 37.49,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D65",
+    "dist_name": "FILKOM_P15-FILKOM_P36",
+    "upper_node": "33",
+    "lower_node": "54",
+    "distance": 14.5,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D66",
+    "dist_name": "FILKOM_P15-FILKOM_P18",
+    "upper_node": "33",
+    "lower_node": "36",
+    "distance": 13.04,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D67",
+    "dist_name": "FILKOM_P15-FILKOM_P21",
+    "upper_node": "33",
+    "lower_node": "39",
+    "distance": 37.77,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D68",
+    "dist_name": "FILKOM_P17-FILKOM_P36",
+    "upper_node": "35",
+    "lower_node": "54",
+    "distance": 8.99,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D69",
+    "dist_name": "FILKOM_P19-FILKOM_P20",
+    "upper_node": "37",
+    "lower_node": "38",
+    "distance": 25.28,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D70",
+    "dist_name": "FILKOM_P19-FILKOM_P30",
+    "upper_node": "37",
+    "lower_node": "48",
+    "distance": 24.35,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D71",
+    "dist_name": "FILKOM_P19-JLUB_T4",
+    "upper_node": "37",
+    "lower_node": "167",
+    "distance": 29.59,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D72",
+    "dist_name": "FILKOM_P19-JLUB_T6",
+    "upper_node": "37",
+    "lower_node": "169",
+    "distance": 20.75,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D73",
+    "dist_name": "FILKOM_P20-FILKOM_P24",
+    "upper_node": "38",
+    "lower_node": "42",
+    "distance": 21.48,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D74",
+    "dist_name": "FILKOM_P20-FILKOM_P30",
+    "upper_node": "38",
+    "lower_node": "48",
+    "distance": 16.67,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D75",
+    "dist_name": "FILKOM_P20-JLUB_T4",
+    "upper_node": "38",
+    "lower_node": "167",
+    "distance": 9.12,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D76",
+    "dist_name": "FILKOM_P21-FILKOM_P22",
+    "upper_node": "39",
+    "lower_node": "40",
+    "distance": 24.8,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D77",
+    "dist_name": "FILKOM_P21-JLUB_T6",
+    "upper_node": "39",
+    "lower_node": "169",
+    "distance": 30.71,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D78",
+    "dist_name": "FILKOM_P22-FILKOM_P23",
+    "upper_node": "40",
+    "lower_node": "41",
+    "distance": 15.28,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D79",
+    "dist_name": "FILKOM_P22-JLUB_T6",
+    "upper_node": "40",
+    "lower_node": "169",
+    "distance": 39.57,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D80",
+    "dist_name": "FILKOM_P22-JLUB_T7",
+    "upper_node": "40",
+    "lower_node": "170",
+    "distance": 28.67,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D81",
+    "dist_name": "FILKOM_P23-FTP_P2",
+    "upper_node": "41",
+    "lower_node": "69",
+    "distance": 47.55,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D82",
+    "dist_name": "FILKOM_P23-JLUB_T7",
+    "upper_node": "41",
+    "lower_node": "170",
+    "distance": 24.66,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D83",
+    "dist_name": "FILKOM_P24-FILKOM_P25",
+    "upper_node": "42",
+    "lower_node": "43",
+    "distance": 8.27,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D84",
+    "dist_name": "FILKOM_P24-JLUB_T20",
+    "upper_node": "42",
+    "lower_node": "183",
+    "distance": 19.86,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D85",
+    "dist_name": "FILKOM_P25-FILKOM_P26",
+    "upper_node": "43",
+    "lower_node": "44",
+    "distance": 22.57,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D86",
+    "dist_name": "FILKOM_P26-FILKOM_P27",
+    "upper_node": "44",
+    "lower_node": "45",
+    "distance": 11.97,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D87",
+    "dist_name": "FILKOM_P27-FILKOM_P28",
+    "upper_node": "45",
+    "lower_node": "46",
+    "distance": 20.55,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D88",
+    "dist_name": "FILKOM_P27-FILKOM_P35",
+    "upper_node": "45",
+    "lower_node": "53",
+    "distance": 9.84,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D89",
+    "dist_name": "FILKOM_P28-FILKOM_P29",
+    "upper_node": "46",
+    "lower_node": "47",
+    "distance": 16.03,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D90",
+    "dist_name": "FILKOM_P29-FILKOM_P31",
+    "upper_node": "47",
+    "lower_node": "49",
+    "distance": 40.37,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D91",
+    "dist_name": "FILKOM_P29-FILKOM_P32",
+    "upper_node": "47",
+    "lower_node": "50",
+    "distance": 11.08,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D92",
+    "dist_name": "FILKOM_P30-FILKOM_P31",
+    "upper_node": "48",
+    "lower_node": "49",
+    "distance": 43.31,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D93",
+    "dist_name": "FILKOM_P32-FILKOM_P34",
+    "upper_node": "50",
+    "lower_node": "52",
+    "distance": 14.66,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D94",
+    "dist_name": "FILKOM_P33-FILKOM_P34",
+    "upper_node": "51",
+    "lower_node": "52",
+    "distance": 9.47,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D95",
+    "dist_name": "FILKOM_P33-FKG_P9",
+    "upper_node": "51",
+    "lower_node": "63",
+    "distance": 30.69,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D96",
+    "dist_name": "FKG_P1-JLUB_T1",
+    "upper_node": "55",
+    "lower_node": "164",
     "distance": 21.37,
     "dist_type": "trotoar"
   },
   {
-    "dist_id": "D3",
-    "dist_name": "JLUB_T1-JLUB_T2",
-    "lower_node": "4",
-    "upper_node": "3",
-    "distance": 77.28,
+    "dist_id": "D97",
+    "dist_name": "FKG_P1-FKG_P2",
+    "upper_node": "55",
+    "lower_node": "56",
+    "distance": 52.12,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D98",
+    "dist_name": "FKG_P2-FKG_P3",
+    "upper_node": "56",
+    "lower_node": "57",
+    "distance": 32.46,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D99",
+    "dist_name": "FKG_P3-FKG_P6",
+    "upper_node": "57",
+    "lower_node": "60",
+    "distance": 47.62,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D100",
+    "dist_name": "FKG_P3-FKG_P7",
+    "upper_node": "57",
+    "lower_node": "61",
+    "distance": 93.43,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D101",
+    "dist_name": "FKG_P4-FKG_P5",
+    "upper_node": "58",
+    "lower_node": "59",
+    "distance": 28.06,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D102",
+    "dist_name": "FKG_P4-FKG_P6",
+    "upper_node": "58",
+    "lower_node": "60",
+    "distance": 26.1,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D103",
+    "dist_name": "FKG_P6-JLUB_T5",
+    "upper_node": "60",
+    "lower_node": "168",
+    "distance": 62.14,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D104",
+    "dist_name": "FKG_P7-FKG_P8",
+    "upper_node": "61",
+    "lower_node": "62",
+    "distance": 79.58,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D105",
+    "dist_name": "FKG_P7-FKG_P13",
+    "upper_node": "61",
+    "lower_node": "67",
+    "distance": 43.91,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D106",
+    "dist_name": "FKG_P8-FKG_P9",
+    "upper_node": "62",
+    "lower_node": "63",
+    "distance": 13.21,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D107",
+    "dist_name": "FKG_P8-FKG_P11",
+    "upper_node": "62",
+    "lower_node": "65",
+    "distance": 29.28,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D108",
+    "dist_name": "FKG_P9-FKG_P10",
+    "upper_node": "63",
+    "lower_node": "64",
+    "distance": 29.29,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D109",
+    "dist_name": "FKG_P10-FKG_P11",
+    "upper_node": "64",
+    "lower_node": "65",
+    "distance": 12.33,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D110",
+    "dist_name": "FKG_P10-JLGOR_T4",
+    "upper_node": "64",
+    "lower_node": "129",
+    "distance": 20.25,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D111",
+    "dist_name": "FKG_P11-FKG_P12",
+    "upper_node": "65",
+    "lower_node": "66",
+    "distance": 8.43,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D112",
+    "dist_name": "FKG_P12-FKG_P13",
+    "upper_node": "66",
+    "lower_node": "67",
+    "distance": 63.9,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D113",
+    "dist_name": "FKG_P13-JLGOR_T1",
+    "upper_node": "67",
+    "lower_node": "126",
+    "distance": 10.1,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D114",
+    "dist_name": "FKG_P13-JLGOR_T2",
+    "upper_node": "67",
+    "lower_node": "127",
+    "distance": 14.07,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D115",
+    "dist_name": "FTP_P1-JLSKRI_T5",
+    "upper_node": "68",
+    "lower_node": "161",
+    "distance": 37.05,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D116",
+    "dist_name": "FTP_P2-JLSKRI_T1",
+    "upper_node": "69",
+    "lower_node": "157",
+    "distance": 14.06,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D117",
+    "dist_name": "FTP_P2-JLSKRI_T7",
+    "upper_node": "69",
+    "lower_node": "163",
+    "distance": 11.22,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D118",
+    "dist_name": "FTP_P2-JLUB_T8",
+    "upper_node": "69",
+    "lower_node": "171",
+    "distance": 16.45,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D119",
+    "dist_name": "FTP_P3-JLFTP_P4",
+    "upper_node": "70",
+    "lower_node": "114",
+    "distance": 66.45,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D120",
+    "dist_name": "FTP_P3-JLGOR_T16",
+    "upper_node": "70",
+    "lower_node": "141",
+    "distance": 32.25,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D121",
+    "dist_name": "FTP_P3-JLMRP_T4",
+    "upper_node": "70",
+    "lower_node": "154",
+    "distance": 9.62,
+    "dist_type": "cross"
+  },
+  {
+    "dist_id": "D122",
+    "dist_name": "GOR_P1-GOR_P2",
+    "upper_node": "71",
+    "lower_node": "72",
+    "distance": 37.39,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D123",
+    "dist_name": "GOR_P1-GOR_P3",
+    "upper_node": "71",
+    "lower_node": "73",
+    "distance": 25.99,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D124",
+    "dist_name": "GOR_P1-GRIYA_P2",
+    "upper_node": "71",
+    "lower_node": "75",
+    "distance": 25.62,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D125",
+    "dist_name": "GOR_P1-JLCL_P2",
+    "upper_node": "71",
+    "lower_node": "99",
+    "distance": 19.59,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D126",
+    "dist_name": "GOR_P2-JLCL_T1",
+    "upper_node": "72",
+    "lower_node": "120",
+    "distance": 15.51,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D127",
+    "dist_name": "GOR_P3-JLCL_P1",
+    "upper_node": "73",
+    "lower_node": "98",
+    "distance": 21.4,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D128",
+    "dist_name": "GOR_P3-JLGOR_T15",
+    "upper_node": "73",
+    "lower_node": "140",
+    "distance": 24.66,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D129",
+    "dist_name": "GRIYA_P1-GRIYA_P2",
+    "upper_node": "74",
+    "lower_node": "75",
+    "distance": 26.43,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D130",
+    "dist_name": "GRIYA_P1-GRIYA_P3",
+    "upper_node": "74",
+    "lower_node": "76",
+    "distance": 10.46,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D131",
+    "dist_name": "GRIYA_P2-JLGOR_T15",
+    "upper_node": "75",
+    "lower_node": "140",
+    "distance": 25.42,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D132",
+    "dist_name": "GRIYA_P3-JLGOR_T13",
+    "upper_node": "76",
+    "lower_node": "138",
+    "distance": 19.27,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D133",
+    "dist_name": "GRIYA_P3-JLGOR_T14",
+    "upper_node": "76",
+    "lower_node": "139",
+    "distance": 14.01,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D134",
+    "dist_name": "MRP_P1-JLGOR_T19",
+    "upper_node": "77",
+    "lower_node": "144",
+    "distance": 61.42,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D135",
+    "dist_name": "MRP_P1-JLUB_T11",
+    "upper_node": "77",
+    "lower_node": "174",
+    "distance": 99.95,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D136",
+    "dist_name": "PERPUS_P1-PERPUS_P2",
+    "upper_node": "78",
+    "lower_node": "79",
+    "distance": 37.0,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D137",
+    "dist_name": "PERPUS_P1-JLUB_T19",
+    "upper_node": "78",
+    "lower_node": "182",
+    "distance": 13.66,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D138",
+    "dist_name": "PERPUS_P2-PERPUS_P3",
+    "upper_node": "79",
+    "lower_node": "80",
+    "distance": 23.21,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D139",
+    "dist_name": "PERPUS_P2-JLUB_T17",
+    "upper_node": "79",
+    "lower_node": "180",
+    "distance": 18.89,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D140",
+    "dist_name": "PERPUS_P3-PERPUS_P4",
+    "upper_node": "80",
+    "lower_node": "81",
+    "distance": 8.12,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D141",
+    "dist_name": "PERPUS_P4-PERPUS_P5",
+    "upper_node": "81",
+    "lower_node": "82",
+    "distance": 8.0,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D142",
+    "dist_name": "PERPUS_P5-PERPUS_P6",
+    "upper_node": "82",
+    "lower_node": "83",
+    "distance": 11.64,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D143",
+    "dist_name": "PERPUS_P6-PERPUS_P7",
+    "upper_node": "83",
+    "lower_node": "84",
+    "distance": 13.82,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D144",
+    "dist_name": "PERPUS_P6-JLSELREK_T1",
+    "upper_node": "83",
+    "lower_node": "155",
+    "distance": 7.31,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D145",
+    "dist_name": "PERPUS_P7-JLSELREK_T2",
+    "upper_node": "84",
+    "lower_node": "156",
+    "distance": 7.15,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D146",
+    "dist_name": "RUSUN_P1-RUSUN_P2",
+    "upper_node": "85",
+    "lower_node": "86",
+    "distance": 18.02,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D147",
+    "dist_name": "RUSUN_P1-JLCL_T4",
+    "upper_node": "85",
+    "lower_node": "123",
+    "distance": 12.74,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D148",
+    "dist_name": "RUSUN_P2-RUSUN_P3",
+    "upper_node": "86",
+    "lower_node": "87",
+    "distance": 8.09,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D149",
+    "dist_name": "RUSUN_P3-RUSUN_P4",
+    "upper_node": "87",
+    "lower_node": "88",
+    "distance": 18.14,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D150",
+    "dist_name": "RUSUN_P4-JLCL_P11",
+    "upper_node": "88",
+    "lower_node": "108",
+    "distance": 21.31,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D151",
+    "dist_name": "SAKRI_P1-SAKRI_P2",
+    "upper_node": "89",
+    "lower_node": "90",
+    "distance": 32.68,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D152",
+    "dist_name": "SAKRI_P1-JLCL_P1",
+    "upper_node": "89",
+    "lower_node": "98",
+    "distance": 31.43,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D153",
+    "dist_name": "SAKRI_P2-SAKRI_P7",
+    "upper_node": "90",
+    "lower_node": "95",
+    "distance": 13.81,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D154",
+    "dist_name": "SAKRI_P3-SAKRI_P4",
+    "upper_node": "91",
+    "lower_node": "92",
+    "distance": 10.33,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D155",
+    "dist_name": "SAKRI_P3-SAKRI_P7",
+    "upper_node": "91",
+    "lower_node": "95",
+    "distance": 13.21,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D156",
+    "dist_name": "SAKRI_P4-SAKRI_P5",
+    "upper_node": "92",
+    "lower_node": "93",
+    "distance": 7.23,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D157",
+    "dist_name": "SAKRI_P5-SAKRI_P6",
+    "upper_node": "93",
+    "lower_node": "94",
+    "distance": 14.14,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D158",
+    "dist_name": "SAKRI_P6-SAKRI_P9",
+    "upper_node": "94",
+    "lower_node": "97",
+    "distance": 17.87,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D159",
+    "dist_name": "SAKRI_P7-SAKRI_P8",
+    "upper_node": "95",
+    "lower_node": "96",
+    "distance": 12.99,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D160",
+    "dist_name": "SAKRI_P7-JLGOR_T25",
+    "upper_node": "95",
+    "lower_node": "150",
+    "distance": 25.25,
+    "dist_type": "cross"
+  },
+  {
+    "dist_id": "D161",
+    "dist_name": "SAKRI_P8-JLGOR_T16",
+    "upper_node": "96",
+    "lower_node": "141",
+    "distance": 14.49,
+    "dist_type": "cross"
+  },
+  {
+    "dist_id": "D162",
+    "dist_name": "SAKRI_P9-JLGOR_T17",
+    "upper_node": "97",
+    "lower_node": "142",
+    "distance": 14.44,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D163",
+    "dist_name": "JLCL_P1-JLCL_P2",
+    "upper_node": "98",
+    "lower_node": "99",
+    "distance": 21.4,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D164",
+    "dist_name": "JLCL_P2-JLCL_P3",
+    "upper_node": "99",
+    "lower_node": "100",
+    "distance": 39.64,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D165",
+    "dist_name": "JLCL_P3-JLCL_P4",
+    "upper_node": "100",
+    "lower_node": "101",
+    "distance": 19.64,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D166",
+    "dist_name": "JLCL_P3-JLCL_T1",
+    "upper_node": "100",
+    "lower_node": "120",
+    "distance": 4.89,
+    "dist_type": "cross"
+  },
+  {
+    "dist_id": "D167",
+    "dist_name": "JLCL_P4-JLCL_P5",
+    "upper_node": "101",
+    "lower_node": "102",
+    "distance": 19.49,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D168",
+    "dist_name": "JLCL_P5-JLCL_P6",
+    "upper_node": "102",
+    "lower_node": "103",
+    "distance": 15.79,
+    "dist_type": "cross"
+  },
+  {
+    "dist_id": "D169",
+    "dist_name": "JLCL_P5-JLCL_P8",
+    "upper_node": "102",
+    "lower_node": "105",
+    "distance": 48.01,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D170",
+    "dist_name": "JLCL_P5-JLCL_T2",
+    "upper_node": "102",
+    "lower_node": "121",
+    "distance": 10.04,
+    "dist_type": "cross"
+  },
+  {
+    "dist_id": "D171",
+    "dist_name": "JLCL_P6-JLCL_P7",
+    "upper_node": "103",
+    "lower_node": "104",
+    "distance": 8.5,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D172",
+    "dist_name": "JLCL_P6-JLCL_P9",
+    "upper_node": "103",
+    "lower_node": "106",
+    "distance": 34.41,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D173",
+    "dist_name": "JLCL_P6-JLCL_T2",
+    "upper_node": "103",
+    "lower_node": "121",
+    "distance": 19.83,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D174",
+    "dist_name": "JLCL_P7-JLCL_P9",
+    "upper_node": "104",
+    "lower_node": "106",
+    "distance": 32.05,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D175",
+    "dist_name": "JLCL_P8-JLCL_P9",
+    "upper_node": "105",
+    "lower_node": "106",
+    "distance": 7.44,
+    "dist_type": "cross"
+  },
+  {
+    "dist_id": "D176",
+    "dist_name": "JLCL_P8-JLCL_P10",
+    "upper_node": "105",
+    "lower_node": "107",
+    "distance": 35.81,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D177",
+    "dist_name": "JLCL_P9-JLCL_P12",
+    "upper_node": "106",
+    "lower_node": "109",
+    "distance": 31.49,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D178",
+    "dist_name": "JLCL_P10-JLCL_P12",
+    "upper_node": "107",
+    "lower_node": "109",
+    "distance": 9.83,
+    "dist_type": "cross"
+  },
+  {
+    "dist_id": "D179",
+    "dist_name": "JLCL_P10-JLCL_P13",
+    "upper_node": "107",
+    "lower_node": "110",
+    "distance": 17.09,
+    "dist_type": "cross"
+  },
+  {
+    "dist_id": "D180",
+    "dist_name": "JLCL_P10-JLCL_T3",
+    "upper_node": "107",
+    "lower_node": "122",
+    "distance": 20.4,
     "dist_type": "trotoar"
   },
   {
-    "dist_id": "D4",
+    "dist_id": "D181",
+    "dist_name": "JLCL_P11-JLCL_P13",
+    "upper_node": "108",
+    "lower_node": "110",
+    "distance": 18.07,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D182",
+    "dist_name": "JLCL_P11-JLCL_T3",
+    "upper_node": "108",
+    "lower_node": "122",
+    "distance": 10.39,
+    "dist_type": "cross"
+  },
+  {
+    "dist_id": "D183",
+    "dist_name": "JLCL_P11-JLCL_T6",
+    "upper_node": "108",
+    "lower_node": "125",
+    "distance": 6.47,
+    "dist_type": "cross"
+  },
+  {
+    "dist_id": "D184",
+    "dist_name": "JLCL_P12-JLCL_P13",
+    "upper_node": "109",
+    "lower_node": "110",
+    "distance": 18.83,
+    "dist_type": "cross"
+  },
+  {
+    "dist_id": "D185",
+    "dist_name": "JLFTP_P1-JLFTP_P2",
+    "upper_node": "111",
+    "lower_node": "112",
+    "distance": 7.99,
+    "dist_type": "cross"
+  },
+  {
+    "dist_id": "D186",
+    "dist_name": "JLFTP_P1-JLFTP_P3",
+    "upper_node": "111",
+    "lower_node": "113",
+    "distance": 37.84,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D187",
+    "dist_name": "JLFTP_P1-JLFTP_P5",
+    "upper_node": "111",
+    "lower_node": "115",
+    "distance": 44.96,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D188",
+    "dist_name": "JLFTP_P1-JLUB_T21",
+    "upper_node": "111",
+    "lower_node": "184",
+    "distance": 24.87,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D189",
+    "dist_name": "JLFTP_P2-JLFTP_P4",
+    "upper_node": "112",
+    "lower_node": "114",
+    "distance": 37.4,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D190",
+    "dist_name": "JLFTP_P2-JLSKRI_T4",
+    "upper_node": "112",
+    "lower_node": "160",
+    "distance": 53.4,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D191",
+    "dist_name": "JLFTP_P3-JLFTP_P4",
+    "upper_node": "113",
+    "lower_node": "114",
+    "distance": 8.42,
+    "dist_type": "cross"
+  },
+  {
+    "dist_id": "D192",
+    "dist_name": "JLFTP_P3-JLUB_T9",
+    "upper_node": "113",
+    "lower_node": "172",
+    "distance": 23.7,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D193",
+    "dist_name": "JLFTP_P4-JLMRP_T2",
+    "upper_node": "114",
+    "lower_node": "152",
+    "distance": 10.38,
+    "dist_type": "cross"
+  },
+  {
+    "dist_id": "D194",
+    "dist_name": "JLFTP_P5-JLSKRI_T2",
+    "upper_node": "115",
+    "lower_node": "158",
+    "distance": 10.99,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D195",
+    "dist_name": "JLFTP_P5-JLSKRI_T4",
+    "upper_node": "115",
+    "lower_node": "160",
+    "distance": 12.12,
+    "dist_type": "cross"
+  },
+  {
+    "dist_id": "D196",
+    "dist_name": "BUND_T1-BUND_T2",
+    "upper_node": "116",
+    "lower_node": "117",
+    "distance": 10.8,
+    "dist_type": "trotoar"
+  },
+  {
+    "dist_id": "D197",
+    "dist_name": "BUND_T1-JLSKRI_T2",
+    "upper_node": "116",
+    "lower_node": "158",
+    "distance": 10.16,
+    "dist_type": "trotoar"
+  },
+  {
+    "dist_id": "D198",
+    "dist_name": "BUND_T2-BUND_T3",
+    "upper_node": "117",
+    "lower_node": "118",
+    "distance": 12.88,
+    "dist_type": "trotoar"
+  },
+  {
+    "dist_id": "D199",
+    "dist_name": "BUND_T3-BUND_T4",
+    "upper_node": "118",
+    "lower_node": "119",
+    "distance": 11.26,
+    "dist_type": "trotoar"
+  },
+  {
+    "dist_id": "D200",
+    "dist_name": "BUND_T4-JLUB_T21",
+    "upper_node": "119",
+    "lower_node": "184",
+    "distance": 20.45,
+    "dist_type": "trotoar"
+  },
+  {
+    "dist_id": "D201",
+    "dist_name": "JLCL_T1-JLCL_T2",
+    "upper_node": "120",
+    "lower_node": "121",
+    "distance": 43.26,
+    "dist_type": "trotoar"
+  },
+  {
+    "dist_id": "D202",
+    "dist_name": "JLCL_T3-JLGOR_T20",
+    "upper_node": "122",
+    "lower_node": "145",
+    "distance": 54.98,
+    "dist_type": "trotoar"
+  },
+  {
+    "dist_id": "D203",
+    "dist_name": "JLCL_T4-JLCL_T5",
+    "upper_node": "123",
+    "lower_node": "124",
+    "distance": 16.54,
+    "dist_type": "trotoar"
+  },
+  {
+    "dist_id": "D204",
+    "dist_name": "JLCL_T4-JLCL_T6",
+    "upper_node": "123",
+    "lower_node": "125",
+    "distance": 30.27,
+    "dist_type": "trotoar"
+  },
+  {
+    "dist_id": "D205",
+    "dist_name": "JLCL_T5-JLGOR_T20",
+    "upper_node": "124",
+    "lower_node": "145",
+    "distance": 9.49,
+    "dist_type": "cross"
+  },
+  {
+    "dist_id": "D206",
+    "dist_name": "JLCL_T5-JLGOR_T23",
+    "upper_node": "124",
+    "lower_node": "148",
+    "distance": 20.26,
+    "dist_type": "trotoar"
+  },
+  {
+    "dist_id": "D207",
+    "dist_name": "JLGOR_T1-JLGOR_T2",
+    "upper_node": "126",
+    "lower_node": "127",
+    "distance": 12.96,
+    "dist_type": "trotoar"
+  },
+  {
+    "dist_id": "D208",
+    "dist_name": "JLGOR_T2-JLGOR_T3",
+    "upper_node": "127",
+    "lower_node": "128",
+    "distance": 34.28,
+    "dist_type": "trotoar"
+  },
+  {
+    "dist_id": "D209",
+    "dist_name": "JLGOR_T3-JLGOR_T4",
+    "upper_node": "128",
+    "lower_node": "129",
+    "distance": 31.96,
+    "dist_type": "trotoar"
+  },
+  {
+    "dist_id": "D210",
+    "dist_name": "JLGOR_T4-JLGOR_T5",
+    "upper_node": "129",
+    "lower_node": "130",
+    "distance": 58.2,
+    "dist_type": "trotoar"
+  },
+  {
+    "dist_id": "D211",
+    "dist_name": "JLGOR_T5-JLGOR_T6",
+    "upper_node": "130",
+    "lower_node": "131",
+    "distance": 17.69,
+    "dist_type": "trotoar"
+  },
+  {
+    "dist_id": "D212",
+    "dist_name": "JLGOR_T6-JLGOR_T7",
+    "upper_node": "131",
+    "lower_node": "132",
+    "distance": 19.8,
+    "dist_type": "trotoar"
+  },
+  {
+    "dist_id": "D213",
+    "dist_name": "JLGOR_T7-JLGOR_T8",
+    "upper_node": "132",
+    "lower_node": "133",
+    "distance": 11.95,
+    "dist_type": "trotoar"
+  },
+  {
+    "dist_id": "D214",
+    "dist_name": "JLGOR_T7-JLGOR_T13",
+    "upper_node": "132",
+    "lower_node": "138",
+    "distance": 16.76,
+    "dist_type": "cross"
+  },
+  {
+    "dist_id": "D215",
+    "dist_name": "JLGOR_T8-JLGOR_T9",
+    "upper_node": "133",
+    "lower_node": "134",
+    "distance": 28.35,
+    "dist_type": "trotoar"
+  },
+  {
+    "dist_id": "D216",
+    "dist_name": "JLGOR_T8-JLGOR_T14",
+    "upper_node": "133",
+    "lower_node": "139",
+    "distance": 16.62,
+    "dist_type": "cross"
+  },
+  {
+    "dist_id": "D217",
+    "dist_name": "JLGOR_T9-JLGOR_T10",
+    "upper_node": "134",
+    "lower_node": "135",
+    "distance": 44.45,
+    "dist_type": "trotoar"
+  },
+  {
+    "dist_id": "D218",
+    "dist_name": "JLGOR_T9-JLGOR_T15",
+    "upper_node": "134",
+    "lower_node": "140",
+    "distance": 15.22,
+    "dist_type": "cross"
+  },
+  {
+    "dist_id": "D219",
+    "dist_name": "JLGOR_T10-JLGOR_T11",
+    "upper_node": "135",
+    "lower_node": "136",
+    "distance": 11.39,
+    "dist_type": "trotoar"
+  },
+  {
+    "dist_id": "D220",
+    "dist_name": "JLGOR_T11-JLGOR_T12",
+    "upper_node": "136",
+    "lower_node": "137",
+    "distance": 8.31,
+    "dist_type": "trotoar"
+  },
+  {
+    "dist_id": "D221",
+    "dist_name": "JLGOR_T12-JLSKRI_T5",
+    "upper_node": "137",
+    "lower_node": "161",
+    "distance": 10.06,
+    "dist_type": "trotoar"
+  },
+  {
+    "dist_id": "D222",
+    "dist_name": "JLGOR_T13-JLGOR_T14",
+    "upper_node": "138",
+    "lower_node": "139",
+    "distance": 12.15,
+    "dist_type": "trotoar"
+  },
+  {
+    "dist_id": "D223",
+    "dist_name": "JLGOR_T14-JLGOR_T15",
+    "upper_node": "139",
+    "lower_node": "140",
+    "distance": 28.92,
+    "dist_type": "trotoar"
+  },
+  {
+    "dist_id": "D224",
+    "dist_name": "JLGOR_T16-JLGOR_T25",
+    "upper_node": "141",
+    "lower_node": "150",
+    "distance": 37.36,
+    "dist_type": "trotoar"
+  },
+  {
+    "dist_id": "D225",
+    "dist_name": "JLGOR_T17-JLGOR_T20",
+    "upper_node": "142",
+    "lower_node": "145",
+    "distance": 52.6,
+    "dist_type": "trotoar"
+  },
+  {
+    "dist_id": "D226",
+    "dist_name": "JLGOR_T17-JLMRP_T4",
+    "upper_node": "142",
+    "lower_node": "154",
+    "distance": 16.76,
+    "dist_type": "cross"
+  },
+  {
+    "dist_id": "D227",
+    "dist_name": "JLGOR_T18-JLGOR_T19",
+    "upper_node": "143",
+    "lower_node": "144",
+    "distance": 24.9,
+    "dist_type": "trotoar"
+  },
+  {
+    "dist_id": "D228",
+    "dist_name": "JLGOR_T18-JLMRP_T4",
+    "upper_node": "143",
+    "lower_node": "154",
+    "distance": 30.69,
+    "dist_type": "trotoar"
+  },
+  {
+    "dist_id": "D229",
+    "dist_name": "JLGOR_T19-JLGOR_T20",
+    "upper_node": "144",
+    "lower_node": "145",
+    "distance": 23.08,
+    "dist_type": "cross"
+  },
+  {
+    "dist_id": "D230",
+    "dist_name": "JLGOR_T19-JLGOR_T21",
+    "upper_node": "144",
+    "lower_node": "146",
+    "distance": 20.55,
+    "dist_type": "trotoar"
+  },
+  {
+    "dist_id": "D231",
+    "dist_name": "JLGOR_T21-JLGOR_T22",
+    "upper_node": "146",
+    "lower_node": "147",
+    "distance": 15.94,
+    "dist_type": "trotoar"
+  },
+  {
+    "dist_id": "D232",
+    "dist_name": "JLGOR_T22-JLUB_T12",
+    "upper_node": "147",
+    "lower_node": "175",
+    "distance": 156.34,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D233",
+    "dist_name": "JLGOR_T23-JLGOR_T24",
+    "upper_node": "148",
+    "lower_node": "149",
+    "distance": 31.96,
+    "dist_type": "trotoar"
+  },
+  {
+    "dist_id": "D234",
+    "dist_name": "JLGOR_T25-JLSKRI_T6",
+    "upper_node": "150",
+    "lower_node": "162",
+    "distance": 21.13,
+    "dist_type": "pca"
+  },
+  {
+    "dist_id": "D235",
+    "dist_name": "JLMRP_T1-JLMRP_T2",
+    "upper_node": "151",
+    "lower_node": "152",
+    "distance": 32.8,
+    "dist_type": "trotoar"
+  },
+  {
+    "dist_id": "D236",
+    "dist_name": "JLMRP_T1-JLUB_T10",
+    "upper_node": "151",
+    "lower_node": "173",
+    "distance": 48.62,
+    "dist_type": "trotoar"
+  },
+  {
+    "dist_id": "D237",
+    "dist_name": "JLMRP_T1-JLUB_T9",
+    "upper_node": "151",
+    "lower_node": "172",
+    "distance": 9.04,
+    "dist_type": "cross"
+  },
+  {
+    "dist_id": "D238",
+    "dist_name": "JLMRP_T2-JLMRP_T3",
+    "upper_node": "152",
+    "lower_node": "153",
+    "distance": 29.17,
+    "dist_type": "trotoar"
+  },
+  {
+    "dist_id": "D239",
+    "dist_name": "JLMRP_T3-JLMRP_T4",
+    "upper_node": "153",
+    "lower_node": "154",
+    "distance": 40.1,
+    "dist_type": "trotoar"
+  },
+  {
+    "dist_id": "D240",
+    "dist_name": "JLSELREK_T1-JLSELREK_T2",
+    "upper_node": "155",
+    "lower_node": "156",
+    "distance": 14.46,
+    "dist_type": "trotoar"
+  },
+  {
+    "dist_id": "D241",
+    "dist_name": "JLSELREK_T2-JLUB_T18",
+    "upper_node": "156",
+    "lower_node": "181",
+    "distance": 53.24,
+    "dist_type": "trotoar"
+  },
+  {
+    "dist_id": "D242",
+    "dist_name": "JLSKRI_T1-JLSKRI_T2",
+    "upper_node": "157",
+    "lower_node": "158",
+    "distance": 10.01,
+    "dist_type": "cross"
+  },
+  {
+    "dist_id": "D243",
+    "dist_name": "JLSKRI_T1-JLSKRI_T3",
+    "upper_node": "157",
+    "lower_node": "159",
+    "distance": 15.69,
+    "dist_type": "trotoar"
+  },
+  {
+    "dist_id": "D244",
+    "dist_name": "JLSKRI_T1-JLSKRI_T7",
+    "upper_node": "157",
+    "lower_node": "163",
+    "distance": 14.81,
+    "dist_type": "trotoar"
+  },
+  {
+    "dist_id": "D245",
+    "dist_name": "JLSKRI_T2-JLSKRI_T4",
+    "upper_node": "158",
+    "lower_node": "160",
+    "distance": 15.89,
+    "dist_type": "cross"
+  },
+  {
+    "dist_id": "D246",
+    "dist_name": "JLSKRI_T3-JLSKRI_T4",
+    "upper_node": "159",
+    "lower_node": "160",
+    "distance": 8.97,
+    "dist_type": "cross"
+  },
+  {
+    "dist_id": "D247",
+    "dist_name": "JLSKRI_T3-JLSKRI_T5",
+    "upper_node": "159",
+    "lower_node": "161",
+    "distance": 64.67,
+    "dist_type": "trotoar"
+  },
+  {
+    "dist_id": "D248",
+    "dist_name": "JLSKRI_T4-JLSKRI_T6",
+    "upper_node": "160",
+    "lower_node": "162",
+    "distance": 64.26,
+    "dist_type": "trotoar"
+  },
+  {
+    "dist_id": "D249",
+    "dist_name": "JLSKRI_T5-JLSKRI_T6",
+    "upper_node": "161",
+    "lower_node": "162",
+    "distance": 9.05,
+    "dist_type": "cross"
+  },
+  {
+    "dist_id": "D250",
+    "dist_name": "JLSKRI_T7-JLUB_T8",
+    "upper_node": "163",
+    "lower_node": "171",
+    "distance": 12.59,
+    "dist_type": "trotoar"
+  },
+  {
+    "dist_id": "D251",
+    "dist_name": "JLUB_T1-JLUB_T5",
+    "upper_node": "164",
+    "lower_node": "168",
+    "distance": 58.36,
+    "dist_type": "trotoar"
+  },
+  {
+    "dist_id": "D252",
     "dist_name": "JLUB_T2-JLUB_T3",
-    "lower_node": "5",
-    "upper_node": "4",
+    "upper_node": "165",
+    "lower_node": "166",
     "distance": 55.28,
     "dist_type": "trotoar"
   },
   {
-    "dist_id": "D5",
-    "dist_name": "JLUB_T3-JLUB_T4",
-    "lower_node": "6",
-    "upper_node": "5",
-    "distance": 44.55,
+    "dist_id": "D253",
+    "dist_name": "JLUB_T2-JLUB_T5",
+    "upper_node": "165",
+    "lower_node": "168",
+    "distance": 18.92,
     "dist_type": "trotoar"
   },
   {
-    "dist_id": "D6",
-    "dist_name": "JLUB_T4-FILKOM_P1",
-    "lower_node": "7",
-    "upper_node": "6",
-    "distance": 73.34,
-    "dist_type": "pvb"
+    "dist_id": "D254",
+    "dist_name": "JLUB_T3-JLUB_T14",
+    "upper_node": "166",
+    "lower_node": "177",
+    "distance": 18.14,
+    "dist_type": "cross"
   },
   {
-    "dist_id": "D7",
-    "dist_name": "FILKOM_P1-Junction FILKOM UB",
-    "lower_node": "8",
-    "upper_node": "7",
-    "distance": 27.93,
-    "dist_type": "pvb"
+    "dist_id": "D255",
+    "dist_name": "JLUB_T3-JLUB_T20",
+    "upper_node": "166",
+    "lower_node": "183",
+    "distance": 18.15,
+    "dist_type": "trotoar"
   },
   {
-    "dist_id": "D8",
-    "dist_name": "FKG_P1-FKG_P2",
-    "lower_node": "9",
-    "upper_node": "2",
-    "distance": 52.12,
-    "dist_type": "pvb"
+    "dist_id": "D256",
+    "dist_name": "JLUB_T4-JLUB_T6",
+    "upper_node": "167",
+    "lower_node": "169",
+    "distance": 46.2,
+    "dist_type": "trotoar"
   },
   {
-    "dist_id": "D9",
-    "dist_name": "FKG_P2-FKG_P3",
-    "lower_node": "10",
-    "upper_node": "9",
-    "distance": 32.46,
-    "dist_type": "pvb"
+    "dist_id": "D257",
+    "dist_name": "JLUB_T4-JLUB_T15",
+    "upper_node": "167",
+    "lower_node": "178",
+    "distance": 18.17,
+    "dist_type": "cross"
   },
   {
-    "dist_id": "D10",
-    "dist_name": "FKG_P3-FKG_P4",
-    "lower_node": "11",
-    "upper_node": "10",
-    "distance": 72.09,
-    "dist_type": "pvb"
+    "dist_id": "D258",
+    "dist_name": "JLUB_T4-JLUB_T20",
+    "upper_node": "167",
+    "lower_node": "183",
+    "distance": 26.41,
+    "dist_type": "trotoar"
   },
   {
-    "dist_id": "D11",
-    "dist_name": "FKG_P4-FKG_P5",
-    "lower_node": "14",
-    "upper_node": "11",
-    "distance": 27.8,
-    "dist_type": "pvb"
+    "dist_id": "D259",
+    "dist_name": "JLUB_T6-JLUB_T7",
+    "upper_node": "169",
+    "lower_node": "170",
+    "distance": 41.35,
+    "dist_type": "trotoar"
   },
   {
-    "dist_id": "D12",
-    "dist_name": "FKG_P5-FILKOM_P3",
-    "lower_node": "13",
-    "upper_node": "14",
-    "distance": 11.1,
-    "dist_type": "pvb"
+    "dist_id": "D260",
+    "dist_name": "JLUB_T6-JLUB_T16",
+    "upper_node": "169",
+    "lower_node": "179",
+    "distance": 20.48,
+    "dist_type": "cross"
   },
   {
-    "dist_id": "D13",
-    "dist_name": "FILKOM_P3-FILKOM_P2",
-    "lower_node": "12",
-    "upper_node": "13",
-    "distance": 19.96,
-    "dist_type": "pvb"
+    "dist_id": "D261",
+    "dist_name": "JLUB_T7-JLUB_T8",
+    "upper_node": "170",
+    "lower_node": "171",
+    "distance": 50.96,
+    "dist_type": "trotoar"
   },
   {
-    "dist_id": "D14",
-    "dist_name": "FILKOM_P2-FILKOM_P1",
-    "lower_node": "7",
-    "upper_node": "12",
-    "distance": 75.28,
-    "dist_type": "pvb"
+    "dist_id": "D262",
+    "dist_name": "JLUB_T7-JLUB_T17",
+    "upper_node": "170",
+    "lower_node": "180",
+    "distance": 19.73,
+    "dist_type": "cross"
+  },
+  {
+    "dist_id": "D263",
+    "dist_name": "JLUB_T8-JLUB_T18",
+    "upper_node": "171",
+    "lower_node": "181",
+    "distance": 19.18,
+    "dist_type": "cross"
+  },
+  {
+    "dist_id": "D264",
+    "dist_name": "JLUB_T9-JLUB_T21",
+    "upper_node": "172",
+    "lower_node": "184",
+    "distance": 38.13,
+    "dist_type": "trotoar"
+  },
+  {
+    "dist_id": "D265",
+    "dist_name": "JLUB_T10-JLUB_T11",
+    "upper_node": "173",
+    "lower_node": "174",
+    "distance": 75.11,
+    "dist_type": "trotoar"
+  },
+  {
+    "dist_id": "D266",
+    "dist_name": "JLUB_T11-JLUB_T12",
+    "upper_node": "174",
+    "lower_node": "175",
+    "distance": 37.01,
+    "dist_type": "trotoar"
+  },
+  {
+    "dist_id": "D267",
+    "dist_name": "JLUB_T12-JLUB_T13",
+    "upper_node": "175",
+    "lower_node": "176",
+    "distance": 10.32,
+    "dist_type": "cross"
+  },
+  {
+    "dist_id": "D268",
+    "dist_name": "JLUB_T14-JLUB_T15",
+    "upper_node": "177",
+    "lower_node": "178",
+    "distance": 44.74,
+    "dist_type": "trotoar"
+  },
+  {
+    "dist_id": "D269",
+    "dist_name": "JLUB_T15-JLUB_T16",
+    "upper_node": "178",
+    "lower_node": "179",
+    "distance": 43.44,
+    "dist_type": "trotoar"
+  },
+  {
+    "dist_id": "D270",
+    "dist_name": "JLUB_T16-JLUB_T19",
+    "upper_node": "179",
+    "lower_node": "182",
+    "distance": 18.1,
+    "dist_type": "trotoar"
+  },
+  {
+    "dist_id": "D271",
+    "dist_name": "JLUB_T17-JLUB_T18",
+    "upper_node": "180",
+    "lower_node": "181",
+    "distance": 39.86,
+    "dist_type": "trotoar"
+  },
+  {
+    "dist_id": "D272",
+    "dist_name": "JLUB_T17-JLUB_T19",
+    "upper_node": "180",
+    "lower_node": "182",
+    "distance": 34.69,
+    "dist_type": "trotoar"
   }
 ]

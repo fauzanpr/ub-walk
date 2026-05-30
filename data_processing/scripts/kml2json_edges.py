@@ -13,6 +13,162 @@
 #     #greenLine  -> "cross"
 #     selain itu  -> "other"
 
+# v1
+# import json
+# import math
+# import os
+# import re
+# import xml.etree.ElementTree as ET
+
+# # Resolve paths relative to the repository `data_processing` directory
+# BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+# INPUT_KML = os.path.join(BASE, 'data', 'edges.kml')
+# OUTPUT_JSON = os.path.join(BASE, 'data', 'edges.json')
+
+
+# def haversine(lat1, lon1, lat2, lon2):
+#     """
+#     Hitung jarak meter antara dua koordinat.
+#     """
+#     R = 6371000  # meter
+
+#     phi1 = math.radians(lat1)
+#     phi2 = math.radians(lat2)
+
+#     dphi = math.radians(lat2 - lat1)
+#     dlambda = math.radians(lon2 - lon1)
+
+#     a = (
+#         math.sin(dphi / 2) ** 2
+#         + math.cos(phi1)
+#         * math.cos(phi2)
+#         * math.sin(dlambda / 2) ** 2
+#     )
+
+#     c = 2 * math.atan2(math.sqrt(a), math.sqrt(1 - a))
+
+#     return R * c
+
+
+# def parse_name(name_text):
+#     """
+#     Parse:
+#         A-B
+#         A - B
+#         NODE1-NODE2
+
+#     upper_node = sebelum '-'
+#     lower_node = setelah '-'
+#     """
+#     parts = re.split(r"\s*-\s*", name_text.strip(), maxsplit=1)
+
+#     if len(parts) == 2:
+#         upper_node = parts[0].strip()
+#         lower_node = parts[1].strip()
+#     else:
+#         upper_node = ""
+#         lower_node = ""
+
+#     return upper_node, lower_node
+
+
+# def style_to_type(style_url):
+#     style_url = (style_url or "").strip()
+
+#     if style_url == "#blueLine":
+#         return "pca"
+#     elif style_url == "#yellowLine":
+#         return "trotoar"
+#     elif style_url == "#greenLine":
+#         return "cross"
+#     else:
+#         return "other"
+
+
+# def parse_coordinates(coord_text):
+#     """
+#     Format KML:
+#         lon,lat,alt lon,lat,alt ...
+
+#     Ambil titik pertama dan terakhir.
+#     """
+#     coords = coord_text.strip().split()
+
+#     if len(coords) < 2:
+#         return None
+
+#     first = coords[0].split(",")
+#     last = coords[-1].split(",")
+
+#     lon1 = float(first[0])
+#     lat1 = float(first[1])
+
+#     lon2 = float(last[0])
+#     lat2 = float(last[1])
+
+#     return lat1, lon1, lat2, lon2
+
+
+# def main():
+#     tree = ET.parse(INPUT_KML)
+#     root = tree.getroot()
+
+#     ns = {
+#         "kml": "http://www.opengis.net/kml/2.2"
+#     }
+
+#     placemarks = root.findall(".//kml:Placemark", ns)
+
+#     result = []
+
+#     for idx, pm in enumerate(placemarks, start=1):
+#         name_elem = pm.find("kml:name", ns)
+#         style_elem = pm.find("kml:styleUrl", ns)
+#         coord_elem = pm.find(".//kml:coordinates", ns)
+
+#         if name_elem is None or coord_elem is None:
+#             continue
+
+#         dist_name = (name_elem.text or "").strip()
+
+#         if not dist_name:
+#             continue
+
+#         upper_node, lower_node = parse_name(dist_name)
+
+#         style_url = style_elem.text if style_elem is not None else ""
+#         dist_type = style_to_type(style_url)
+
+#         parsed = parse_coordinates(coord_elem.text)
+
+#         if parsed is None:
+#             continue
+
+#         lat1, lon1, lat2, lon2 = parsed
+
+#         distance = haversine(lat1, lon1, lat2, lon2)
+
+#         item = {
+#             "dist_id": f"D{idx}",
+#             "dist_name": dist_name,
+#             "upper_node": upper_node,
+#             "lower_node": lower_node,
+#             "distance": round(distance, 2),
+#             "dist_type": dist_type
+#         }
+
+#         result.append(item)
+
+#     with open(OUTPUT_JSON, "w", encoding="utf-8") as f:
+#         json.dump(result, f, indent=2, ensure_ascii=False)
+
+#     print(f"Saved {len(result)} entries to {OUTPUT_JSON}")
+
+
+# if __name__ == "__main__":
+#     main()
+
+# v2
 import json
 import math
 import os
@@ -21,7 +177,9 @@ import xml.etree.ElementTree as ET
 
 # Resolve paths relative to the repository `data_processing` directory
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
 INPUT_KML = os.path.join(BASE, 'data', 'edges.kml')
+INPUT_NODES = os.path.join(BASE, 'data', 'nodes.json')
 OUTPUT_JSON = os.path.join(BASE, 'data', 'edges.json')
 
 
@@ -49,6 +207,26 @@ def haversine(lat1, lon1, lat2, lon2):
     return R * c
 
 
+def load_node_map():
+    """
+    Membaca nodes.json dan membuat mapping:
+        node_name -> node_id
+    """
+    with open(INPUT_NODES, "r", encoding="utf-8") as f:
+        nodes = json.load(f)
+
+    node_map = {}
+
+    for node in nodes:
+        node_id = node.get("node_id")
+        node_name = node.get("node_name")
+
+        if node_id and node_name:
+            node_map[node_name.strip()] = node_id.strip()
+
+    return node_map
+
+
 def parse_name(name_text):
     """
     Parse:
@@ -56,19 +234,20 @@ def parse_name(name_text):
         A - B
         NODE1-NODE2
 
-    upper_node = sebelum '-'
-    lower_node = setelah '-'
+    Menghasilkan:
+        upper_node_name = sebelum '-'
+        lower_node_name = setelah '-'
     """
     parts = re.split(r"\s*-\s*", name_text.strip(), maxsplit=1)
 
     if len(parts) == 2:
-        upper_node = parts[0].strip()
-        lower_node = parts[1].strip()
+        upper_node_name = parts[0].strip()
+        lower_node_name = parts[1].strip()
     else:
-        upper_node = ""
-        lower_node = ""
+        upper_node_name = ""
+        lower_node_name = ""
 
-    return upper_node, lower_node
+    return upper_node_name, lower_node_name
 
 
 def style_to_type(style_url):
@@ -109,6 +288,8 @@ def parse_coordinates(coord_text):
 
 
 def main():
+    node_map = load_node_map()
+
     tree = ET.parse(INPUT_KML)
     root = tree.getroot()
 
@@ -133,7 +314,17 @@ def main():
         if not dist_name:
             continue
 
-        upper_node, lower_node = parse_name(dist_name)
+        upper_node_name, lower_node_name = parse_name(dist_name)
+
+        upper_node_id = node_map.get(upper_node_name, "")
+        lower_node_id = node_map.get(lower_node_name, "")
+
+        if not upper_node_id or not lower_node_id:
+            print(
+                f"Warning: node id tidak ditemukan untuk edge '{dist_name}' "
+                f"({upper_node_name} -> {lower_node_name})"
+            )
+            continue
 
         style_url = style_elem.text if style_elem is not None else ""
         dist_type = style_to_type(style_url)
@@ -150,8 +341,8 @@ def main():
         item = {
             "dist_id": f"D{idx}",
             "dist_name": dist_name,
-            "upper_node": upper_node,
-            "lower_node": lower_node,
+            "upper_node": upper_node_id,
+            "lower_node": lower_node_id,
             "distance": round(distance, 2),
             "dist_type": dist_type
         }
