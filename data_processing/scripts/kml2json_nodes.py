@@ -54,7 +54,7 @@ for placemark in root.findall(".//kml:Placemark", ns):
 
     # Tentukan type berdasarkan nama
     if "_P" in node_name:
-        node_type = "pvb"
+        node_type = "pca"
     elif "_T" in node_name:
         node_type = "trotoar"
     else:
