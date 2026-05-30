@@ -1,100 +1,1290 @@
 [
   {
     "node_id": "1",
+    "node_name": "Gedung A FILKOM UB",
+    "latitude": -7.953752530253885,
+    "longitude": 112.6150731732175,
+    "node_type": "hotspot"
+  },
+  {
+    "node_id": "2",
+    "node_name": "Gedung F FILKOM UB",
+    "latitude": -7.953965873119801,
+    "longitude": 112.6144971031106,
+    "node_type": "hotspot"
+  },
+  {
+    "node_id": "3",
+    "node_name": "Gedung G FILKOM UB",
+    "latitude": -7.954074196463951,
+    "longitude": 112.6150549851666,
+    "node_type": "hotspot"
+  },
+  {
+    "node_id": "4",
+    "node_name": "Gerbang BNI",
+    "latitude": -7.955737901436772,
+    "longitude": 112.6153664762959,
+    "node_type": "hotspot"
+  },
+  {
+    "node_id": "5",
+    "node_name": "Gerbang Pandjaitan",
+    "latitude": -7.951222965656928,
+    "longitude": 112.616791030323,
+    "node_type": "hotspot"
+  },
+  {
+    "node_id": "6",
+    "node_name": "Gerbang Soehat",
+    "latitude": -7.950105574932295,
+    "longitude": 112.6154151903436,
+    "node_type": "hotspot"
+  },
+  {
+    "node_id": "7",
     "node_name": "Gerbang Veteran",
     "latitude": -7.95599497746258,
     "longitude": 112.6134785177867,
     "node_type": "hotspot"
   },
   {
-    "node_id": "2",
-    "node_name": "FKG_P1",
-    "latitude": -7.955798296792707,
-    "longitude": 112.6134963027616,
-    "node_type": "pvb"
-  },
-  {
-    "node_id": "3",
-    "node_name": "JLUB_T1",
-    "latitude": -7.955611095122627,
-    "longitude": 112.6134522557837,
-    "node_type": "trotoar"
-  },
-  {
-    "node_id": "4",
-    "node_name": "JLUB_T2",
-    "latitude": -7.954929174984172,
-    "longitude": 112.6135877431234,
-    "node_type": "trotoar"
-  },
-  {
-    "node_id": "5",
-    "node_name": "JLUB_T3",
-    "latitude": -7.954480553037804,
-    "longitude": 112.6138040223184,
-    "node_type": "trotoar"
-  },
-  {
-    "node_id": "6",
-    "node_name": "JLUB_T4",
-    "latitude": -7.954145892287871,
-    "longitude": 112.6140264936862,
-    "node_type": "trotoar"
-  },
-  {
-    "node_id": "7",
-    "node_name": "FILKOM_P1",
-    "latitude": -7.954229643706517,
-    "longitude": 112.6146870421824,
-    "node_type": "pvb"
-  },
-  {
     "node_id": "8",
-    "node_name": "Junction FILKOM UB",
-    "latitude": -7.953979608577411,
-    "longitude": 112.614711486797,
+    "node_name": "GKM FILKOM UB",
+    "latitude": -7.95466285877497,
+    "longitude": 112.6144443788477,
     "node_type": "hotspot"
   },
   {
     "node_id": "9",
-    "node_name": "FKG_P2",
-    "latitude": -7.955845958294043,
-    "longitude": 112.6139671324146,
-    "node_type": "pvb"
+    "node_name": "GOR Pertamina",
+    "latitude": -7.953384734151864,
+    "longitude": 112.616373612558,
+    "node_type": "hotspot"
   },
   {
     "node_id": "10",
-    "node_name": "FKG_P3",
-    "latitude": -7.955575283943623,
-    "longitude": 112.6140774496729,
-    "node_type": "pvb"
+    "node_name": "Griya Brawijaya",
+    "latitude": -7.953941997500444,
+    "longitude": 112.6157799161126,
+    "node_type": "hotspot"
   },
   {
     "node_id": "11",
-    "node_name": "FKG_P4",
-    "latitude": -7.954929952671532,
-    "longitude": 112.614140036725,
-    "node_type": "pvb"
+    "node_name": "Junction FILKOM UB",
+    "latitude": -7.954023907016904,
+    "longitude": 112.6147726344043,
+    "node_type": "hotspot"
   },
   {
     "node_id": "12",
-    "node_name": "FILKOM_P2",
-    "latitude": -7.954899204417528,
-    "longitude": 112.6145859693161,
-    "node_type": "pvb"
+    "node_name": "Kantin CL",
+    "latitude": -7.952904423680531,
+    "longitude": 112.6168340495657,
+    "node_type": "hotspot"
   },
   {
     "node_id": "13",
+    "node_name": "Masjid Raden Patah",
+    "latitude": -7.951710416961687,
+    "longitude": 112.6153842375436,
+    "node_type": "hotspot"
+  },
+  {
+    "node_id": "14",
+    "node_name": "Perpustakaan UB",
+    "latitude": -7.952978160688425,
+    "longitude": 112.6138087461145,
+    "node_type": "hotspot"
+  },
+  {
+    "node_id": "15",
+    "node_name": "Rusunawa UB",
+    "latitude": -7.951758358652552,
+    "longitude": 112.6166258768997,
+    "node_type": "hotspot"
+  },
+  {
+    "node_id": "16",
+    "node_name": "Samantha Krida",
+    "latitude": -7.952946745573134,
+    "longitude": 112.61580474759,
+    "node_type": "hotspot"
+  },
+  {
+    "node_id": "17",
+    "node_name": "CL_P1",
+    "latitude": -7.952980836172065,
+    "longitude": 112.6165025194627,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "18",
+    "node_name": "CL_P2",
+    "latitude": -7.952673354163397,
+    "longitude": 112.6164946986841,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "19",
+    "node_name": "FILKOM_P1",
+    "latitude": -7.954243609762957,
+    "longitude": 112.6147556914646,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "20",
+    "node_name": "FILKOM_P2",
+    "latitude": -7.954886404469975,
+    "longitude": 112.614560426522,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "21",
     "node_name": "FILKOM_P3",
     "latitude": -7.954874356659299,
     "longitude": 112.6144064801701,
     "node_type": "pvb"
   },
   {
-    "node_id": "14",
-    "node_name": "FKG_P5",
-    "latitude": -7.954972668493096,
-    "longitude": 112.6143887904722,
+    "node_id": "22",
+    "node_name": "FILKOM_P4",
+    "latitude": -7.954775372456513,
+    "longitude": 112.6145720689531,
     "node_type": "pvb"
+  },
+  {
+    "node_id": "23",
+    "node_name": "FILKOM_P5",
+    "latitude": -7.95412018508888,
+    "longitude": 112.6152973257702,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "24",
+    "node_name": "FILKOM_P6",
+    "latitude": -7.953957684589134,
+    "longitude": 112.615305965853,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "25",
+    "node_name": "FILKOM_P7",
+    "latitude": -7.953872916505831,
+    "longitude": 112.6152595570136,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "26",
+    "node_name": "FILKOM_P8",
+    "latitude": -7.953621733819114,
+    "longitude": 112.6152861711916,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "27",
+    "node_name": "FILKOM_P9",
+    "latitude": -7.953417073888538,
+    "longitude": 112.6153133481481,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "28",
+    "node_name": "FILKOM_P10",
+    "latitude": -7.953400027917168,
+    "longitude": 112.6151801129841,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "29",
+    "node_name": "FILKOM_P11",
+    "latitude": -7.953607230495495,
+    "longitude": 112.6151601290168,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "30",
+    "node_name": "FILKOM_P12",
+    "latitude": -7.953596266485847,
+    "longitude": 112.6150813905455,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "31",
+    "node_name": "FILKOM_P13",
+    "latitude": -7.953644047343092,
+    "longitude": 112.6150785794805,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "32",
+    "node_name": "FILKOM_P14",
+    "latitude": -7.953633548760522,
+    "longitude": 112.6148713989087,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "33",
+    "node_name": "FILKOM_P15",
+    "latitude": -7.953844426492741,
+    "longitude": 112.6148539106945,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "34",
+    "node_name": "FILKOM_P16",
+    "latitude": -7.953785825243139,
+    "longitude": 112.6152705008633,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "35",
+    "node_name": "FILKOM_P17",
+    "latitude": -7.953855008484168,
+    "longitude": 112.6150669911794,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "36",
+    "node_name": "FILKOM_P18",
+    "latitude": -7.953727538059294,
+    "longitude": 112.6148635834503,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "37",
+    "node_name": "FILKOM_P19",
+    "latitude": -7.953971807803597,
+    "longitude": 112.6142296760376,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "38",
+    "node_name": "FILKOM_P20",
+    "latitude": -7.954164123130608,
+    "longitude": 112.6141072454648,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "39",
+    "node_name": "FILKOM_P21",
+    "latitude": -7.953810193478969,
+    "longitude": 112.6145126593256,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "40",
+    "node_name": "FILKOM_P22",
+    "latitude": -7.953588193417415,
+    "longitude": 112.6145340406855,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "41",
+    "node_name": "FILKOM_P23",
+    "latitude": -7.953452241375644,
+    "longitude": 112.6145540078204,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "42",
+    "node_name": "FILKOM_P24",
+    "latitude": -7.954354946479168,
+    "longitude": 112.6140771559051,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "43",
+    "node_name": "FILKOM_P25",
+    "latitude": -7.954429306226593,
+    "longitude": 112.6140741810959,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "44",
+    "node_name": "FILKOM_P26",
+    "latitude": -7.954451801252544,
+    "longitude": 112.6142778645713,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "45",
+    "node_name": "FILKOM_P27",
+    "latitude": -7.954558958364365,
+    "longitude": 112.6142673146611,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "46",
+    "node_name": "FILKOM_P28",
+    "latitude": -7.954580206129878,
+    "longitude": 112.6144526775099,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "47",
+    "node_name": "FILKOM_P29",
+    "latitude": -7.954591833042059,
+    "longitude": 112.614597737254,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "48",
+    "node_name": "FILKOM_P30",
+    "latitude": -7.954189140140339,
+    "longitude": 112.6142565110917,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "49",
+    "node_name": "FILKOM_P31",
+    "latitude": -7.954232096562138,
+    "longitude": 112.6146474246459,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "50",
+    "node_name": "FILKOM_P32",
+    "latitude": -7.954690688309229,
+    "longitude": 112.6145853225791,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "51",
+    "node_name": "FILKOM_P33",
+    "latitude": -7.954791099232946,
+    "longitude": 112.614710639971,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "52",
+    "node_name": "FILKOM_P34",
+    "latitude": -7.954706244147858,
+    "longitude": 112.6147174745697,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "53",
+    "node_name": "FILKOM_P35",
+    "latitude": -7.954646679074092,
+    "longitude": 112.6142557578875,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "54",
+    "node_name": "FILKOM_P36",
+    "latitude": -7.953852566401324,
+    "longitude": 112.6149853612752,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "55",
+    "node_name": "FKG_P1",
+    "latitude": -7.955798296792707,
+    "longitude": 112.6134963027616,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "56",
+    "node_name": "FKG_P2",
+    "latitude": -7.955845958294043,
+    "longitude": 112.6139671324146,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "57",
+    "node_name": "FKG_P3",
+    "latitude": -7.955575283943623,
+    "longitude": 112.6140774496729,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "58",
+    "node_name": "FKG_P4",
+    "latitude": -7.954915858185177,
+    "longitude": 112.6141461354075,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "59",
+    "node_name": "FKG_P5",
+    "latitude": -7.954943296318413,
+    "longitude": 112.6143993833727,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "60",
+    "node_name": "FKG_P6",
+    "latitude": -7.955148971228201,
+    "longitude": 112.6141184281703,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "61",
+    "node_name": "FKG_P7",
+    "latitude": -7.955645055179298,
+    "longitude": 112.6149229415676,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "62",
+    "node_name": "FKG_P8",
+    "latitude": -7.954931714301925,
+    "longitude": 112.6149818058443,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "63",
+    "node_name": "FKG_P9",
+    "latitude": -7.954813098856007,
+    "longitude": 112.6149884375016,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "64",
+    "node_name": "FKG_P10",
+    "latitude": -7.954833235184167,
+    "longitude": 112.6152536281085,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "65",
+    "node_name": "FKG_P11",
+    "latitude": -7.954943980563448,
+    "longitude": 112.6152474413689,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "66",
+    "node_name": "FKG_P12",
+    "latitude": -7.954945345400957,
+    "longitude": 112.6153240116506,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "67",
+    "node_name": "FKG_P13",
+    "latitude": -7.955519580098139,
+    "longitude": 112.6153010063137,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "68",
+    "node_name": "FTP_P1",
+    "latitude": -7.953335441226465,
+    "longitude": 112.61538959467,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "69",
+    "node_name": "FTP_P2",
+    "latitude": -7.953029050178954,
+    "longitude": 112.6146161778846,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "70",
+    "node_name": "FTP_P3",
+    "latitude": -7.952143150734123,
+    "longitude": 112.6155678229127,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "71",
+    "node_name": "GOR_P1",
+    "latitude": -7.953409903934685,
+    "longitude": 112.6159080352885,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "72",
+    "node_name": "GOR_P2",
+    "latitude": -7.95342163806801,
+    "longitude": 112.6162473149876,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "73",
+    "node_name": "GOR_P3",
+    "latitude": -7.953404626803459,
+    "longitude": 112.6156720483101,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "74",
+    "node_name": "GRIYA_P1",
+    "latitude": -7.953876918386154,
+    "longitude": 112.6158758204307,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "75",
+    "node_name": "GRIYA_P2",
+    "latitude": -7.95363971920699,
+    "longitude": 112.615891020813,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "76",
+    "node_name": "GRIYA_P3",
+    "latitude": -7.953880997450366,
+    "longitude": 112.6157808874346,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "77",
+    "node_name": "MRP_P1",
+    "latitude": -7.951403217510931,
+    "longitude": 112.6155806305025,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "78",
+    "node_name": "PERPUS_P1",
+    "latitude": -7.9535534093424,
+    "longitude": 112.6139943971447,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "79",
+    "node_name": "PERPUS_P2",
+    "latitude": -7.953227281588212,
+    "longitude": 112.6140610504181,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "80",
+    "node_name": "PERPUS_P3",
+    "latitude": -7.953022607023898,
+    "longitude": 112.6141022996931,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "81",
+    "node_name": "PERPUS_P4",
+    "latitude": -7.953009173275037,
+    "longitude": 112.6140297812273,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "82",
+    "node_name": "PERPUS_P5",
+    "latitude": -7.952940030548514,
+    "longitude": 112.6140498825049,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "83",
+    "node_name": "PERPUS_P6",
+    "latitude": -7.952918502028814,
+    "longitude": 112.6139464786859,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "84",
+    "node_name": "PERPUS_P7",
+    "latitude": -7.952893764580048,
+    "longitude": 112.6138235361375,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "85",
+    "node_name": "RUSUN_P1",
+    "latitude": -7.951826402355215,
+    "longitude": 112.616410702753,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "86",
+    "node_name": "RUSUN_P2",
+    "latitude": -7.951916317726534,
+    "longitude": 112.6165468870805,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "87",
+    "node_name": "RUSUN_P3",
+    "latitude": -7.951853118513852,
+    "longitude": 112.6165832342549,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "88",
+    "node_name": "RUSUN_P4",
+    "latitude": -7.951950078109844,
+    "longitude": 112.6167157347352,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "89",
+    "node_name": "SAKRI_P1",
+    "latitude": -7.952937105336233,
+    "longitude": 112.6157072159427,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "90",
+    "node_name": "SAKRI_P2",
+    "latitude": -7.952643409257259,
+    "longitude": 112.6157178578656,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "91",
+    "node_name": "SAKRI_P3",
+    "latitude": -7.952473336726234,
+    "longitude": 112.6157208013377,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "92",
+    "node_name": "SAKRI_P4",
+    "latitude": -7.952471079409682,
+    "longitude": 112.6158146171118,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "93",
+    "node_name": "SAKRI_P5",
+    "latitude": -7.952406060287854,
+    "longitude": 112.615812877898,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "94",
+    "node_name": "SAKRI_P6",
+    "latitude": -7.952398026308991,
+    "longitude": 112.6156847719534,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "95",
+    "node_name": "SAKRI_P7",
+    "latitude": -7.952553047357549,
+    "longitude": 112.6156318222201,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "96",
+    "node_name": "SAKRI_P8",
+    "latitude": -7.952436236249245,
+    "longitude": 112.6156283758553,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "97",
+    "node_name": "SAKRI_P9",
+    "latitude": -7.952238178598805,
+    "longitude": 112.615701515087,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "98",
+    "node_name": "JLCL_P1",
+    "latitude": -7.953219224871034,
+    "longitude": 112.6157241932978,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "99",
+    "node_name": "JLCL_P2",
+    "latitude": -7.953234018965578,
+    "longitude": 112.6159179474148,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "100",
+    "node_name": "JLCL_P3",
+    "latitude": -7.953248301602792,
+    "longitude": 112.6162776530886,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "101",
+    "node_name": "JLCL_P4",
+    "latitude": -7.953140034680511,
+    "longitude": 112.6164185563598,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "102",
+    "node_name": "JLCL_P5",
+    "latitude": -7.95310783434103,
+    "longitude": 112.6165925418886,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "103",
+    "node_name": "JLCL_P6",
+    "latitude": -7.952985154702465,
+    "longitude": 112.6166647523293,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "104",
+    "node_name": "JLCL_P7",
+    "latitude": -7.952948855863505,
+    "longitude": 112.6167326700663,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "105",
+    "node_name": "JLCL_P8",
+    "latitude": -7.952676771966046,
+    "longitude": 112.6165684386376,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "106",
+    "node_name": "JLCL_P9",
+    "latitude": -7.952677015411404,
+    "longitude": 112.6166360250583,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "107",
+    "node_name": "JLCL_P10",
+    "latitude": -7.952361876075051,
+    "longitude": 112.6166363720912,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "108",
+    "node_name": "JLCL_P11",
+    "latitude": -7.952114274726,
+    "longitude": 112.6166158929293,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "109",
+    "node_name": "JLCL_P12",
+    "latitude": -7.952404692272538,
+    "longitude": 112.6167145009555,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "110",
+    "node_name": "JLCL_P13",
+    "latitude": -7.952235674066666,
+    "longitude": 112.6167249164042,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "111",
+    "node_name": "JLFTP_P1",
+    "latitude": -7.952384524447238,
+    "longitude": 112.6148486889056,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "112",
+    "node_name": "JLFTP_P2",
+    "latitude": -7.952392305642772,
+    "longitude": 112.614920849439,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "113",
+    "node_name": "JLFTP_P3",
+    "latitude": -7.952047340191294,
+    "longitude": 112.6148948441085,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "114",
+    "node_name": "JLFTP_P4",
+    "latitude": -7.952059591153057,
+    "longitude": 112.6149703314611,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "115",
+    "node_name": "JLFTP_P5",
+    "latitude": -7.952784520897243,
+    "longitude": 112.6147893222711,
+    "node_type": "pvb"
+  },
+  {
+    "node_id": "116",
+    "node_name": "BUND_T1",
+    "latitude": -7.952781650725162,
+    "longitude": 112.6146568221239,
+    "node_type": "trotoar"
+  },
+  {
+    "node_id": "117",
+    "node_name": "BUND_T2",
+    "latitude": -7.952707378273313,
+    "longitude": 112.6147199535361,
+    "node_type": "trotoar"
+  },
+  {
+    "node_id": "118",
+    "node_name": "BUND_T3",
+    "latitude": -7.952595790721422,
+    "longitude": 112.6147512611559,
+    "node_type": "trotoar"
+  },
+  {
+    "node_id": "119",
+    "node_name": "BUND_T4",
+    "latitude": -7.952495156722474,
+    "longitude": 112.6147394984711,
+    "node_type": "trotoar"
+  },
+  {
+    "node_id": "120",
+    "node_name": "JLCL_T1",
+    "latitude": -7.953289649728486,
+    "longitude": 112.6162927574436,
+    "node_type": "trotoar"
+  },
+  {
+    "node_id": "121",
+    "node_name": "JLCL_T2",
+    "latitude": -7.953163448416379,
+    "longitude": 112.6166643626188,
+    "node_type": "trotoar"
+  },
+  {
+    "node_id": "122",
+    "node_name": "JLCL_T3",
+    "latitude": -7.952192725467396,
+    "longitude": 112.616564665231,
+    "node_type": "trotoar"
+  },
+  {
+    "node_id": "123",
+    "node_name": "JLCL_T4",
+    "latitude": -7.951921139180926,
+    "longitude": 112.6163456831593,
+    "node_type": "trotoar"
+  },
+  {
+    "node_id": "124",
+    "node_name": "JLCL_T5",
+    "latitude": -7.951825152047946,
+    "longitude": 112.6162309898187,
+    "node_type": "trotoar"
+  },
+  {
+    "node_id": "125",
+    "node_name": "JLCL_T6",
+    "latitude": -7.952075372624039,
+    "longitude": 112.6165721985616,
+    "node_type": "trotoar"
+  },
+  {
+    "node_id": "126",
+    "node_name": "JLGOR_T1",
+    "latitude": -7.955550258477312,
+    "longitude": 112.6153873058334,
+    "node_type": "trotoar"
+  },
+  {
+    "node_id": "127",
+    "node_name": "JLGOR_T2",
+    "latitude": -7.955433953716254,
+    "longitude": 112.6153950689101,
+    "node_type": "trotoar"
+  },
+  {
+    "node_id": "128",
+    "node_name": "JLGOR_T3",
+    "latitude": -7.955126523992707,
+    "longitude": 112.615418299242,
+    "node_type": "trotoar"
+  },
+  {
+    "node_id": "129",
+    "node_name": "JLGOR_T4",
+    "latitude": -7.95483974717727,
+    "longitude": 112.6154373657154,
+    "node_type": "trotoar"
+  },
+  {
+    "node_id": "130",
+    "node_name": "JLGOR_T5",
+    "latitude": -7.95431758450043,
+    "longitude": 112.6154735697365,
+    "node_type": "trotoar"
+  },
+  {
+    "node_id": "131",
+    "node_name": "JLGOR_T6",
+    "latitude": -7.954158847859345,
+    "longitude": 112.615484276333,
+    "node_type": "trotoar"
+  },
+  {
+    "node_id": "132",
+    "node_name": "JLGOR_T7",
+    "latitude": -7.953981291573953,
+    "longitude": 112.6154977379214,
+    "node_type": "trotoar"
+  },
+  {
+    "node_id": "133",
+    "node_name": "JLGOR_T8",
+    "latitude": -7.953873979608692,
+    "longitude": 112.6155033570798,
+    "node_type": "trotoar"
+  },
+  {
+    "node_id": "134",
+    "node_name": "JLGOR_T9",
+    "latitude": -7.953619731757888,
+    "longitude": 112.6155225032968,
+    "node_type": "trotoar"
+  },
+  {
+    "node_id": "135",
+    "node_name": "JLGOR_T10",
+    "latitude": -7.95322060133216,
+    "longitude": 112.6155451610814,
+    "node_type": "trotoar"
+  },
+  {
+    "node_id": "136",
+    "node_name": "JLGOR_T11",
+    "latitude": -7.95311822268171,
+    "longitude": 112.6155437550384,
+    "node_type": "trotoar"
+  },
+  {
+    "node_id": "137",
+    "node_name": "JLGOR_T12",
+    "latitude": -7.95304916434643,
+    "longitude": 112.6155148189099,
+    "node_type": "trotoar"
+  },
+  {
+    "node_id": "138",
+    "node_name": "JLGOR_T13",
+    "latitude": -7.953995192049802,
+    "longitude": 112.6156492809076,
+    "node_type": "trotoar"
+  },
+  {
+    "node_id": "139",
+    "node_name": "JLGOR_T14",
+    "latitude": -7.95388604590107,
+    "longitude": 112.6156537912423,
+    "node_type": "trotoar"
+  },
+  {
+    "node_id": "140",
+    "node_name": "JLGOR_T15",
+    "latitude": -7.953626089993944,
+    "longitude": 112.6156605606974,
+    "node_type": "trotoar"
+  },
+  {
+    "node_id": "141",
+    "node_name": "JLGOR_T16",
+    "latitude": -7.952424644160129,
+    "longitude": 112.6154973334172,
+    "node_type": "trotoar"
+  },
+  {
+    "node_id": "142",
+    "node_name": "JLGOR_T17",
+    "latitude": -7.952120071736488,
+    "longitude": 112.6157560867154,
+    "node_type": "trotoar"
+  },
+  {
+    "node_id": "143",
+    "node_name": "JLGOR_T18",
+    "latitude": -7.951901805796251,
+    "longitude": 112.6158346104267,
+    "node_type": "trotoar"
+  },
+  {
+    "node_id": "144",
+    "node_name": "JLGOR_T19",
+    "latitude": -7.951758129044544,
+    "longitude": 112.6160079824212,
+    "node_type": "trotoar"
+  },
+  {
+    "node_id": "145",
+    "node_name": "JLGOR_T20",
+    "latitude": -7.951887399148013,
+    "longitude": 112.6161719890487,
+    "node_type": "trotoar"
+  },
+  {
+    "node_id": "146",
+    "node_name": "JLGOR_T21",
+    "latitude": -7.951574040864892,
+    "longitude": 112.6160245431866,
+    "node_type": "trotoar"
+  },
+  {
+    "node_id": "147",
+    "node_name": "JLGOR_T22",
+    "latitude": -7.951471121427563,
+    "longitude": 112.616125241258,
+    "node_type": "trotoar"
+  },
+  {
+    "node_id": "148",
+    "node_name": "JLGOR_T23",
+    "latitude": -7.951675213702063,
+    "longitude": 112.6163354451776,
+    "node_type": "trotoar"
+  },
+  {
+    "node_id": "149",
+    "node_name": "JLGOR_T24",
+    "latitude": -7.951513586944909,
+    "longitude": 112.6165754129897,
+    "node_type": "trotoar"
+  },
+  {
+    "node_id": "150",
+    "node_name": "JLGOR_T25",
+    "latitude": -7.952758585198183,
+    "longitude": 112.6155344242749,
+    "node_type": "trotoar"
+  },
+  {
+    "node_id": "151",
+    "node_name": "JLMRP_T1",
+    "latitude": -7.951931608866639,
+    "longitude": 112.6146966516582,
+    "node_type": "trotoar"
+  },
+  {
+    "node_id": "152",
+    "node_name": "JLMRP_T2",
+    "latitude": -7.951968803482349,
+    "longitude": 112.6149920719485,
+    "node_type": "trotoar"
+  },
+  {
+    "node_id": "153",
+    "node_name": "JLMRP_T3",
+    "latitude": -7.952005673639159,
+    "longitude": 112.6152543539461,
+    "node_type": "trotoar"
+  },
+  {
+    "node_id": "154",
+    "node_name": "JLMRP_T4",
+    "latitude": -7.952069009686237,
+    "longitude": 112.6156128566535,
+    "node_type": "trotoar"
+  },
+  {
+    "node_id": "155",
+    "node_name": "JLSELREK_T1",
+    "latitude": -7.952855092438427,
+    "longitude": 112.6139639779826,
+    "node_type": "trotoar"
+  },
+  {
+    "node_id": "156",
+    "node_name": "JLSELREK_T2",
+    "latitude": -7.952830515418285,
+    "longitude": 112.6138350584462,
+    "node_type": "trotoar"
+  },
+  {
+    "node_id": "157",
+    "node_name": "JLSKRI_T1",
+    "latitude": -7.952941367548201,
+    "longitude": 112.6147082073705,
+    "node_type": "trotoar"
+  },
+  {
+    "node_id": "158",
+    "node_name": "JLSKRI_T2",
+    "latitude": -7.952851647268485,
+    "longitude": 112.6147160946528,
+    "node_type": "trotoar"
+  },
+  {
+    "node_id": "159",
+    "node_name": "JLSKRI_T3",
+    "latitude": -7.952948820365582,
+    "longitude": 112.6148504411477,
+    "node_type": "trotoar"
+  },
+  {
+    "node_id": "160",
+    "node_name": "JLSKRI_T4",
+    "latitude": -7.952868625214692,
+    "longitude": 112.6148593420395,
+    "node_type": "trotoar"
+  },
+  {
+    "node_id": "161",
+    "node_name": "JLSKRI_T5",
+    "latitude": -7.95300530596261,
+    "longitude": 112.6154349401614,
+    "node_type": "trotoar"
+  },
+  {
+    "node_id": "162",
+    "node_name": "JLSKRI_T6",
+    "latitude": -7.952924107241349,
+    "longitude": 112.6154401698069,
+    "node_type": "trotoar"
+  },
+  {
+    "node_id": "163",
+    "node_name": "JLSKRI_T7",
+    "latitude": -7.952937278644566,
+    "longitude": 112.6145737583525,
+    "node_type": "trotoar"
+  },
+  {
+    "node_id": "164",
+    "node_name": "JLUB_T1",
+    "latitude": -7.955611095122627,
+    "longitude": 112.6134522557837,
+    "node_type": "trotoar"
+  },
+  {
+    "node_id": "165",
+    "node_name": "JLUB_T2",
+    "latitude": -7.954929174984172,
+    "longitude": 112.6135877431234,
+    "node_type": "trotoar"
+  },
+  {
+    "node_id": "166",
+    "node_name": "JLUB_T3",
+    "latitude": -7.954480553037804,
+    "longitude": 112.6138040223184,
+    "node_type": "trotoar"
+  },
+  {
+    "node_id": "167",
+    "node_name": "JLUB_T4",
+    "latitude": -7.954145892287871,
+    "longitude": 112.6140264936862,
+    "node_type": "trotoar"
+  },
+  {
+    "node_id": "168",
+    "node_name": "JLUB_T5",
+    "latitude": -7.955096543586685,
+    "longitude": 112.6135566640214,
+    "node_type": "trotoar"
+  },
+  {
+    "node_id": "169",
+    "node_name": "JLUB_T6",
+    "latitude": -7.95378530043511,
+    "longitude": 112.6142349225903,
+    "node_type": "trotoar"
+  },
+  {
+    "node_id": "170",
+    "node_name": "JLUB_T7",
+    "latitude": -7.953426001580034,
+    "longitude": 112.6143316484856,
+    "node_type": "trotoar"
+  },
+  {
+    "node_id": "171",
+    "node_name": "JLUB_T8",
+    "latitude": -7.952989387849308,
+    "longitude": 112.6144722640579,
+    "node_type": "trotoar"
+  },
+  {
+    "node_id": "172",
+    "node_name": "JLUB_T9",
+    "latitude": -7.952011738423325,
+    "longitude": 112.614682662574,
+    "node_type": "trotoar"
+  },
+  {
+    "node_id": "173",
+    "node_name": "JLUB_T10",
+    "latitude": -7.951498648872699,
+    "longitude": 112.6147584238093,
+    "node_type": "trotoar"
+  },
+  {
+    "node_id": "174",
+    "node_name": "JLUB_T11",
+    "latitude": -7.950833689633537,
+    "longitude": 112.6148784016714,
+    "node_type": "trotoar"
+  },
+  {
+    "node_id": "175",
+    "node_name": "JLUB_T12",
+    "latitude": -7.950549383086374,
+    "longitude": 112.6150532248348,
+    "node_type": "trotoar"
+  },
+  {
+    "node_id": "176",
+    "node_name": "JLUB_T13",
+    "latitude": -7.950476155523424,
+    "longitude": 112.6151108380418,
+    "node_type": "trotoar"
+  },
+  {
+    "node_id": "177",
+    "node_name": "JLUB_T14",
+    "latitude": -7.954414735133924,
+    "longitude": 112.6136532882611,
+    "node_type": "trotoar"
+  },
+  {
+    "node_id": "178",
+    "node_name": "JLUB_T15",
+    "latitude": -7.954078412366892,
+    "longitude": 112.6138762712926,
+    "node_type": "trotoar"
+  },
+  {
+    "node_id": "179",
+    "node_name": "JLUB_T16",
+    "latitude": -7.953731206653026,
+    "longitude": 112.6140571224635,
+    "node_type": "trotoar"
+  },
+  {
+    "node_id": "180",
+    "node_name": "JLUB_T17",
+    "latitude": -7.953285497055098,
+    "longitude": 112.6142221624745,
+    "node_type": "trotoar"
+  },
+  {
+    "node_id": "181",
+    "node_name": "JLUB_T18",
+    "latitude": -7.952936858473786,
+    "longitude": 112.6143063860391,
+    "node_type": "trotoar"
+  },
+  {
+    "node_id": "182",
+    "node_name": "JLUB_T19",
+    "latitude": -7.953579073305139,
+    "longitude": 112.614115683209,
+    "node_type": "trotoar"
+  },
+  {
+    "node_id": "183",
+    "node_name": "JLUB_T20",
+    "latitude": -7.954345855829405,
+    "longitude": 112.6138970715199,
+    "node_type": "trotoar"
+  },
+  {
+    "node_id": "184",
+    "node_name": "JLUB_T21",
+    "latitude": -7.952349969576035,
+    "longitude": 112.6146255314934,
+    "node_type": "trotoar"
   }
 ]

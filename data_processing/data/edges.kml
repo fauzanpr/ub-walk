@@ -2,6 +2,14 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document>
 
+    <!-- YELLOW -->
+    <Style id="yellowLine">
+        <LineStyle>
+            <color>ff00ffff</color>
+            <width>4</width>
+        </LineStyle>
+    </Style>
+
     <!-- BLUE -->
     <Style id="blueLine">
         <LineStyle>
@@ -10,10 +18,10 @@
         </LineStyle>
     </Style>
 
-    <!-- YELLOW -->
-    <Style id="yellowLine">
+    <!-- GREEN -->
+    <Style id="greenLine">
         <LineStyle>
-            <color>ff00ffff</color>
+            <color>ff00ff00</color>
             <width>4</width>
         </LineStyle>
     </Style>
@@ -26,6 +34,162 @@
         </LineStyle>
     </Style>
 
+
+    <Placemark>
+        <name>Gedung A FILKOM UB-FILKOM_P13</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6150731732175,-7.953752530253885,0
+                112.6150785794805,-7.953644047343092,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>Gedung A FILKOM UB-FILKOM_P16</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6150731732175,-7.953752530253885,0
+                112.6152705008633,-7.953785825243139,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>Gedung A FILKOM UB-FILKOM_P17</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6150731732175,-7.953752530253885,0
+                112.6150669911794,-7.953855008484168,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>Gedung A FILKOM UB-FILKOM_P18</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6150731732175,-7.953752530253885,0
+                112.6148635834503,-7.953727538059294,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>Gedung F FILKOM UB-FILKOM_P21</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6144971031106,-7.953965873119801,0
+                112.6145126593256,-7.953810193478969,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>Gedung F FILKOM UB-Junction FILKOM UB</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6144971031106,-7.953965873119801,0
+                112.6147726344043,-7.954023907016904,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>Gedung G FILKOM UB-Junction FILKOM UB</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6150549851666,-7.954074196463951,0
+                112.6147726344043,-7.954023907016904,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>Gedung G FILKOM UB-FILKOM_P5</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6150549851666,-7.954074196463951,0
+                112.6152973257702,-7.95412018508888,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>Gedung G FILKOM UB-FILKOM_P36</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6150549851666,-7.954074196463951,0
+                112.6149853612752,-7.953852566401324,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>Gerbang BNI-JLGOR_T1</name>
+
+        <styleUrl>#yellowLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6153664762959,-7.955737901436772,0
+                112.6153873058334,-7.955550258477312,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>Gerbang Pandjaitan-JLGOR_T24</name>
+
+        <styleUrl>#yellowLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.616791030323,-7.951222965656928,0
+                112.6165754129897,-7.951513586944909,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>Gerbang Soehat-JLUB_T13</name>
+
+        <styleUrl>#yellowLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6154151903436,-7.950105574932295,0
+                112.6151108380418,-7.950476155523424,0
+            </coordinates>
+        </LineString>
+    </Placemark>
 
     <Placemark>
         <name>Gerbang Veteran-FKG_P1</name>
@@ -41,6 +205,1072 @@
     </Placemark>
 
     <Placemark>
+        <name>GKM FILKOM UB-FILKOM_P3</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6144443788477,-7.95466285877497,0
+                112.6144064801701,-7.954874356659299,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>GKM FILKOM UB-FILKOM_P28</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6144443788477,-7.95466285877497,0
+                112.6144526775099,-7.954580206129878,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>GKM FILKOM UB-FILKOM_P32</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6144443788477,-7.95466285877497,0
+                112.6145853225791,-7.954690688309229,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>GKM FILKOM UB-FILKOM_P35</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6144443788477,-7.95466285877497,0
+                112.6142557578875,-7.954646679074092,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>GOR Pertamina-GOR_P2</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.616373612558,-7.953384734151864,0
+                112.6162473149876,-7.95342163806801,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>GOR Pertamina-JLCL_T1</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.616373612558,-7.953384734151864,0
+                112.6162927574436,-7.953289649728486,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>Griya Brawijaya-GRIYA_P3</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6157799161126,-7.953941997500444,0
+                112.6157808874346,-7.953880997450366,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>Griya Brawijaya-JLGOR_T13</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6157799161126,-7.953941997500444,0
+                112.6156492809076,-7.953995192049802,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>Griya Brawijaya-JLGOR_T14</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6157799161126,-7.953941997500444,0
+                112.6156537912423,-7.95388604590107,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>Junction FILKOM UB-FILKOM_P1</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6147726344043,-7.954023907016904,0
+                112.6147556914646,-7.954243609762957,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>Junction FILKOM UB-FILKOM_P15</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6147726344043,-7.954023907016904,0
+                112.6148539106945,-7.953844426492741,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>Junction FILKOM UB-FILKOM_P31</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6147726344043,-7.954023907016904,0
+                112.6146474246459,-7.954232096562138,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>Kantin CL-JLCL_P7</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6168340495657,-7.952904423680531,0
+                112.6167326700663,-7.952948855863505,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>Kantin CL-JLCL_P9</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6168340495657,-7.952904423680531,0
+                112.6166360250583,-7.952677015411404,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>Masjid Raden Patah-JLGOR_T18</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6153842375436,-7.951710416961687,0
+                112.6158346104267,-7.951901805796251,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>Masjid Raden Patah-JLMRP_T3</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6153842375436,-7.951710416961687,0
+                112.6152543539461,-7.952005673639159,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>Masjid Raden Patah-MRP_P1</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6153842375436,-7.951710416961687,0
+                112.6155806305025,-7.951403217510931,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>Perpustakaan UB-PERPUS_P7</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6138087461145,-7.952978160688425,0
+                112.6138235361375,-7.952893764580048,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>Rusunawa UB-RUSUN_P3</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6166258768997,-7.951758358652552,0
+                112.6165832342549,-7.951853118513852,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>Samantha Krida-SAKRI_P1</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.61580474759,-7.952946745573134,0
+                112.6157072159427,-7.952937105336233,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>CL_P1-CL_P2</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6165025194627,-7.952980836172065,0
+                112.6164946986841,-7.952673354163397,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>CL_P1-JLCL_P4</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6165025194627,-7.952980836172065,0
+                112.6164185563598,-7.953140034680511,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>CL_P2-JLCL_P8</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6164946986841,-7.952673354163397,0
+                112.6165684386376,-7.952676771966046,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>CL_P2-SAKRI_P2</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6164946986841,-7.952673354163397,0
+                112.6157178578656,-7.952643409257259,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>FILKOM_P1-FILKOM_P31</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6147556914646,-7.954243609762957,0
+                112.6146474246459,-7.954232096562138,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>FILKOM_P1-FILKOM_P34</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6147556914646,-7.954243609762957,0
+                112.6147174745697,-7.954706244147858,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>FILKOM_P2-FILKOM_P3</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.614560426522,-7.954886404469975,0
+                112.6144064801701,-7.954874356659299,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>FILKOM_P2-FILKOM_P4</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.614560426522,-7.954886404469975,0
+                112.6145720689531,-7.954775372456513,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>FILKOM_P2-FILKOM_P33</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.614560426522,-7.954886404469975,0
+                112.614710639971,-7.954791099232946,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>FILKOM_P3-FKG_P5</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6144064801701,-7.954874356659299,0
+                112.6143993833727,-7.954943296318413,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>FILKOM_P4-FILKOM_P32</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6145720689531,-7.954775372456513,0
+                112.6145853225791,-7.954690688309229,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>FILKOM_P4-FILKOM_P33</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6145720689531,-7.954775372456513,0
+                112.614710639971,-7.954791099232946,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>FILKOM_P4-FILKOM_P34</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6145720689531,-7.954775372456513,0
+                112.6147174745697,-7.954706244147858,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>FILKOM_P5-JLGOR_T5</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6152973257702,-7.95412018508888,0
+                112.6154735697365,-7.95431758450043,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>FILKOM_P5-JLGOR_T6</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6152973257702,-7.95412018508888,0
+                112.615484276333,-7.954158847859345,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>FILKOM_P5-JLGOR_T7</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6152973257702,-7.95412018508888,0
+                112.6154977379214,-7.953981291573953,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>FILKOM_P6-FILKOM_P7</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.615305965853,-7.953957684589134,0
+                112.6152595570136,-7.953872916505831,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>FILKOM_P6-JLGOR_T7</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.615305965853,-7.953957684589134,0
+                112.6154977379214,-7.953981291573953,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>FILKOM_P7-FILKOM_P16</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6152595570136,-7.953872916505831,0
+                112.6152705008633,-7.953785825243139,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>FILKOM_P7-FILKOM_P17</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6152595570136,-7.953872916505831,0
+                112.6150669911794,-7.953855008484168,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>FILKOM_P8-FILKOM_P9</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6152861711916,-7.953621733819114,0
+                112.6153133481481,-7.953417073888538,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>FILKOM_P8-FILKOM_P11</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6152861711916,-7.953621733819114,0
+                112.6151601290168,-7.953607230495495,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>FILKOM_P8-FILKOM_P16</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6152861711916,-7.953621733819114,0
+                112.6152705008633,-7.953785825243139,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>FILKOM_P9-FILKOM_P10</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6153133481481,-7.953417073888538,0
+                112.6151801129841,-7.953400027917168,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>FILKOM_P9-FTP_P1</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6153133481481,-7.953417073888538,0
+                112.61538959467,-7.953335441226465,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>FILKOM_P10-FILKOM_P11</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6151801129841,-7.953400027917168,0
+                112.6151601290168,-7.953607230495495,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>FILKOM_P11-FILKOM_P12</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6151601290168,-7.953607230495495,0
+                112.6150813905455,-7.953596266485847,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>FILKOM_P12-FILKOM_P13</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6150813905455,-7.953596266485847,0
+                112.6150785794805,-7.953644047343092,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>FILKOM_P13-FILKOM_P14</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6150785794805,-7.953644047343092,0
+                112.6148713989087,-7.953633548760522,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>FILKOM_P14-FILKOM_P18</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6148713989087,-7.953633548760522,0
+                112.6148635834503,-7.953727538059294,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>FILKOM_P14-FILKOM_P22</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6148713989087,-7.953633548760522,0
+                112.6145340406855,-7.953588193417415,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>FILKOM_P15-FILKOM_P36</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6148539106945,-7.953844426492741,0
+                112.6149853612752,-7.953852566401324,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>FILKOM_P15-FILKOM_P18</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6148539106945,-7.953844426492741,0
+                112.6148635834503,-7.953727538059294,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>FILKOM_P15-FILKOM_P21</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6148539106945,-7.953844426492741,0
+                112.6145126593256,-7.953810193478969,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>FILKOM_P17-FILKOM_P36</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6150669911794,-7.953855008484168,0
+                112.6149853612752,-7.953852566401324,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>FILKOM_P19-FILKOM_P20</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6142296760376,-7.953971807803597,0
+                112.6141072454648,-7.954164123130608,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>FILKOM_P19-FILKOM_P30</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6142296760376,-7.953971807803597,0
+                112.6142565110917,-7.954189140140339,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>FILKOM_P19-JLUB_T4</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6142296760376,-7.953971807803597,0
+                112.6140264936862,-7.954145892287871,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>FILKOM_P19-JLUB_T6</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6142296760376,-7.953971807803597,0
+                112.6142349225903,-7.95378530043511,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>FILKOM_P20-FILKOM_P24</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6141072454648,-7.954164123130608,0
+                112.6140771559051,-7.954354946479168,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>FILKOM_P20-FILKOM_P30</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6141072454648,-7.954164123130608,0
+                112.6142565110917,-7.954189140140339,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>FILKOM_P20-JLUB_T4</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6141072454648,-7.954164123130608,0
+                112.6140264936862,-7.954145892287871,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>FILKOM_P21-FILKOM_P22</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6145126593256,-7.953810193478969,0
+                112.6145340406855,-7.953588193417415,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>FILKOM_P21-JLUB_T6</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6145126593256,-7.953810193478969,0
+                112.6142349225903,-7.95378530043511,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>FILKOM_P22-FILKOM_P23</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6145340406855,-7.953588193417415,0
+                112.6145540078204,-7.953452241375644,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>FILKOM_P22-JLUB_T6</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6145340406855,-7.953588193417415,0
+                112.6142349225903,-7.95378530043511,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>FILKOM_P22-JLUB_T7</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6145340406855,-7.953588193417415,0
+                112.6143316484856,-7.953426001580034,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>FILKOM_P23-FTP_P2</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6145540078204,-7.953452241375644,0
+                112.6146161778846,-7.953029050178954,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>FILKOM_P23-JLUB_T7</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6145540078204,-7.953452241375644,0
+                112.6143316484856,-7.953426001580034,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>FILKOM_P24-FILKOM_P25</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6140771559051,-7.954354946479168,0
+                112.6140741810959,-7.954429306226593,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>FILKOM_P24-JLUB_T20</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6140771559051,-7.954354946479168,0
+                112.6138970715199,-7.954345855829405,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>FILKOM_P25-FILKOM_P26</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6140741810959,-7.954429306226593,0
+                112.6142778645713,-7.954451801252544,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>FILKOM_P26-FILKOM_P27</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6142778645713,-7.954451801252544,0
+                112.6142673146611,-7.954558958364365,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>FILKOM_P27-FILKOM_P28</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6142673146611,-7.954558958364365,0
+                112.6144526775099,-7.954580206129878,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>FILKOM_P27-FILKOM_P35</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6142673146611,-7.954558958364365,0
+                112.6142557578875,-7.954646679074092,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>FILKOM_P28-FILKOM_P29</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6144526775099,-7.954580206129878,0
+                112.614597737254,-7.954591833042059,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>FILKOM_P29-FILKOM_P31</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.614597737254,-7.954591833042059,0
+                112.6146474246459,-7.954232096562138,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>FILKOM_P29-FILKOM_P32</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.614597737254,-7.954591833042059,0
+                112.6145853225791,-7.954690688309229,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>FILKOM_P30-FILKOM_P31</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6142565110917,-7.954189140140339,0
+                112.6146474246459,-7.954232096562138,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>FILKOM_P32-FILKOM_P34</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6145853225791,-7.954690688309229,0
+                112.6147174745697,-7.954706244147858,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>FILKOM_P33-FILKOM_P34</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.614710639971,-7.954791099232946,0
+                112.6147174745697,-7.954706244147858,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>FILKOM_P33-FKG_P9</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.614710639971,-7.954791099232946,0
+                112.6149884375016,-7.954813098856007,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
         <name>FKG_P1-JLUB_T1</name>
 
         <styleUrl>#yellowLine</styleUrl>
@@ -49,71 +1279,6 @@
             <coordinates>
                 112.6134963027616,-7.955798296792707,0
                 112.6134522557837,-7.955611095122627,0
-            </coordinates>
-        </LineString>
-    </Placemark>
-
-    <Placemark>
-        <name>JLUB_T1-JLUB_T2</name>
-
-        <styleUrl>#yellowLine</styleUrl>
-
-        <LineString>
-            <coordinates>
-                112.6134522557837,-7.955611095122627,0
-                112.6135877431234,-7.954929174984172,0
-            </coordinates>
-        </LineString>
-    </Placemark>
-
-    <Placemark>
-        <name>JLUB_T2-JLUB_T3</name>
-
-        <styleUrl>#yellowLine</styleUrl>
-
-        <LineString>
-            <coordinates>
-                112.6135877431234,-7.954929174984172,0
-                112.6138040223184,-7.954480553037804,0
-            </coordinates>
-        </LineString>
-    </Placemark>
-
-    <Placemark>
-        <name>JLUB_T3-JLUB_T4</name>
-
-        <styleUrl>#yellowLine</styleUrl>
-
-        <LineString>
-            <coordinates>
-                112.6138040223184,-7.954480553037804,0
-                112.6140264936862,-7.954145892287871,0
-            </coordinates>
-        </LineString>
-    </Placemark>
-
-    <Placemark>
-        <name>JLUB_T4-FILKOM_P1</name>
-
-        <styleUrl>#blueLine</styleUrl>
-
-        <LineString>
-            <coordinates>
-                112.6140264936862,-7.954145892287871,0
-                112.6146870421824,-7.954229643706517,0
-            </coordinates>
-        </LineString>
-    </Placemark>
-
-    <Placemark>
-        <name>FILKOM_P1-Junction FILKOM UB</name>
-
-        <styleUrl>#blueLine</styleUrl>
-
-        <LineString>
-            <coordinates>
-                112.6146870421824,-7.954229643706517,0
-                112.614711486797,-7.953979608577411,0
             </coordinates>
         </LineString>
     </Placemark>
@@ -145,14 +1310,27 @@
     </Placemark>
 
     <Placemark>
-        <name>FKG_P3-FKG_P4</name>
+        <name>FKG_P3-FKG_P6</name>
 
         <styleUrl>#blueLine</styleUrl>
 
         <LineString>
             <coordinates>
                 112.6140774496729,-7.955575283943623,0
-                112.614140036725,-7.954929952671532,0
+                112.6141184281703,-7.955148971228201,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>FKG_P3-FKG_P7</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6140774496729,-7.955575283943623,0
+                112.6149229415676,-7.955645055179298,0
             </coordinates>
         </LineString>
     </Placemark>
@@ -164,47 +1342,2231 @@
 
         <LineString>
             <coordinates>
-                112.614140036725,-7.954929952671532,0
-                112.6143887904722,-7.954972668493096,0
+                112.6141461354075,-7.954915858185177,0
+                112.6143993833727,-7.954943296318413,0
             </coordinates>
         </LineString>
     </Placemark>
 
     <Placemark>
-        <name>FKG_P5-FILKOM_P3</name>
+        <name>FKG_P4-FKG_P6</name>
 
         <styleUrl>#blueLine</styleUrl>
 
         <LineString>
             <coordinates>
-                112.6143887904722,-7.954972668493096,0
-                112.6144064801701,-7.954874356659299,0
+                112.6141461354075,-7.954915858185177,0
+                112.6141184281703,-7.955148971228201,0
             </coordinates>
         </LineString>
     </Placemark>
 
     <Placemark>
-        <name>FILKOM_P3-FILKOM_P2</name>
+        <name>FKG_P6-JLUB_T5</name>
 
         <styleUrl>#blueLine</styleUrl>
 
         <LineString>
             <coordinates>
-                112.6144064801701,-7.954874356659299,0
-                112.6145859693161,-7.954899204417528,0
+                112.6141184281703,-7.955148971228201,0
+                112.6135566640214,-7.955096543586685,0
             </coordinates>
         </LineString>
     </Placemark>
 
     <Placemark>
-        <name>FILKOM_P2-FILKOM_P1</name>
+        <name>FKG_P7-FKG_P8</name>
 
         <styleUrl>#blueLine</styleUrl>
 
         <LineString>
             <coordinates>
-                112.6145859693161,-7.954899204417528,0
-                112.6146870421824,-7.954229643706517,0
+                112.6149229415676,-7.955645055179298,0
+                112.6149818058443,-7.954931714301925,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>FKG_P7-FKG_P13</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6149229415676,-7.955645055179298,0
+                112.6153010063137,-7.955519580098139,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>FKG_P8-FKG_P9</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6149818058443,-7.954931714301925,0
+                112.6149884375016,-7.954813098856007,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>FKG_P8-FKG_P11</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6149818058443,-7.954931714301925,0
+                112.6152474413689,-7.954943980563448,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>FKG_P9-FKG_P10</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6149884375016,-7.954813098856007,0
+                112.6152536281085,-7.954833235184167,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>FKG_P10-FKG_P11</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6152536281085,-7.954833235184167,0
+                112.6152474413689,-7.954943980563448,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>FKG_P10-JLGOR_T4</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6152536281085,-7.954833235184167,0
+                112.6154373657154,-7.95483974717727,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>FKG_P11-FKG_P12</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6152474413689,-7.954943980563448,0
+                112.6153240116506,-7.954945345400957,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>FKG_P12-FKG_P13</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6153240116506,-7.954945345400957,0
+                112.6153010063137,-7.955519580098139,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>FKG_P13-JLGOR_T1</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6153010063137,-7.955519580098139,0
+                112.6153873058334,-7.955550258477312,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>FKG_P13-JLGOR_T2</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6153010063137,-7.955519580098139,0
+                112.6153950689101,-7.955433953716254,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>FTP_P1-JLSKRI_T5</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.61538959467,-7.953335441226465,0
+                112.6154349401614,-7.95300530596261,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>FTP_P2-JLSKRI_T1</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6146161778846,-7.953029050178954,0
+                112.6147082073705,-7.952941367548201,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>FTP_P2-JLSKRI_T7</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6146161778846,-7.953029050178954,0
+                112.6145737583525,-7.952937278644566,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>FTP_P2-JLUB_T8</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6146161778846,-7.953029050178954,0
+                112.6144722640579,-7.952989387849308,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>FTP_P3-JLFTP_P4</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6155678229127,-7.952143150734123,0
+                112.6149703314611,-7.952059591153057,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>FTP_P3-JLGOR_T16</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6155678229127,-7.952143150734123,0
+                112.6154973334172,-7.952424644160129,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>FTP_P3-JLMRP_T4</name>
+
+        <styleUrl>#greenLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6155678229127,-7.952143150734123,0
+                112.6156128566535,-7.952069009686237,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>GOR_P1-GOR_P2</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6159080352885,-7.953409903934685,0
+                112.6162473149876,-7.95342163806801,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>GOR_P1-GOR_P3</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6159080352885,-7.953409903934685,0
+                112.6156720483101,-7.953404626803459,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>GOR_P1-GRIYA_P2</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6159080352885,-7.953409903934685,0
+                112.615891020813,-7.95363971920699,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>GOR_P1-JLCL_P2</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6159080352885,-7.953409903934685,0
+                112.6159179474148,-7.953234018965578,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>GOR_P2-JLCL_T1</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6162473149876,-7.95342163806801,0
+                112.6162927574436,-7.953289649728486,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>GOR_P3-JLCL_P1</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6156720483101,-7.953404626803459,0
+                112.6157241932978,-7.953219224871034,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>GOR_P3-JLGOR_T15</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6156720483101,-7.953404626803459,0
+                112.6156605606974,-7.953626089993944,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>GRIYA_P1-GRIYA_P2</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6158758204307,-7.953876918386154,0
+                112.615891020813,-7.95363971920699,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>GRIYA_P1-GRIYA_P3</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6158758204307,-7.953876918386154,0
+                112.6157808874346,-7.953880997450366,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>GRIYA_P2-JLGOR_T15</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.615891020813,-7.95363971920699,0
+                112.6156605606974,-7.953626089993944,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>GRIYA_P3-JLGOR_T13</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6157808874346,-7.953880997450366,0
+                112.6156492809076,-7.953995192049802,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>GRIYA_P3-JLGOR_T14</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6157808874346,-7.953880997450366,0
+                112.6156537912423,-7.95388604590107,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>MRP_P1-JLGOR_T19</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6155806305025,-7.951403217510931,0
+                112.6160079824212,-7.951758129044544,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>MRP_P1-JLUB_T11</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6155806305025,-7.951403217510931,0
+                112.6148784016714,-7.950833689633537,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>PERPUS_P1-PERPUS_P2</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6139943971447,-7.9535534093424,0
+                112.6140610504181,-7.953227281588212,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>PERPUS_P1-JLUB_T19</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6139943971447,-7.9535534093424,0
+                112.614115683209,-7.953579073305139,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>PERPUS_P2-PERPUS_P3</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6140610504181,-7.953227281588212,0
+                112.6141022996931,-7.953022607023898,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>PERPUS_P2-JLUB_T17</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6140610504181,-7.953227281588212,0
+                112.6142221624745,-7.953285497055098,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>PERPUS_P3-PERPUS_P4</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6141022996931,-7.953022607023898,0
+                112.6140297812273,-7.953009173275037,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>PERPUS_P4-PERPUS_P5</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6140297812273,-7.953009173275037,0
+                112.6140498825049,-7.952940030548514,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>PERPUS_P5-PERPUS_P6</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6140498825049,-7.952940030548514,0
+                112.6139464786859,-7.952918502028814,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>PERPUS_P6-PERPUS_P7</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6139464786859,-7.952918502028814,0
+                112.6138235361375,-7.952893764580048,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>PERPUS_P6-JLSELREK_T1</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6139464786859,-7.952918502028814,0
+                112.6139639779826,-7.952855092438427,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>PERPUS_P7-JLSELREK_T2</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6138235361375,-7.952893764580048,0
+                112.6138350584462,-7.952830515418285,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>RUSUN_P1-RUSUN_P2</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.616410702753,-7.951826402355215,0
+                112.6165468870805,-7.951916317726534,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>RUSUN_P1-JLCL_T4</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.616410702753,-7.951826402355215,0
+                112.6163456831593,-7.951921139180926,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>RUSUN_P2-RUSUN_P3</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6165468870805,-7.951916317726534,0
+                112.6165832342549,-7.951853118513852,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>RUSUN_P3-RUSUN_P4</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6165832342549,-7.951853118513852,0
+                112.6167157347352,-7.951950078109844,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>RUSUN_P4-JLCL_P11</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6167157347352,-7.951950078109844,0
+                112.6166158929293,-7.952114274726,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>SAKRI_P1-SAKRI_P2</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6157072159427,-7.952937105336233,0
+                112.6157178578656,-7.952643409257259,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>SAKRI_P1-JLCL_P1</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6157072159427,-7.952937105336233,0
+                112.6157241932978,-7.953219224871034,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>SAKRI_P2-SAKRI_P7</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6157178578656,-7.952643409257259,0
+                112.6156318222201,-7.952553047357549,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>SAKRI_P3-SAKRI_P4</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6157208013377,-7.952473336726234,0
+                112.6158146171118,-7.952471079409682,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>SAKRI_P3-SAKRI_P7</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6157208013377,-7.952473336726234,0
+                112.6156318222201,-7.952553047357549,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>SAKRI_P4-SAKRI_P5</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6158146171118,-7.952471079409682,0
+                112.615812877898,-7.952406060287854,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>SAKRI_P5-SAKRI_P6</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.615812877898,-7.952406060287854,0
+                112.6156847719534,-7.952398026308991,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>SAKRI_P6-SAKRI_P9</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6156847719534,-7.952398026308991,0
+                112.615701515087,-7.952238178598805,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>SAKRI_P7-SAKRI_P8</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6156318222201,-7.952553047357549,0
+                112.6156283758553,-7.952436236249245,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>SAKRI_P7-JLGOR_T25</name>
+
+        <styleUrl>#greenLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6156318222201,-7.952553047357549,0
+                112.6155344242749,-7.952758585198183,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>SAKRI_P8-JLGOR_T16</name>
+
+        <styleUrl>#greenLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6156283758553,-7.952436236249245,0
+                112.6154973334172,-7.952424644160129,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>SAKRI_P9-JLGOR_T17</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.615701515087,-7.952238178598805,0
+                112.6157560867154,-7.952120071736488,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLCL_P1-JLCL_P2</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6157241932978,-7.953219224871034,0
+                112.6159179474148,-7.953234018965578,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLCL_P2-JLCL_P3</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6159179474148,-7.953234018965578,0
+                112.6162776530886,-7.953248301602792,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLCL_P3-JLCL_P4</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6162776530886,-7.953248301602792,0
+                112.6164185563598,-7.953140034680511,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLCL_P3-JLCL_T1</name>
+
+        <styleUrl>#greenLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6162776530886,-7.953248301602792,0
+                112.6162927574436,-7.953289649728486,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLCL_P4-JLCL_P5</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6164185563598,-7.953140034680511,0
+                112.6165925418886,-7.95310783434103,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLCL_P5-JLCL_P6</name>
+
+        <styleUrl>#greenLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6165925418886,-7.95310783434103,0
+                112.6166647523293,-7.952985154702465,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLCL_P5-JLCL_P8</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6165925418886,-7.95310783434103,0
+                112.6165684386376,-7.952676771966046,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLCL_P5-JLCL_T2</name>
+
+        <styleUrl>#greenLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6165925418886,-7.95310783434103,0
+                112.6166643626188,-7.953163448416379,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLCL_P6-JLCL_P7</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6166647523293,-7.952985154702465,0
+                112.6167326700663,-7.952948855863505,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLCL_P6-JLCL_P9</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6166647523293,-7.952985154702465,0
+                112.6166360250583,-7.952677015411404,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLCL_P6-JLCL_T2</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6166647523293,-7.952985154702465,0
+                112.6166643626188,-7.953163448416379,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLCL_P7-JLCL_P9</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6167326700663,-7.952948855863505,0
+                112.6166360250583,-7.952677015411404,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLCL_P8-JLCL_P9</name>
+
+        <styleUrl>#greenLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6165684386376,-7.952676771966046,0
+                112.6166360250583,-7.952677015411404,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLCL_P8-JLCL_P10</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6165684386376,-7.952676771966046,0
+                112.6166363720912,-7.952361876075051,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLCL_P9-JLCL_P12</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6166360250583,-7.952677015411404,0
+                112.6167145009555,-7.952404692272538,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLCL_P10-JLCL_P12</name>
+
+        <styleUrl>#greenLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6166363720912,-7.952361876075051,0
+                112.6167145009555,-7.952404692272538,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLCL_P10-JLCL_P13</name>
+
+        <styleUrl>#greenLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6166363720912,-7.952361876075051,0
+                112.6167249164042,-7.952235674066666,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLCL_P10-JLCL_T3</name>
+
+        <styleUrl>#yellowLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6166363720912,-7.952361876075051,0
+                112.616564665231,-7.952192725467396,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLCL_P11-JLCL_P13</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6166158929293,-7.952114274726,0
+                112.6167249164042,-7.952235674066666,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLCL_P11-JLCL_T3</name>
+
+        <styleUrl>#greenLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6166158929293,-7.952114274726,0
+                112.616564665231,-7.952192725467396,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLCL_P11-JLCL_T6</name>
+
+        <styleUrl>#greenLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6166158929293,-7.952114274726,0
+                112.6165721985616,-7.952075372624039,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLCL_P12-JLCL_P13</name>
+
+        <styleUrl>#greenLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6167145009555,-7.952404692272538,0
+                112.6167249164042,-7.952235674066666,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLFTP_P1-JLFTP_P2</name>
+
+        <styleUrl>#greenLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6148486889056,-7.952384524447238,0
+                112.614920849439,-7.952392305642772,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLFTP_P1-JLFTP_P3</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6148486889056,-7.952384524447238,0
+                112.6148948441085,-7.952047340191294,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLFTP_P1-JLFTP_P5</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6148486889056,-7.952384524447238,0
+                112.6147893222711,-7.952784520897243,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLFTP_P1-JLUB_T21</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6148486889056,-7.952384524447238,0
+                112.6146255314934,-7.952349969576035,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLFTP_P2-JLFTP_P4</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.614920849439,-7.952392305642772,0
+                112.6149703314611,-7.952059591153057,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLFTP_P2-JLSKRI_T4</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.614920849439,-7.952392305642772,0
+                112.6148593420395,-7.952868625214692,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLFTP_P3-JLFTP_P4</name>
+
+        <styleUrl>#greenLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6148948441085,-7.952047340191294,0
+                112.6149703314611,-7.952059591153057,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLFTP_P3-JLUB_T9</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6148948441085,-7.952047340191294,0
+                112.614682662574,-7.952011738423325,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLFTP_P4-JLMRP_T2</name>
+
+        <styleUrl>#greenLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6149703314611,-7.952059591153057,0
+                112.6149920719485,-7.951968803482349,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLFTP_P5-JLSKRI_T2</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6147893222711,-7.952784520897243,0
+                112.6147160946528,-7.952851647268485,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLFTP_P5-JLSKRI_T4</name>
+
+        <styleUrl>#greenLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6147893222711,-7.952784520897243,0
+                112.6148593420395,-7.952868625214692,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>BUND_T1-BUND_T2</name>
+
+        <styleUrl>#yellowLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6146568221239,-7.952781650725162,0
+                112.6147199535361,-7.952707378273313,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>BUND_T1-JLSKRI_T2</name>
+
+        <styleUrl>#yellowLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6146568221239,-7.952781650725162,0
+                112.6147160946528,-7.952851647268485,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>BUND_T2-BUND_T3</name>
+
+        <styleUrl>#yellowLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6147199535361,-7.952707378273313,0
+                112.6147512611559,-7.952595790721422,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>BUND_T3-BUND_T4</name>
+
+        <styleUrl>#yellowLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6147512611559,-7.952595790721422,0
+                112.6147394984711,-7.952495156722474,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>BUND_T4-JLUB_T21</name>
+
+        <styleUrl>#yellowLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6147394984711,-7.952495156722474,0
+                112.6146255314934,-7.952349969576035,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLCL_T1-JLCL_T2</name>
+
+        <styleUrl>#yellowLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6162927574436,-7.953289649728486,0
+                112.6166643626188,-7.953163448416379,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLCL_T3-JLGOR_T20</name>
+
+        <styleUrl>#yellowLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.616564665231,-7.952192725467396,0
+                112.6161719890487,-7.951887399148013,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLCL_T4-JLCL_T5</name>
+
+        <styleUrl>#yellowLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6163456831593,-7.951921139180926,0
+                112.6162309898187,-7.951825152047946,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLCL_T4-JLCL_T6</name>
+
+        <styleUrl>#yellowLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6163456831593,-7.951921139180926,0
+                112.6165721985616,-7.952075372624039,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLCL_T5-JLGOR_T20</name>
+
+        <styleUrl>#greenLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6162309898187,-7.951825152047946,0
+                112.6161719890487,-7.951887399148013,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLCL_T5-JLGOR_T23</name>
+
+        <styleUrl>#yellowLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6162309898187,-7.951825152047946,0
+                112.6163354451776,-7.951675213702063,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLGOR_T1-JLGOR_T2</name>
+
+        <styleUrl>#yellowLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6153873058334,-7.955550258477312,0
+                112.6153950689101,-7.955433953716254,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLGOR_T2-JLGOR_T3</name>
+
+        <styleUrl>#yellowLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6153950689101,-7.955433953716254,0
+                112.615418299242,-7.955126523992707,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLGOR_T3-JLGOR_T4</name>
+
+        <styleUrl>#yellowLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.615418299242,-7.955126523992707,0
+                112.6154373657154,-7.95483974717727,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLGOR_T4-JLGOR_T5</name>
+
+        <styleUrl>#yellowLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6154373657154,-7.95483974717727,0
+                112.6154735697365,-7.95431758450043,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLGOR_T5-JLGOR_T6</name>
+
+        <styleUrl>#yellowLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6154735697365,-7.95431758450043,0
+                112.615484276333,-7.954158847859345,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLGOR_T6-JLGOR_T7</name>
+
+        <styleUrl>#yellowLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.615484276333,-7.954158847859345,0
+                112.6154977379214,-7.953981291573953,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLGOR_T7-JLGOR_T8</name>
+
+        <styleUrl>#yellowLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6154977379214,-7.953981291573953,0
+                112.6155033570798,-7.953873979608692,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLGOR_T7-JLGOR_T13</name>
+
+        <styleUrl>#greenLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6154977379214,-7.953981291573953,0
+                112.6156492809076,-7.953995192049802,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLGOR_T8-JLGOR_T9</name>
+
+        <styleUrl>#yellowLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6155033570798,-7.953873979608692,0
+                112.6155225032968,-7.953619731757888,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLGOR_T8-JLGOR_T14</name>
+
+        <styleUrl>#greenLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6155033570798,-7.953873979608692,0
+                112.6156537912423,-7.95388604590107,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLGOR_T9-JLGOR_T10</name>
+
+        <styleUrl>#yellowLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6155225032968,-7.953619731757888,0
+                112.6155451610814,-7.95322060133216,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLGOR_T9-JLGOR_T15</name>
+
+        <styleUrl>#greenLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6155225032968,-7.953619731757888,0
+                112.6156605606974,-7.953626089993944,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLGOR_T10-JLGOR_T11</name>
+
+        <styleUrl>#yellowLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6155451610814,-7.95322060133216,0
+                112.6155437550384,-7.95311822268171,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLGOR_T11-JLGOR_T12</name>
+
+        <styleUrl>#yellowLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6155437550384,-7.95311822268171,0
+                112.6155148189099,-7.95304916434643,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLGOR_T12-JLSKRI_T5</name>
+
+        <styleUrl>#yellowLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6155148189099,-7.95304916434643,0
+                112.6154349401614,-7.95300530596261,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLGOR_T13-JLGOR_T14</name>
+
+        <styleUrl>#yellowLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6156492809076,-7.953995192049802,0
+                112.6156537912423,-7.95388604590107,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLGOR_T14-JLGOR_T15</name>
+
+        <styleUrl>#yellowLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6156537912423,-7.95388604590107,0
+                112.6156605606974,-7.953626089993944,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLGOR_T16-JLGOR_T25</name>
+
+        <styleUrl>#yellowLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6154973334172,-7.952424644160129,0
+                112.6155344242749,-7.952758585198183,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLGOR_T17-JLGOR_T20</name>
+
+        <styleUrl>#yellowLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6157560867154,-7.952120071736488,0
+                112.6161719890487,-7.951887399148013,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLGOR_T17-JLMRP_T4</name>
+
+        <styleUrl>#greenLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6157560867154,-7.952120071736488,0
+                112.6156128566535,-7.952069009686237,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLGOR_T18-JLGOR_T19</name>
+
+        <styleUrl>#yellowLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6158346104267,-7.951901805796251,0
+                112.6160079824212,-7.951758129044544,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLGOR_T18-JLMRP_T4</name>
+
+        <styleUrl>#yellowLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6158346104267,-7.951901805796251,0
+                112.6156128566535,-7.952069009686237,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLGOR_T19-JLGOR_T20</name>
+
+        <styleUrl>#greenLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6160079824212,-7.951758129044544,0
+                112.6161719890487,-7.951887399148013,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLGOR_T19-JLGOR_T21</name>
+
+        <styleUrl>#yellowLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6160079824212,-7.951758129044544,0
+                112.6160245431866,-7.951574040864892,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLGOR_T21-JLGOR_T22</name>
+
+        <styleUrl>#yellowLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6160245431866,-7.951574040864892,0
+                112.616125241258,-7.951471121427563,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLGOR_T22-JLUB_T12</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.616125241258,-7.951471121427563,0
+                112.6150532248348,-7.950549383086374,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLGOR_T23-JLGOR_T24</name>
+
+        <styleUrl>#yellowLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6163354451776,-7.951675213702063,0
+                112.6165754129897,-7.951513586944909,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLGOR_T25-JLSKRI_T6</name>
+
+        <styleUrl>#blueLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6155344242749,-7.952758585198183,0
+                112.6154401698069,-7.952924107241349,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLMRP_T1-JLMRP_T2</name>
+
+        <styleUrl>#yellowLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6146966516582,-7.951931608866639,0
+                112.6149920719485,-7.951968803482349,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLMRP_T1-JLUB_T10</name>
+
+        <styleUrl>#yellowLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6146966516582,-7.951931608866639,0
+                112.6147584238093,-7.951498648872699,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLMRP_T1-JLUB_T9</name>
+
+        <styleUrl>#greenLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6146966516582,-7.951931608866639,0
+                112.614682662574,-7.952011738423325,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLMRP_T2-JLMRP_T3</name>
+
+        <styleUrl>#yellowLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6149920719485,-7.951968803482349,0
+                112.6152543539461,-7.952005673639159,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLMRP_T3-JLMRP_T4</name>
+
+        <styleUrl>#yellowLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6152543539461,-7.952005673639159,0
+                112.6156128566535,-7.952069009686237,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLSELREK_T1-JLSELREK_T2</name>
+
+        <styleUrl>#yellowLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6139639779826,-7.952855092438427,0
+                112.6138350584462,-7.952830515418285,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLSELREK_T2-JLUB_T18</name>
+
+        <styleUrl>#yellowLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6138350584462,-7.952830515418285,0
+                112.6143063860391,-7.952936858473786,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLSKRI_T1-JLSKRI_T2</name>
+
+        <styleUrl>#greenLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6147082073705,-7.952941367548201,0
+                112.6147160946528,-7.952851647268485,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLSKRI_T1-JLSKRI_T3</name>
+
+        <styleUrl>#yellowLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6147082073705,-7.952941367548201,0
+                112.6148504411477,-7.952948820365582,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLSKRI_T1-JLSKRI_T7</name>
+
+        <styleUrl>#yellowLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6147082073705,-7.952941367548201,0
+                112.6145737583525,-7.952937278644566,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLSKRI_T2-JLSKRI_T4</name>
+
+        <styleUrl>#greenLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6147160946528,-7.952851647268485,0
+                112.6148593420395,-7.952868625214692,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLSKRI_T3-JLSKRI_T4</name>
+
+        <styleUrl>#greenLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6148504411477,-7.952948820365582,0
+                112.6148593420395,-7.952868625214692,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLSKRI_T3-JLSKRI_T5</name>
+
+        <styleUrl>#yellowLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6148504411477,-7.952948820365582,0
+                112.6154349401614,-7.95300530596261,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLSKRI_T4-JLSKRI_T6</name>
+
+        <styleUrl>#yellowLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6148593420395,-7.952868625214692,0
+                112.6154401698069,-7.952924107241349,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLSKRI_T5-JLSKRI_T6</name>
+
+        <styleUrl>#greenLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6154349401614,-7.95300530596261,0
+                112.6154401698069,-7.952924107241349,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLSKRI_T7-JLUB_T8</name>
+
+        <styleUrl>#yellowLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6145737583525,-7.952937278644566,0
+                112.6144722640579,-7.952989387849308,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLUB_T1-JLUB_T5</name>
+
+        <styleUrl>#yellowLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6134522557837,-7.955611095122627,0
+                112.6135566640214,-7.955096543586685,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLUB_T2-JLUB_T3</name>
+
+        <styleUrl>#yellowLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6135877431234,-7.954929174984172,0
+                112.6138040223184,-7.954480553037804,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLUB_T2-JLUB_T5</name>
+
+        <styleUrl>#yellowLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6135877431234,-7.954929174984172,0
+                112.6135566640214,-7.955096543586685,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLUB_T3-JLUB_T14</name>
+
+        <styleUrl>#greenLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6138040223184,-7.954480553037804,0
+                112.6136532882611,-7.954414735133924,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLUB_T3-JLUB_T20</name>
+
+        <styleUrl>#yellowLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6138040223184,-7.954480553037804,0
+                112.6138970715199,-7.954345855829405,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLUB_T4-JLUB_T6</name>
+
+        <styleUrl>#yellowLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6140264936862,-7.954145892287871,0
+                112.6142349225903,-7.95378530043511,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLUB_T4-JLUB_T15</name>
+
+        <styleUrl>#greenLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6140264936862,-7.954145892287871,0
+                112.6138762712926,-7.954078412366892,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLUB_T4-JLUB_T20</name>
+
+        <styleUrl>#yellowLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6140264936862,-7.954145892287871,0
+                112.6138970715199,-7.954345855829405,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLUB_T6-JLUB_T7</name>
+
+        <styleUrl>#yellowLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6142349225903,-7.95378530043511,0
+                112.6143316484856,-7.953426001580034,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLUB_T6-JLUB_T16</name>
+
+        <styleUrl>#greenLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6142349225903,-7.95378530043511,0
+                112.6140571224635,-7.953731206653026,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLUB_T7-JLUB_T8</name>
+
+        <styleUrl>#yellowLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6143316484856,-7.953426001580034,0
+                112.6144722640579,-7.952989387849308,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLUB_T7-JLUB_T17</name>
+
+        <styleUrl>#greenLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6143316484856,-7.953426001580034,0
+                112.6142221624745,-7.953285497055098,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLUB_T8-JLUB_T18</name>
+
+        <styleUrl>#greenLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6144722640579,-7.952989387849308,0
+                112.6143063860391,-7.952936858473786,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLUB_T9-JLUB_T21</name>
+
+        <styleUrl>#yellowLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.614682662574,-7.952011738423325,0
+                112.6146255314934,-7.952349969576035,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLUB_T10-JLUB_T11</name>
+
+        <styleUrl>#yellowLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6147584238093,-7.951498648872699,0
+                112.6148784016714,-7.950833689633537,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLUB_T11-JLUB_T12</name>
+
+        <styleUrl>#yellowLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6148784016714,-7.950833689633537,0
+                112.6150532248348,-7.950549383086374,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLUB_T12-JLUB_T13</name>
+
+        <styleUrl>#greenLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6150532248348,-7.950549383086374,0
+                112.6151108380418,-7.950476155523424,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLUB_T14-JLUB_T15</name>
+
+        <styleUrl>#yellowLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6136532882611,-7.954414735133924,0
+                112.6138762712926,-7.954078412366892,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLUB_T15-JLUB_T16</name>
+
+        <styleUrl>#yellowLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6138762712926,-7.954078412366892,0
+                112.6140571224635,-7.953731206653026,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLUB_T16-JLUB_T19</name>
+
+        <styleUrl>#yellowLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6140571224635,-7.953731206653026,0
+                112.614115683209,-7.953579073305139,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLUB_T17-JLUB_T18</name>
+
+        <styleUrl>#yellowLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6142221624745,-7.953285497055098,0
+                112.6143063860391,-7.952936858473786,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <name>JLUB_T17-JLUB_T19</name>
+
+        <styleUrl>#yellowLine</styleUrl>
+
+        <LineString>
+            <coordinates>
+                112.6142221624745,-7.953285497055098,0
+                112.614115683209,-7.953579073305139,0
             </coordinates>
         </LineString>
     </Placemark>
