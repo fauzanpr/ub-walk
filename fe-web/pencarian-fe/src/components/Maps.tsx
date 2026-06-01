@@ -12,6 +12,7 @@ import {
     Popup,
     Polyline,
     CircleMarker,
+    Tooltip
 } from "react-leaflet";
 import L from "leaflet";
 import { useMemo, useState } from "react";
@@ -102,6 +103,10 @@ export default function Maps({ sourceNodeId }: TMaps) {
                 positions: [L.LatLngExpression, L.LatLngExpression];
             } => edge !== null);
     }, [distData, geoMap]);
+
+    const totalDistance = useMemo(() => {
+        return routeData.reduce((total, route) => total + route.distance, 0);
+    }, [routeData]);
 
     const destinationNodeId =
         routeData.length > 0
@@ -241,6 +246,9 @@ export default function Maps({ sourceNodeId }: TMaps) {
                                 opacity: 0.85,
                             }}
                         >
+                            <Tooltip permanent direction="center">
+                                {segment.distance} m
+                            </Tooltip>
                             <Popup>
                                 <div>
                                     <strong>
@@ -308,6 +316,26 @@ export default function Maps({ sourceNodeId }: TMaps) {
                     );
                 })}
             </MapContainer>
+
+            {routeData.length > 0 && (
+                <div
+                    style={{
+                        position: "absolute",
+                        bottom: 16,
+                        left: "50%",
+                        transform: "translateX(-50%)",
+                        zIndex: 1000,
+                        background: "white",
+                        padding: "10px 16px",
+                        borderRadius: "8px",
+                        boxShadow: "0 2px 8px rgba(0,0,0,0.2)",
+                        fontWeight: 600,
+                        marginLeft: "150px",
+                    }}
+                >
+                    Total Distance: {totalDistance.toFixed(2)} m
+                </div>
+            )}
 
             <Destination
                 source_node_id={sourceNodeId}
