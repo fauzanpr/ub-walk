@@ -1,0 +1,535 @@
+﻿=== dijkstra benchmark ===
+Sources      : 1 (Gedung A FILKOM UB), 2 (Gedung F FILKOM UB), 3 (Gedung G FILKOM UB), 4 (Gerbang BNI), 5 (Gerbang Pandjaitan), 6 (Gerbang Soehat), 7 (Gerbang Veteran), 8 (GKM FILKOM UB), 9 (GOR Pertamina), 10 (Griya Brawijaya), 11 (Junction FILKOM UB), 12 (Kantin CL), 13 (Masjid Raden Patah), 14 (Perpustakaan UB), 15 (Rusunawa UB), 16 (Samantha Krida)
+Destinations : 1 (Gedung A FILKOM UB), 2 (Gedung F FILKOM UB), 3 (Gedung G FILKOM UB), 11 (Junction FILKOM UB), 8 (GKM FILKOM UB)
+[dijkstra] 1 (Gedung A FILKOM UB) -> 2 (Gedung F FILKOM UB)
+  route : 1 (Gedung A FILKOM UB) -> 35 (FILKOM_P17) -> 54 (FILKOM_P36) -> 33 (FILKOM_P15) -> 11 (Junction FILKOM UB) -> 2 (Gedung F FILKOM UB)
+  edges : 1->35: 11.42 m | 35->54: 8.99 m | 54->33: 14.50 m | 33->11: 21.87 m | 11->2: 31.02 m
+  total : 87.80 m | hops: 5 | time: 0.0713 ms
+  ref[bellman_ford] route : 1 (Gedung A FILKOM UB) -> 35 (FILKOM_P17) -> 54 (FILKOM_P36) -> 33 (FILKOM_P15) -> 11 (Junction FILKOM UB) -> 2 (Gedung F FILKOM UB)
+  ref[bellman_ford] total : 87.80 m | time: 3.8991 ms
+  compare: match | distance_match=True | path_match=True
+[dijkstra] 1 (Gedung A FILKOM UB) -> 3 (Gedung G FILKOM UB)
+  route : 1 (Gedung A FILKOM UB) -> 35 (FILKOM_P17) -> 54 (FILKOM_P36) -> 3 (Gedung G FILKOM UB)
+  edges : 1->35: 11.42 m | 35->54: 8.99 m | 54->3: 25.81 m
+  total : 46.22 m | hops: 3 | time: 0.0268 ms
+  ref[bellman_ford] route : 1 (Gedung A FILKOM UB) -> 35 (FILKOM_P17) -> 54 (FILKOM_P36) -> 3 (Gedung G FILKOM UB)
+  ref[bellman_ford] total : 46.22 m | time: 3.963 ms
+  compare: match | distance_match=True | path_match=True
+[dijkstra] 1 (Gedung A FILKOM UB) -> 11 (Junction FILKOM UB)
+  route : 1 (Gedung A FILKOM UB) -> 35 (FILKOM_P17) -> 54 (FILKOM_P36) -> 33 (FILKOM_P15) -> 11 (Junction FILKOM UB)
+  edges : 1->35: 11.42 m | 35->54: 8.99 m | 54->33: 14.50 m | 33->11: 21.87 m
+  total : 56.78 m | hops: 4 | time: 0.0277 ms
+  ref[bellman_ford] route : 1 (Gedung A FILKOM UB) -> 35 (FILKOM_P17) -> 54 (FILKOM_P36) -> 33 (FILKOM_P15) -> 11 (Junction FILKOM UB)
+  ref[bellman_ford] total : 56.78 m | time: 3.9616 ms
+  compare: match | distance_match=True | path_match=True
+[dijkstra] 1 (Gedung A FILKOM UB) -> 8 (GKM FILKOM UB)
+  route : 1 (Gedung A FILKOM UB) -> 35 (FILKOM_P17) -> 54 (FILKOM_P36) -> 33 (FILKOM_P15) -> 11 (Junction FILKOM UB) -> 49 (FILKOM_P31) -> 47 (FILKOM_P29) -> 46 (FILKOM_P28) -> 8 (GKM FILKOM UB)
+  edges : 1->35: 11.42 m | 35->54: 8.99 m | 54->33: 14.50 m | 33->11: 21.87 m | 11->49: 26.95 m | 49->47: 40.37 m | 47->46: 16.03 m | 46->8: 9.24 m
+  total : 149.37 m | hops: 8 | time: 0.1177 ms
+  ref[bellman_ford] route : 1 (Gedung A FILKOM UB) -> 35 (FILKOM_P17) -> 54 (FILKOM_P36) -> 33 (FILKOM_P15) -> 11 (Junction FILKOM UB) -> 49 (FILKOM_P31) -> 47 (FILKOM_P29) -> 46 (FILKOM_P28) -> 8 (GKM FILKOM UB)
+  ref[bellman_ford] total : 149.37 m | time: 3.9045 ms
+  compare: match | distance_match=True | path_match=True
+[dijkstra] 2 (Gedung F FILKOM UB) -> 1 (Gedung A FILKOM UB)
+  route : 2 (Gedung F FILKOM UB) -> 11 (Junction FILKOM UB) -> 33 (FILKOM_P15) -> 54 (FILKOM_P36) -> 35 (FILKOM_P17) -> 1 (Gedung A FILKOM UB)
+  edges : 2->11: 31.02 m | 11->33: 21.87 m | 33->54: 14.50 m | 54->35: 8.99 m | 35->1: 11.42 m
+  total : 87.80 m | hops: 5 | time: 0.0369 ms
+  ref[bellman_ford] route : 2 (Gedung F FILKOM UB) -> 11 (Junction FILKOM UB) -> 33 (FILKOM_P15) -> 54 (FILKOM_P36) -> 35 (FILKOM_P17) -> 1 (Gedung A FILKOM UB)
+  ref[bellman_ford] total : 87.80 m | time: 3.2374 ms
+  compare: match | distance_match=True | path_match=True
+[dijkstra] 2 (Gedung F FILKOM UB) -> 3 (Gedung G FILKOM UB)
+  route : 2 (Gedung F FILKOM UB) -> 11 (Junction FILKOM UB) -> 3 (Gedung G FILKOM UB)
+  edges : 2->11: 31.02 m | 11->3: 31.59 m
+  total : 62.61 m | hops: 2 | time: 0.0208 ms
+  ref[bellman_ford] route : 2 (Gedung F FILKOM UB) -> 11 (Junction FILKOM UB) -> 3 (Gedung G FILKOM UB)
+  ref[bellman_ford] total : 62.61 m | time: 3.2931 ms
+  compare: match | distance_match=True | path_match=True
+[dijkstra] 2 (Gedung F FILKOM UB) -> 11 (Junction FILKOM UB)
+  route : 2 (Gedung F FILKOM UB) -> 11 (Junction FILKOM UB)
+  edges : 2->11: 31.02 m
+  total : 31.02 m | hops: 1 | time: 0.0072 ms
+  ref[bellman_ford] route : 2 (Gedung F FILKOM UB) -> 11 (Junction FILKOM UB)
+  ref[bellman_ford] total : 31.02 m | time: 3.2513 ms
+  compare: match | distance_match=True | path_match=True
+[dijkstra] 2 (Gedung F FILKOM UB) -> 8 (GKM FILKOM UB)
+  route : 2 (Gedung F FILKOM UB) -> 11 (Junction FILKOM UB) -> 49 (FILKOM_P31) -> 47 (FILKOM_P29) -> 46 (FILKOM_P28) -> 8 (GKM FILKOM UB)
+  edges : 2->11: 31.02 m | 11->49: 26.95 m | 49->47: 40.37 m | 47->46: 16.03 m | 46->8: 9.24 m
+  total : 123.61 m | hops: 5 | time: 0.0784 ms
+  ref[bellman_ford] route : 2 (Gedung F FILKOM UB) -> 11 (Junction FILKOM UB) -> 49 (FILKOM_P31) -> 47 (FILKOM_P29) -> 46 (FILKOM_P28) -> 8 (GKM FILKOM UB)
+  ref[bellman_ford] total : 123.61 m | time: 3.3211 ms
+  compare: match | distance_match=True | path_match=True
+[dijkstra] 3 (Gedung G FILKOM UB) -> 1 (Gedung A FILKOM UB)
+  route : 3 (Gedung G FILKOM UB) -> 54 (FILKOM_P36) -> 35 (FILKOM_P17) -> 1 (Gedung A FILKOM UB)
+  edges : 3->54: 25.81 m | 54->35: 8.99 m | 35->1: 11.42 m
+  total : 46.22 m | hops: 3 | time: 0.0212 ms
+  ref[bellman_ford] route : 3 (Gedung G FILKOM UB) -> 54 (FILKOM_P36) -> 35 (FILKOM_P17) -> 1 (Gedung A FILKOM UB)
+  ref[bellman_ford] total : 46.22 m | time: 3.8708 ms
+  compare: match | distance_match=True | path_match=True
+[dijkstra] 3 (Gedung G FILKOM UB) -> 2 (Gedung F FILKOM UB)
+  route : 3 (Gedung G FILKOM UB) -> 11 (Junction FILKOM UB) -> 2 (Gedung F FILKOM UB)
+  edges : 3->11: 31.59 m | 11->2: 31.02 m
+  total : 62.61 m | hops: 2 | time: 0.0283 ms
+  ref[bellman_ford] route : 3 (Gedung G FILKOM UB) -> 11 (Junction FILKOM UB) -> 2 (Gedung F FILKOM UB)
+  ref[bellman_ford] total : 62.61 m | time: 3.8225 ms
+  compare: match | distance_match=True | path_match=True
+[dijkstra] 3 (Gedung G FILKOM UB) -> 11 (Junction FILKOM UB)
+  route : 3 (Gedung G FILKOM UB) -> 11 (Junction FILKOM UB)
+  edges : 3->11: 31.59 m
+  total : 31.59 m | hops: 1 | time: 0.0086 ms
+  ref[bellman_ford] route : 3 (Gedung G FILKOM UB) -> 11 (Junction FILKOM UB)
+  ref[bellman_ford] total : 31.59 m | time: 3.8672 ms
+  compare: match | distance_match=True | path_match=True
+[dijkstra] 3 (Gedung G FILKOM UB) -> 8 (GKM FILKOM UB)
+  route : 3 (Gedung G FILKOM UB) -> 11 (Junction FILKOM UB) -> 49 (FILKOM_P31) -> 47 (FILKOM_P29) -> 46 (FILKOM_P28) -> 8 (GKM FILKOM UB)
+  edges : 3->11: 31.59 m | 11->49: 26.95 m | 49->47: 40.37 m | 47->46: 16.03 m | 46->8: 9.24 m
+  total : 124.18 m | hops: 5 | time: 0.0725 ms
+  ref[bellman_ford] route : 3 (Gedung G FILKOM UB) -> 11 (Junction FILKOM UB) -> 49 (FILKOM_P31) -> 47 (FILKOM_P29) -> 46 (FILKOM_P28) -> 8 (GKM FILKOM UB)
+  ref[bellman_ford] total : 124.18 m | time: 3.877 ms
+  compare: match | distance_match=True | path_match=True
+[dijkstra] 4 (Gerbang BNI) -> 1 (Gedung A FILKOM UB)
+  route : 4 (Gerbang BNI) -> 126 (JLGOR_T1) -> 127 (JLGOR_T2) -> 128 (JLGOR_T3) -> 129 (JLGOR_T4) -> 130 (JLGOR_T5) -> 131 (JLGOR_T6) -> 132 (JLGOR_T7) -> 24 (FILKOM_P6) -> 25 (FILKOM_P7) -> 34 (FILKOM_P16) -> 1 (Gedung A FILKOM UB)
+  edges : 4->126: 20.99 m | 126->127: 12.96 m | 127->128: 34.28 m | 128->129: 31.96 m | 129->130: 58.20 m | 130->131: 17.69 m | 131->132: 19.80 m | 132->24: 21.28 m | 24->25: 10.72 m | 25->34: 9.76 m | 34->1: 22.04 m
+  total : 259.68 m | hops: 11 | time: 0.0909 ms
+  ref[bellman_ford] route : 4 (Gerbang BNI) -> 126 (JLGOR_T1) -> 127 (JLGOR_T2) -> 128 (JLGOR_T3) -> 129 (JLGOR_T4) -> 130 (JLGOR_T5) -> 131 (JLGOR_T6) -> 132 (JLGOR_T7) -> 24 (FILKOM_P6) -> 25 (FILKOM_P7) -> 34 (FILKOM_P16) -> 1 (Gedung A FILKOM UB)
+  ref[bellman_ford] total : 259.68 m | time: 4.4687 ms
+  compare: match | distance_match=True | path_match=True
+[dijkstra] 4 (Gerbang BNI) -> 2 (Gedung F FILKOM UB)
+  route : 4 (Gerbang BNI) -> 126 (JLGOR_T1) -> 127 (JLGOR_T2) -> 128 (JLGOR_T3) -> 129 (JLGOR_T4) -> 130 (JLGOR_T5) -> 23 (FILKOM_P5) -> 3 (Gedung G FILKOM UB) -> 11 (Junction FILKOM UB) -> 2 (Gedung F FILKOM UB)
+  edges : 4->126: 20.99 m | 126->127: 12.96 m | 127->128: 34.28 m | 128->129: 31.96 m | 129->130: 58.20 m | 130->23: 29.30 m | 23->3: 27.17 m | 3->11: 31.59 m | 11->2: 31.02 m
+  total : 277.47 m | hops: 9 | time: 0.1045 ms
+  ref[bellman_ford] route : 4 (Gerbang BNI) -> 126 (JLGOR_T1) -> 127 (JLGOR_T2) -> 128 (JLGOR_T3) -> 129 (JLGOR_T4) -> 130 (JLGOR_T5) -> 23 (FILKOM_P5) -> 3 (Gedung G FILKOM UB) -> 11 (Junction FILKOM UB) -> 2 (Gedung F FILKOM UB)
+  ref[bellman_ford] total : 277.47 m | time: 4.4376 ms
+  compare: match | distance_match=True | path_match=True
+[dijkstra] 4 (Gerbang BNI) -> 3 (Gedung G FILKOM UB)
+  route : 4 (Gerbang BNI) -> 126 (JLGOR_T1) -> 127 (JLGOR_T2) -> 128 (JLGOR_T3) -> 129 (JLGOR_T4) -> 130 (JLGOR_T5) -> 23 (FILKOM_P5) -> 3 (Gedung G FILKOM UB)
+  edges : 4->126: 20.99 m | 126->127: 12.96 m | 127->128: 34.28 m | 128->129: 31.96 m | 129->130: 58.20 m | 130->23: 29.30 m | 23->3: 27.17 m
+  total : 214.86 m | hops: 7 | time: 0.045 ms
+  ref[bellman_ford] route : 4 (Gerbang BNI) -> 126 (JLGOR_T1) -> 127 (JLGOR_T2) -> 128 (JLGOR_T3) -> 129 (JLGOR_T4) -> 130 (JLGOR_T5) -> 23 (FILKOM_P5) -> 3 (Gedung G FILKOM UB)
+  ref[bellman_ford] total : 214.86 m | time: 4.4329 ms
+  compare: match | distance_match=True | path_match=True
+[dijkstra] 4 (Gerbang BNI) -> 11 (Junction FILKOM UB)
+  route : 4 (Gerbang BNI) -> 126 (JLGOR_T1) -> 127 (JLGOR_T2) -> 128 (JLGOR_T3) -> 129 (JLGOR_T4) -> 130 (JLGOR_T5) -> 23 (FILKOM_P5) -> 3 (Gedung G FILKOM UB) -> 11 (Junction FILKOM UB)
+  edges : 4->126: 20.99 m | 126->127: 12.96 m | 127->128: 34.28 m | 128->129: 31.96 m | 129->130: 58.20 m | 130->23: 29.30 m | 23->3: 27.17 m | 3->11: 31.59 m
+  total : 246.45 m | hops: 8 | time: 0.0669 ms
+  ref[bellman_ford] route : 4 (Gerbang BNI) -> 126 (JLGOR_T1) -> 127 (JLGOR_T2) -> 128 (JLGOR_T3) -> 129 (JLGOR_T4) -> 130 (JLGOR_T5) -> 23 (FILKOM_P5) -> 3 (Gedung G FILKOM UB) -> 11 (Junction FILKOM UB)
+  ref[bellman_ford] total : 246.45 m | time: 4.4525 ms
+  compare: match | distance_match=True | path_match=True
+[dijkstra] 4 (Gerbang BNI) -> 8 (GKM FILKOM UB)
+  route : 4 (Gerbang BNI) -> 126 (JLGOR_T1) -> 67 (FKG_P13) -> 66 (FKG_P12) -> 65 (FKG_P11) -> 64 (FKG_P10) -> 63 (FKG_P9) -> 51 (FILKOM_P33) -> 52 (FILKOM_P34) -> 50 (FILKOM_P32) -> 8 (GKM FILKOM UB)
+  edges : 4->126: 20.99 m | 126->67: 10.10 m | 67->66: 63.90 m | 66->65: 8.43 m | 65->64: 12.33 m | 64->63: 29.29 m | 63->51: 30.69 m | 51->52: 9.47 m | 52->50: 14.66 m | 50->8: 15.83 m
+  total : 215.69 m | hops: 10 | time: 0.0556 ms
+  ref[bellman_ford] route : 4 (Gerbang BNI) -> 126 (JLGOR_T1) -> 67 (FKG_P13) -> 66 (FKG_P12) -> 65 (FKG_P11) -> 64 (FKG_P10) -> 63 (FKG_P9) -> 51 (FILKOM_P33) -> 52 (FILKOM_P34) -> 50 (FILKOM_P32) -> 8 (GKM FILKOM UB)
+  ref[bellman_ford] total : 215.69 m | time: 4.4535 ms
+  compare: match | distance_match=True | path_match=True
+[dijkstra] 5 (Gerbang Pandjaitan) -> 1 (Gedung A FILKOM UB)
+  route : 5 (Gerbang Pandjaitan) -> 149 (JLGOR_T24) -> 148 (JLGOR_T23) -> 124 (JLCL_T5) -> 145 (JLGOR_T20) -> 142 (JLGOR_T17) -> 154 (JLMRP_T4) -> 70 (FTP_P3) -> 141 (JLGOR_T16) -> 150 (JLGOR_T25) -> 162 (JLSKRI_T6) -> 161 (JLSKRI_T5) -> 68 (FTP_P1) -> 27 (FILKOM_P9) -> 26 (FILKOM_P8) -> 29 (FILKOM_P11) -> 30 (FILKOM_P12) -> 31 (FILKOM_P13) -> 1 (Gedung A FILKOM UB)
+  edges : 5->149: 40.10 m | 149->148: 31.96 m | 148->124: 20.26 m | 124->145: 9.49 m | 145->142: 52.60 m | 142->154: 16.76 m | 154->70: 9.62 m | 70->141: 32.25 m | 141->150: 37.36 m | 150->162: 21.13 m | 162->161: 9.05 m | 161->68: 37.05 m | 68->27: 12.37 m | 27->26: 22.95 m | 26->29: 13.97 m | 29->30: 8.76 m | 30->31: 5.32 m | 31->1: 12.08 m
+  total : 393.08 m | hops: 18 | time: 0.1436 ms
+  ref[bellman_ford] route : 5 (Gerbang Pandjaitan) -> 149 (JLGOR_T24) -> 148 (JLGOR_T23) -> 124 (JLCL_T5) -> 145 (JLGOR_T20) -> 142 (JLGOR_T17) -> 154 (JLMRP_T4) -> 70 (FTP_P3) -> 141 (JLGOR_T16) -> 150 (JLGOR_T25) -> 162 (JLSKRI_T6) -> 161 (JLSKRI_T5) -> 68 (FTP_P1) -> 27 (FILKOM_P9) -> 26 (FILKOM_P8) -> 29 (FILKOM_P11) -> 30 (FILKOM_P12) -> 31 (FILKOM_P13) -> 1 (Gedung A FILKOM UB)
+  ref[bellman_ford] total : 393.08 m | time: 5.1056 ms
+  compare: match | distance_match=True | path_match=True
+[dijkstra] 5 (Gerbang Pandjaitan) -> 2 (Gedung F FILKOM UB)
+  route : 5 (Gerbang Pandjaitan) -> 149 (JLGOR_T24) -> 148 (JLGOR_T23) -> 124 (JLCL_T5) -> 145 (JLGOR_T20) -> 142 (JLGOR_T17) -> 154 (JLMRP_T4) -> 70 (FTP_P3) -> 114 (JLFTP_P4) -> 112 (JLFTP_P2) -> 111 (JLFTP_P1) -> 115 (JLFTP_P5) -> 158 (JLSKRI_T2) -> 157 (JLSKRI_T1) -> 69 (FTP_P2) -> 41 (FILKOM_P23) -> 40 (FILKOM_P22) -> 39 (FILKOM_P21) -> 2 (Gedung F FILKOM UB)
+  edges : 5->149: 40.10 m | 149->148: 31.96 m | 148->124: 20.26 m | 124->145: 9.49 m | 145->142: 52.60 m | 142->154: 16.76 m | 154->70: 9.62 m | 70->114: 66.45 m | 114->112: 37.40 m | 112->111: 7.99 m | 111->115: 44.96 m | 115->158: 10.99 m | 158->157: 10.01 m | 157->69: 14.06 m | 69->41: 47.55 m | 41->40: 15.28 m | 40->39: 24.80 m | 39->2: 17.40 m
+  total : 477.68 m | hops: 18 | time: 0.1854 ms
+  ref[bellman_ford] route : 5 (Gerbang Pandjaitan) -> 149 (JLGOR_T24) -> 148 (JLGOR_T23) -> 124 (JLCL_T5) -> 145 (JLGOR_T20) -> 142 (JLGOR_T17) -> 154 (JLMRP_T4) -> 70 (FTP_P3) -> 114 (JLFTP_P4) -> 112 (JLFTP_P2) -> 111 (JLFTP_P1) -> 115 (JLFTP_P5) -> 158 (JLSKRI_T2) -> 157 (JLSKRI_T1) -> 69 (FTP_P2) -> 41 (FILKOM_P23) -> 40 (FILKOM_P22) -> 39 (FILKOM_P21) -> 2 (Gedung F FILKOM UB)
+  ref[bellman_ford] total : 477.68 m | time: 5.1171 ms
+  compare: match | distance_match=True | path_match=True
+[dijkstra] 5 (Gerbang Pandjaitan) -> 3 (Gedung G FILKOM UB)
+  route : 5 (Gerbang Pandjaitan) -> 149 (JLGOR_T24) -> 148 (JLGOR_T23) -> 124 (JLCL_T5) -> 145 (JLGOR_T20) -> 142 (JLGOR_T17) -> 154 (JLMRP_T4) -> 70 (FTP_P3) -> 141 (JLGOR_T16) -> 150 (JLGOR_T25) -> 162 (JLSKRI_T6) -> 161 (JLSKRI_T5) -> 68 (FTP_P1) -> 27 (FILKOM_P9) -> 26 (FILKOM_P8) -> 34 (FILKOM_P16) -> 25 (FILKOM_P7) -> 35 (FILKOM_P17) -> 54 (FILKOM_P36) -> 3 (Gedung G FILKOM UB)
+  edges : 5->149: 40.10 m | 149->148: 31.96 m | 148->124: 20.26 m | 124->145: 9.49 m | 145->142: 52.60 m | 142->154: 16.76 m | 154->70: 9.62 m | 70->141: 32.25 m | 141->150: 37.36 m | 150->162: 21.13 m | 162->161: 9.05 m | 161->68: 37.05 m | 68->27: 12.37 m | 27->26: 22.95 m | 26->34: 18.33 m | 34->25: 9.76 m | 25->35: 21.30 m | 35->54: 8.99 m | 54->3: 25.81 m
+  total : 437.14 m | hops: 19 | time: 0.1839 ms
+  ref[bellman_ford] route : 5 (Gerbang Pandjaitan) -> 149 (JLGOR_T24) -> 148 (JLGOR_T23) -> 124 (JLCL_T5) -> 145 (JLGOR_T20) -> 142 (JLGOR_T17) -> 154 (JLMRP_T4) -> 70 (FTP_P3) -> 141 (JLGOR_T16) -> 150 (JLGOR_T25) -> 162 (JLSKRI_T6) -> 161 (JLSKRI_T5) -> 68 (FTP_P1) -> 27 (FILKOM_P9) -> 26 (FILKOM_P8) -> 34 (FILKOM_P16) -> 25 (FILKOM_P7) -> 35 (FILKOM_P17) -> 54 (FILKOM_P36) -> 3 (Gedung G FILKOM UB)
+  ref[bellman_ford] total : 437.14 m | time: 5.0746 ms
+  compare: match | distance_match=True | path_match=True
+[dijkstra] 5 (Gerbang Pandjaitan) -> 11 (Junction FILKOM UB)
+  route : 5 (Gerbang Pandjaitan) -> 149 (JLGOR_T24) -> 148 (JLGOR_T23) -> 124 (JLCL_T5) -> 145 (JLGOR_T20) -> 142 (JLGOR_T17) -> 154 (JLMRP_T4) -> 70 (FTP_P3) -> 141 (JLGOR_T16) -> 150 (JLGOR_T25) -> 162 (JLSKRI_T6) -> 161 (JLSKRI_T5) -> 68 (FTP_P1) -> 27 (FILKOM_P9) -> 26 (FILKOM_P8) -> 34 (FILKOM_P16) -> 25 (FILKOM_P7) -> 35 (FILKOM_P17) -> 54 (FILKOM_P36) -> 33 (FILKOM_P15) -> 11 (Junction FILKOM UB)
+  edges : 5->149: 40.10 m | 149->148: 31.96 m | 148->124: 20.26 m | 124->145: 9.49 m | 145->142: 52.60 m | 142->154: 16.76 m | 154->70: 9.62 m | 70->141: 32.25 m | 141->150: 37.36 m | 150->162: 21.13 m | 162->161: 9.05 m | 161->68: 37.05 m | 68->27: 12.37 m | 27->26: 22.95 m | 26->34: 18.33 m | 34->25: 9.76 m | 25->35: 21.30 m | 35->54: 8.99 m | 54->33: 14.50 m | 33->11: 21.87 m
+  total : 447.70 m | hops: 20 | time: 0.1686 ms
+  ref[bellman_ford] route : 5 (Gerbang Pandjaitan) -> 149 (JLGOR_T24) -> 148 (JLGOR_T23) -> 124 (JLCL_T5) -> 145 (JLGOR_T20) -> 142 (JLGOR_T17) -> 154 (JLMRP_T4) -> 70 (FTP_P3) -> 141 (JLGOR_T16) -> 150 (JLGOR_T25) -> 162 (JLSKRI_T6) -> 161 (JLSKRI_T5) -> 68 (FTP_P1) -> 27 (FILKOM_P9) -> 26 (FILKOM_P8) -> 34 (FILKOM_P16) -> 25 (FILKOM_P7) -> 35 (FILKOM_P17) -> 54 (FILKOM_P36) -> 33 (FILKOM_P15) -> 11 (Junction FILKOM UB)
+  ref[bellman_ford] total : 447.70 m | time: 5.0534 ms
+  compare: match | distance_match=True | path_match=True
+[dijkstra] 5 (Gerbang Pandjaitan) -> 8 (GKM FILKOM UB)
+  route : 5 (Gerbang Pandjaitan) -> 149 (JLGOR_T24) -> 148 (JLGOR_T23) -> 124 (JLCL_T5) -> 145 (JLGOR_T20) -> 142 (JLGOR_T17) -> 154 (JLMRP_T4) -> 70 (FTP_P3) -> 141 (JLGOR_T16) -> 150 (JLGOR_T25) -> 162 (JLSKRI_T6) -> 161 (JLSKRI_T5) -> 68 (FTP_P1) -> 27 (FILKOM_P9) -> 26 (FILKOM_P8) -> 34 (FILKOM_P16) -> 25 (FILKOM_P7) -> 35 (FILKOM_P17) -> 54 (FILKOM_P36) -> 33 (FILKOM_P15) -> 11 (Junction FILKOM UB) -> 49 (FILKOM_P31) -> 47 (FILKOM_P29) -> 46 (FILKOM_P28) -> 8 (GKM FILKOM UB)
+  edges : 5->149: 40.10 m | 149->148: 31.96 m | 148->124: 20.26 m | 124->145: 9.49 m | 145->142: 52.60 m | 142->154: 16.76 m | 154->70: 9.62 m | 70->141: 32.25 m | 141->150: 37.36 m | 150->162: 21.13 m | 162->161: 9.05 m | 161->68: 37.05 m | 68->27: 12.37 m | 27->26: 22.95 m | 26->34: 18.33 m | 34->25: 9.76 m | 25->35: 21.30 m | 35->54: 8.99 m | 54->33: 14.50 m | 33->11: 21.87 m | 11->49: 26.95 m | 49->47: 40.37 m | 47->46: 16.03 m | 46->8: 9.24 m
+  total : 540.29 m | hops: 24 | time: 0.2168 ms
+  ref[bellman_ford] route : 5 (Gerbang Pandjaitan) -> 149 (JLGOR_T24) -> 148 (JLGOR_T23) -> 124 (JLCL_T5) -> 145 (JLGOR_T20) -> 142 (JLGOR_T17) -> 154 (JLMRP_T4) -> 70 (FTP_P3) -> 141 (JLGOR_T16) -> 150 (JLGOR_T25) -> 162 (JLSKRI_T6) -> 161 (JLSKRI_T5) -> 68 (FTP_P1) -> 27 (FILKOM_P9) -> 26 (FILKOM_P8) -> 34 (FILKOM_P16) -> 25 (FILKOM_P7) -> 35 (FILKOM_P17) -> 54 (FILKOM_P36) -> 33 (FILKOM_P15) -> 11 (Junction FILKOM UB) -> 49 (FILKOM_P31) -> 47 (FILKOM_P29) -> 46 (FILKOM_P28) -> 8 (GKM FILKOM UB)
+  ref[bellman_ford] total : 540.29 m | time: 5.0895 ms
+  compare: match | distance_match=True | path_match=True
+[dijkstra] 6 (Gerbang Soehat) -> 1 (Gedung A FILKOM UB)
+  route : 6 (Gerbang Soehat) -> 176 (JLUB_T13) -> 175 (JLUB_T12) -> 174 (JLUB_T11) -> 173 (JLUB_T10) -> 151 (JLMRP_T1) -> 172 (JLUB_T9) -> 184 (JLUB_T21) -> 119 (BUND_T4) -> 118 (BUND_T3) -> 117 (BUND_T2) -> 116 (BUND_T1) -> 158 (JLSKRI_T2) -> 157 (JLSKRI_T1) -> 69 (FTP_P2) -> 41 (FILKOM_P23) -> 40 (FILKOM_P22) -> 32 (FILKOM_P14) -> 36 (FILKOM_P18) -> 1 (Gedung A FILKOM UB)
+  edges : 6->176: 53.12 m | 176->175: 10.32 m | 175->174: 37.01 m | 174->173: 75.11 m | 173->151: 48.62 m | 151->172: 9.04 m | 172->184: 38.13 m | 184->119: 20.45 m | 119->118: 11.26 m | 118->117: 12.88 m | 117->116: 10.80 m | 116->158: 10.16 m | 158->157: 10.01 m | 157->69: 14.06 m | 69->41: 47.55 m | 41->40: 15.28 m | 40->32: 37.49 m | 32->36: 10.49 m | 36->1: 23.25 m
+  total : 495.03 m | hops: 19 | time: 0.1823 ms
+  ref[bellman_ford] route : 6 (Gerbang Soehat) -> 176 (JLUB_T13) -> 175 (JLUB_T12) -> 174 (JLUB_T11) -> 173 (JLUB_T10) -> 151 (JLMRP_T1) -> 172 (JLUB_T9) -> 184 (JLUB_T21) -> 119 (BUND_T4) -> 118 (BUND_T3) -> 117 (BUND_T2) -> 116 (BUND_T1) -> 158 (JLSKRI_T2) -> 157 (JLSKRI_T1) -> 69 (FTP_P2) -> 41 (FILKOM_P23) -> 40 (FILKOM_P22) -> 32 (FILKOM_P14) -> 36 (FILKOM_P18) -> 1 (Gedung A FILKOM UB)
+  ref[bellman_ford] total : 495.03 m | time: 5.4676 ms
+  compare: match | distance_match=True | path_match=True
+[dijkstra] 6 (Gerbang Soehat) -> 2 (Gedung F FILKOM UB)
+  route : 6 (Gerbang Soehat) -> 176 (JLUB_T13) -> 175 (JLUB_T12) -> 174 (JLUB_T11) -> 173 (JLUB_T10) -> 151 (JLMRP_T1) -> 172 (JLUB_T9) -> 184 (JLUB_T21) -> 119 (BUND_T4) -> 118 (BUND_T3) -> 117 (BUND_T2) -> 116 (BUND_T1) -> 158 (JLSKRI_T2) -> 157 (JLSKRI_T1) -> 69 (FTP_P2) -> 41 (FILKOM_P23) -> 40 (FILKOM_P22) -> 39 (FILKOM_P21) -> 2 (Gedung F FILKOM UB)
+  edges : 6->176: 53.12 m | 176->175: 10.32 m | 175->174: 37.01 m | 174->173: 75.11 m | 173->151: 48.62 m | 151->172: 9.04 m | 172->184: 38.13 m | 184->119: 20.45 m | 119->118: 11.26 m | 118->117: 12.88 m | 117->116: 10.80 m | 116->158: 10.16 m | 158->157: 10.01 m | 157->69: 14.06 m | 69->41: 47.55 m | 41->40: 15.28 m | 40->39: 24.80 m | 39->2: 17.40 m
+  total : 466 m | hops: 18 | time: 0.1381 ms
+  ref[bellman_ford] route : 6 (Gerbang Soehat) -> 176 (JLUB_T13) -> 175 (JLUB_T12) -> 174 (JLUB_T11) -> 173 (JLUB_T10) -> 151 (JLMRP_T1) -> 172 (JLUB_T9) -> 184 (JLUB_T21) -> 119 (BUND_T4) -> 118 (BUND_T3) -> 117 (BUND_T2) -> 116 (BUND_T1) -> 158 (JLSKRI_T2) -> 157 (JLSKRI_T1) -> 69 (FTP_P2) -> 41 (FILKOM_P23) -> 40 (FILKOM_P22) -> 39 (FILKOM_P21) -> 2 (Gedung F FILKOM UB)
+  ref[bellman_ford] total : 466 m | time: 5.4908 ms
+  compare: match | distance_match=True | path_match=True
+[dijkstra] 6 (Gerbang Soehat) -> 3 (Gedung G FILKOM UB)
+  route : 6 (Gerbang Soehat) -> 176 (JLUB_T13) -> 175 (JLUB_T12) -> 174 (JLUB_T11) -> 173 (JLUB_T10) -> 151 (JLMRP_T1) -> 172 (JLUB_T9) -> 184 (JLUB_T21) -> 119 (BUND_T4) -> 118 (BUND_T3) -> 117 (BUND_T2) -> 116 (BUND_T1) -> 158 (JLSKRI_T2) -> 157 (JLSKRI_T1) -> 69 (FTP_P2) -> 41 (FILKOM_P23) -> 40 (FILKOM_P22) -> 32 (FILKOM_P14) -> 36 (FILKOM_P18) -> 33 (FILKOM_P15) -> 54 (FILKOM_P36) -> 3 (Gedung G FILKOM UB)
+  edges : 6->176: 53.12 m | 176->175: 10.32 m | 175->174: 37.01 m | 174->173: 75.11 m | 173->151: 48.62 m | 151->172: 9.04 m | 172->184: 38.13 m | 184->119: 20.45 m | 119->118: 11.26 m | 118->117: 12.88 m | 117->116: 10.80 m | 116->158: 10.16 m | 158->157: 10.01 m | 157->69: 14.06 m | 69->41: 47.55 m | 41->40: 15.28 m | 40->32: 37.49 m | 32->36: 10.49 m | 36->33: 13.04 m | 33->54: 14.50 m | 54->3: 25.81 m
+  total : 525.13 m | hops: 21 | time: 0.1854 ms
+  ref[bellman_ford] route : 6 (Gerbang Soehat) -> 176 (JLUB_T13) -> 175 (JLUB_T12) -> 174 (JLUB_T11) -> 173 (JLUB_T10) -> 151 (JLMRP_T1) -> 172 (JLUB_T9) -> 184 (JLUB_T21) -> 119 (BUND_T4) -> 118 (BUND_T3) -> 117 (BUND_T2) -> 116 (BUND_T1) -> 158 (JLSKRI_T2) -> 157 (JLSKRI_T1) -> 69 (FTP_P2) -> 41 (FILKOM_P23) -> 40 (FILKOM_P22) -> 32 (FILKOM_P14) -> 36 (FILKOM_P18) -> 33 (FILKOM_P15) -> 54 (FILKOM_P36) -> 3 (Gedung G FILKOM UB)
+  ref[bellman_ford] total : 525.13 m | time: 5.6642 ms
+  compare: match | distance_match=True | path_match=True
+[dijkstra] 6 (Gerbang Soehat) -> 11 (Junction FILKOM UB)
+  route : 6 (Gerbang Soehat) -> 176 (JLUB_T13) -> 175 (JLUB_T12) -> 174 (JLUB_T11) -> 173 (JLUB_T10) -> 151 (JLMRP_T1) -> 172 (JLUB_T9) -> 184 (JLUB_T21) -> 119 (BUND_T4) -> 118 (BUND_T3) -> 117 (BUND_T2) -> 116 (BUND_T1) -> 158 (JLSKRI_T2) -> 157 (JLSKRI_T1) -> 69 (FTP_P2) -> 41 (FILKOM_P23) -> 40 (FILKOM_P22) -> 39 (FILKOM_P21) -> 2 (Gedung F FILKOM UB) -> 11 (Junction FILKOM UB)
+  edges : 6->176: 53.12 m | 176->175: 10.32 m | 175->174: 37.01 m | 174->173: 75.11 m | 173->151: 48.62 m | 151->172: 9.04 m | 172->184: 38.13 m | 184->119: 20.45 m | 119->118: 11.26 m | 118->117: 12.88 m | 117->116: 10.80 m | 116->158: 10.16 m | 158->157: 10.01 m | 157->69: 14.06 m | 69->41: 47.55 m | 41->40: 15.28 m | 40->39: 24.80 m | 39->2: 17.40 m | 2->11: 31.02 m
+  total : 497.02 m | hops: 19 | time: 0.1874 ms
+  ref[bellman_ford] route : 6 (Gerbang Soehat) -> 176 (JLUB_T13) -> 175 (JLUB_T12) -> 174 (JLUB_T11) -> 173 (JLUB_T10) -> 151 (JLMRP_T1) -> 172 (JLUB_T9) -> 184 (JLUB_T21) -> 119 (BUND_T4) -> 118 (BUND_T3) -> 117 (BUND_T2) -> 116 (BUND_T1) -> 158 (JLSKRI_T2) -> 157 (JLSKRI_T1) -> 69 (FTP_P2) -> 41 (FILKOM_P23) -> 40 (FILKOM_P22) -> 39 (FILKOM_P21) -> 2 (Gedung F FILKOM UB) -> 11 (Junction FILKOM UB)
+  ref[bellman_ford] total : 497.02 m | time: 5.4791 ms
+  compare: match | distance_match=True | path_match=True
+[dijkstra] 6 (Gerbang Soehat) -> 8 (GKM FILKOM UB)
+  route : 6 (Gerbang Soehat) -> 176 (JLUB_T13) -> 175 (JLUB_T12) -> 174 (JLUB_T11) -> 173 (JLUB_T10) -> 151 (JLMRP_T1) -> 172 (JLUB_T9) -> 184 (JLUB_T21) -> 119 (BUND_T4) -> 118 (BUND_T3) -> 117 (BUND_T2) -> 116 (BUND_T1) -> 158 (JLSKRI_T2) -> 157 (JLSKRI_T1) -> 69 (FTP_P2) -> 41 (FILKOM_P23) -> 40 (FILKOM_P22) -> 39 (FILKOM_P21) -> 2 (Gedung F FILKOM UB) -> 11 (Junction FILKOM UB) -> 49 (FILKOM_P31) -> 47 (FILKOM_P29) -> 46 (FILKOM_P28) -> 8 (GKM FILKOM UB)
+  edges : 6->176: 53.12 m | 176->175: 10.32 m | 175->174: 37.01 m | 174->173: 75.11 m | 173->151: 48.62 m | 151->172: 9.04 m | 172->184: 38.13 m | 184->119: 20.45 m | 119->118: 11.26 m | 118->117: 12.88 m | 117->116: 10.80 m | 116->158: 10.16 m | 158->157: 10.01 m | 157->69: 14.06 m | 69->41: 47.55 m | 41->40: 15.28 m | 40->39: 24.80 m | 39->2: 17.40 m | 2->11: 31.02 m | 11->49: 26.95 m | 49->47: 40.37 m | 47->46: 16.03 m | 46->8: 9.24 m
+  total : 589.61 m | hops: 23 | time: 0.2272 ms
+  ref[bellman_ford] route : 6 (Gerbang Soehat) -> 176 (JLUB_T13) -> 175 (JLUB_T12) -> 174 (JLUB_T11) -> 173 (JLUB_T10) -> 151 (JLMRP_T1) -> 172 (JLUB_T9) -> 184 (JLUB_T21) -> 119 (BUND_T4) -> 118 (BUND_T3) -> 117 (BUND_T2) -> 116 (BUND_T1) -> 158 (JLSKRI_T2) -> 157 (JLSKRI_T1) -> 69 (FTP_P2) -> 41 (FILKOM_P23) -> 40 (FILKOM_P22) -> 39 (FILKOM_P21) -> 2 (Gedung F FILKOM UB) -> 11 (Junction FILKOM UB) -> 49 (FILKOM_P31) -> 47 (FILKOM_P29) -> 46 (FILKOM_P28) -> 8 (GKM FILKOM UB)
+  ref[bellman_ford] total : 589.61 m | time: 5.4438 ms
+  compare: match | distance_match=True | path_match=True
+[dijkstra] 7 (Gerbang Veteran) -> 1 (Gedung A FILKOM UB)
+  route : 7 (Gerbang Veteran) -> 55 (FKG_P1) -> 164 (JLUB_T1) -> 168 (JLUB_T5) -> 165 (JLUB_T2) -> 166 (JLUB_T3) -> 183 (JLUB_T20) -> 167 (JLUB_T4) -> 169 (JLUB_T6) -> 39 (FILKOM_P21) -> 33 (FILKOM_P15) -> 54 (FILKOM_P36) -> 35 (FILKOM_P17) -> 1 (Gedung A FILKOM UB)
+  edges : 7->55: 21.96 m | 55->164: 21.37 m | 164->168: 58.36 m | 168->165: 18.92 m | 165->166: 55.28 m | 166->183: 18.15 m | 183->167: 26.41 m | 167->169: 46.20 m | 169->39: 30.71 m | 39->33: 37.77 m | 33->54: 14.50 m | 54->35: 8.99 m | 35->1: 11.42 m
+  total : 370.04 m | hops: 13 | time: 0.1018 ms
+  ref[bellman_ford] route : 7 (Gerbang Veteran) -> 55 (FKG_P1) -> 164 (JLUB_T1) -> 168 (JLUB_T5) -> 165 (JLUB_T2) -> 166 (JLUB_T3) -> 183 (JLUB_T20) -> 167 (JLUB_T4) -> 169 (JLUB_T6) -> 39 (FILKOM_P21) -> 33 (FILKOM_P15) -> 54 (FILKOM_P36) -> 35 (FILKOM_P17) -> 1 (Gedung A FILKOM UB)
+  ref[bellman_ford] total : 370.04 m | time: 4.6433 ms
+  compare: match | distance_match=True | path_match=True
+[dijkstra] 7 (Gerbang Veteran) -> 2 (Gedung F FILKOM UB)
+  route : 7 (Gerbang Veteran) -> 55 (FKG_P1) -> 164 (JLUB_T1) -> 168 (JLUB_T5) -> 165 (JLUB_T2) -> 166 (JLUB_T3) -> 183 (JLUB_T20) -> 167 (JLUB_T4) -> 169 (JLUB_T6) -> 39 (FILKOM_P21) -> 2 (Gedung F FILKOM UB)
+  edges : 7->55: 21.96 m | 55->164: 21.37 m | 164->168: 58.36 m | 168->165: 18.92 m | 165->166: 55.28 m | 166->183: 18.15 m | 183->167: 26.41 m | 167->169: 46.20 m | 169->39: 30.71 m | 39->2: 17.40 m
+  total : 314.76 m | hops: 10 | time: 0.0881 ms
+  ref[bellman_ford] route : 7 (Gerbang Veteran) -> 55 (FKG_P1) -> 164 (JLUB_T1) -> 168 (JLUB_T5) -> 165 (JLUB_T2) -> 166 (JLUB_T3) -> 183 (JLUB_T20) -> 167 (JLUB_T4) -> 169 (JLUB_T6) -> 39 (FILKOM_P21) -> 2 (Gedung F FILKOM UB)
+  ref[bellman_ford] total : 314.76 m | time: 4.679 ms
+  compare: match | distance_match=True | path_match=True
+[dijkstra] 7 (Gerbang Veteran) -> 3 (Gedung G FILKOM UB)
+  route : 7 (Gerbang Veteran) -> 55 (FKG_P1) -> 164 (JLUB_T1) -> 168 (JLUB_T5) -> 165 (JLUB_T2) -> 166 (JLUB_T3) -> 183 (JLUB_T20) -> 167 (JLUB_T4) -> 38 (FILKOM_P20) -> 48 (FILKOM_P30) -> 49 (FILKOM_P31) -> 11 (Junction FILKOM UB) -> 3 (Gedung G FILKOM UB)
+  edges : 7->55: 21.96 m | 55->164: 21.37 m | 164->168: 58.36 m | 168->165: 18.92 m | 165->166: 55.28 m | 166->183: 18.15 m | 183->167: 26.41 m | 167->38: 9.12 m | 38->48: 16.67 m | 48->49: 43.31 m | 49->11: 26.95 m | 11->3: 31.59 m
+  total : 348.09 m | hops: 12 | time: 0.089 ms
+  ref[bellman_ford] route : 7 (Gerbang Veteran) -> 55 (FKG_P1) -> 164 (JLUB_T1) -> 168 (JLUB_T5) -> 165 (JLUB_T2) -> 166 (JLUB_T3) -> 183 (JLUB_T20) -> 167 (JLUB_T4) -> 38 (FILKOM_P20) -> 48 (FILKOM_P30) -> 49 (FILKOM_P31) -> 11 (Junction FILKOM UB) -> 3 (Gedung G FILKOM UB)
+  ref[bellman_ford] total : 348.09 m | time: 4.6192 ms
+  compare: match | distance_match=True | path_match=True
+[dijkstra] 7 (Gerbang Veteran) -> 11 (Junction FILKOM UB)
+  route : 7 (Gerbang Veteran) -> 55 (FKG_P1) -> 164 (JLUB_T1) -> 168 (JLUB_T5) -> 165 (JLUB_T2) -> 166 (JLUB_T3) -> 183 (JLUB_T20) -> 167 (JLUB_T4) -> 38 (FILKOM_P20) -> 48 (FILKOM_P30) -> 49 (FILKOM_P31) -> 11 (Junction FILKOM UB)
+  edges : 7->55: 21.96 m | 55->164: 21.37 m | 164->168: 58.36 m | 168->165: 18.92 m | 165->166: 55.28 m | 166->183: 18.15 m | 183->167: 26.41 m | 167->38: 9.12 m | 38->48: 16.67 m | 48->49: 43.31 m | 49->11: 26.95 m
+  total : 316.50 m | hops: 11 | time: 0.0812 ms
+  ref[bellman_ford] route : 7 (Gerbang Veteran) -> 55 (FKG_P1) -> 164 (JLUB_T1) -> 168 (JLUB_T5) -> 165 (JLUB_T2) -> 166 (JLUB_T3) -> 183 (JLUB_T20) -> 167 (JLUB_T4) -> 38 (FILKOM_P20) -> 48 (FILKOM_P30) -> 49 (FILKOM_P31) -> 11 (Junction FILKOM UB)
+  ref[bellman_ford] total : 316.50 m | time: 4.6435 ms
+  compare: match | distance_match=True | path_match=True
+[dijkstra] 7 (Gerbang Veteran) -> 8 (GKM FILKOM UB)
+  route : 7 (Gerbang Veteran) -> 55 (FKG_P1) -> 56 (FKG_P2) -> 57 (FKG_P3) -> 60 (FKG_P6) -> 58 (FKG_P4) -> 59 (FKG_P5) -> 21 (FILKOM_P3) -> 8 (GKM FILKOM UB)
+  edges : 7->55: 21.96 m | 55->56: 52.12 m | 56->57: 32.46 m | 57->60: 47.62 m | 60->58: 26.10 m | 58->59: 28.06 m | 59->21: 7.71 m | 21->8: 23.88 m
+  total : 239.91 m | hops: 8 | time: 0.0373 ms
+  ref[bellman_ford] route : 7 (Gerbang Veteran) -> 55 (FKG_P1) -> 56 (FKG_P2) -> 57 (FKG_P3) -> 60 (FKG_P6) -> 58 (FKG_P4) -> 59 (FKG_P5) -> 21 (FILKOM_P3) -> 8 (GKM FILKOM UB)
+  ref[bellman_ford] total : 239.91 m | time: 4.7026 ms
+  compare: match | distance_match=True | path_match=True
+[dijkstra] 8 (GKM FILKOM UB) -> 1 (Gedung A FILKOM UB)
+  route : 8 (GKM FILKOM UB) -> 46 (FILKOM_P28) -> 47 (FILKOM_P29) -> 49 (FILKOM_P31) -> 11 (Junction FILKOM UB) -> 33 (FILKOM_P15) -> 54 (FILKOM_P36) -> 35 (FILKOM_P17) -> 1 (Gedung A FILKOM UB)
+  edges : 8->46: 9.24 m | 46->47: 16.03 m | 47->49: 40.37 m | 49->11: 26.95 m | 11->33: 21.87 m | 33->54: 14.50 m | 54->35: 8.99 m | 35->1: 11.42 m
+  total : 149.37 m | hops: 8 | time: 0.0749 ms
+  ref[bellman_ford] route : 8 (GKM FILKOM UB) -> 46 (FILKOM_P28) -> 47 (FILKOM_P29) -> 49 (FILKOM_P31) -> 11 (Junction FILKOM UB) -> 33 (FILKOM_P15) -> 54 (FILKOM_P36) -> 35 (FILKOM_P17) -> 1 (Gedung A FILKOM UB)
+  ref[bellman_ford] total : 149.37 m | time: 4.5273 ms
+  compare: match | distance_match=True | path_match=True
+[dijkstra] 8 (GKM FILKOM UB) -> 2 (Gedung F FILKOM UB)
+  route : 8 (GKM FILKOM UB) -> 46 (FILKOM_P28) -> 47 (FILKOM_P29) -> 49 (FILKOM_P31) -> 11 (Junction FILKOM UB) -> 2 (Gedung F FILKOM UB)
+  edges : 8->46: 9.24 m | 46->47: 16.03 m | 47->49: 40.37 m | 49->11: 26.95 m | 11->2: 31.02 m
+  total : 123.61 m | hops: 5 | time: 0.0564 ms
+  ref[bellman_ford] route : 8 (GKM FILKOM UB) -> 46 (FILKOM_P28) -> 47 (FILKOM_P29) -> 49 (FILKOM_P31) -> 11 (Junction FILKOM UB) -> 2 (Gedung F FILKOM UB)
+  ref[bellman_ford] total : 123.61 m | time: 4.4837 ms
+  compare: match | distance_match=True | path_match=True
+[dijkstra] 8 (GKM FILKOM UB) -> 3 (Gedung G FILKOM UB)
+  route : 8 (GKM FILKOM UB) -> 46 (FILKOM_P28) -> 47 (FILKOM_P29) -> 49 (FILKOM_P31) -> 11 (Junction FILKOM UB) -> 3 (Gedung G FILKOM UB)
+  edges : 8->46: 9.24 m | 46->47: 16.03 m | 47->49: 40.37 m | 49->11: 26.95 m | 11->3: 31.59 m
+  total : 124.18 m | hops: 5 | time: 0.0586 ms
+  ref[bellman_ford] route : 8 (GKM FILKOM UB) -> 46 (FILKOM_P28) -> 47 (FILKOM_P29) -> 49 (FILKOM_P31) -> 11 (Junction FILKOM UB) -> 3 (Gedung G FILKOM UB)
+  ref[bellman_ford] total : 124.18 m | time: 4.4537 ms
+  compare: match | distance_match=True | path_match=True
+[dijkstra] 8 (GKM FILKOM UB) -> 11 (Junction FILKOM UB)
+  route : 8 (GKM FILKOM UB) -> 46 (FILKOM_P28) -> 47 (FILKOM_P29) -> 49 (FILKOM_P31) -> 11 (Junction FILKOM UB)
+  edges : 8->46: 9.24 m | 46->47: 16.03 m | 47->49: 40.37 m | 49->11: 26.95 m
+  total : 92.59 m | hops: 4 | time: 0.0443 ms
+  ref[bellman_ford] route : 8 (GKM FILKOM UB) -> 46 (FILKOM_P28) -> 47 (FILKOM_P29) -> 49 (FILKOM_P31) -> 11 (Junction FILKOM UB)
+  ref[bellman_ford] total : 92.59 m | time: 4.4658 ms
+  compare: match | distance_match=True | path_match=True
+[dijkstra] 9 (GOR Pertamina) -> 1 (Gedung A FILKOM UB)
+  route : 9 (GOR Pertamina) -> 72 (GOR_P2) -> 71 (GOR_P1) -> 75 (GRIYA_P2) -> 74 (GRIYA_P1) -> 76 (GRIYA_P3) -> 138 (JLGOR_T13) -> 132 (JLGOR_T7) -> 24 (FILKOM_P6) -> 25 (FILKOM_P7) -> 34 (FILKOM_P16) -> 1 (Gedung A FILKOM UB)
+  edges : 9->72: 14.50 m | 72->71: 37.39 m | 71->75: 25.62 m | 75->74: 26.43 m | 74->76: 10.46 m | 76->138: 19.27 m | 138->132: 16.76 m | 132->24: 21.28 m | 24->25: 10.72 m | 25->34: 9.76 m | 34->1: 22.04 m
+  total : 214.23 m | hops: 11 | time: 0.093 ms
+  ref[bellman_ford] route : 9 (GOR Pertamina) -> 72 (GOR_P2) -> 71 (GOR_P1) -> 75 (GRIYA_P2) -> 74 (GRIYA_P1) -> 76 (GRIYA_P3) -> 138 (JLGOR_T13) -> 132 (JLGOR_T7) -> 24 (FILKOM_P6) -> 25 (FILKOM_P7) -> 34 (FILKOM_P16) -> 1 (Gedung A FILKOM UB)
+  ref[bellman_ford] total : 214.23 m | time: 3.4441 ms
+  compare: match | distance_match=True | path_match=True
+[dijkstra] 9 (GOR Pertamina) -> 2 (Gedung F FILKOM UB)
+  route : 9 (GOR Pertamina) -> 72 (GOR_P2) -> 71 (GOR_P1) -> 75 (GRIYA_P2) -> 74 (GRIYA_P1) -> 76 (GRIYA_P3) -> 138 (JLGOR_T13) -> 132 (JLGOR_T7) -> 23 (FILKOM_P5) -> 3 (Gedung G FILKOM UB) -> 11 (Junction FILKOM UB) -> 2 (Gedung F FILKOM UB)
+  edges : 9->72: 14.50 m | 72->71: 37.39 m | 71->75: 25.62 m | 75->74: 26.43 m | 74->76: 10.46 m | 76->138: 19.27 m | 138->132: 16.76 m | 132->23: 26.94 m | 23->3: 27.17 m | 3->11: 31.59 m | 11->2: 31.02 m
+  total : 267.15 m | hops: 11 | time: 0.143 ms
+  ref[bellman_ford] route : 9 (GOR Pertamina) -> 72 (GOR_P2) -> 71 (GOR_P1) -> 75 (GRIYA_P2) -> 74 (GRIYA_P1) -> 76 (GRIYA_P3) -> 138 (JLGOR_T13) -> 132 (JLGOR_T7) -> 23 (FILKOM_P5) -> 3 (Gedung G FILKOM UB) -> 11 (Junction FILKOM UB) -> 2 (Gedung F FILKOM UB)
+  ref[bellman_ford] total : 267.15 m | time: 3.4232 ms
+  compare: match | distance_match=True | path_match=True
+[dijkstra] 9 (GOR Pertamina) -> 3 (Gedung G FILKOM UB)
+  route : 9 (GOR Pertamina) -> 72 (GOR_P2) -> 71 (GOR_P1) -> 75 (GRIYA_P2) -> 74 (GRIYA_P1) -> 76 (GRIYA_P3) -> 138 (JLGOR_T13) -> 132 (JLGOR_T7) -> 23 (FILKOM_P5) -> 3 (Gedung G FILKOM UB)
+  edges : 9->72: 14.50 m | 72->71: 37.39 m | 71->75: 25.62 m | 75->74: 26.43 m | 74->76: 10.46 m | 76->138: 19.27 m | 138->132: 16.76 m | 132->23: 26.94 m | 23->3: 27.17 m
+  total : 204.54 m | hops: 9 | time: 0.0918 ms
+  ref[bellman_ford] route : 9 (GOR Pertamina) -> 72 (GOR_P2) -> 71 (GOR_P1) -> 75 (GRIYA_P2) -> 74 (GRIYA_P1) -> 76 (GRIYA_P3) -> 138 (JLGOR_T13) -> 132 (JLGOR_T7) -> 23 (FILKOM_P5) -> 3 (Gedung G FILKOM UB)
+  ref[bellman_ford] total : 204.54 m | time: 3.4575 ms
+  compare: match | distance_match=True | path_match=True
+[dijkstra] 9 (GOR Pertamina) -> 11 (Junction FILKOM UB)
+  route : 9 (GOR Pertamina) -> 72 (GOR_P2) -> 71 (GOR_P1) -> 75 (GRIYA_P2) -> 74 (GRIYA_P1) -> 76 (GRIYA_P3) -> 138 (JLGOR_T13) -> 132 (JLGOR_T7) -> 23 (FILKOM_P5) -> 3 (Gedung G FILKOM UB) -> 11 (Junction FILKOM UB)
+  edges : 9->72: 14.50 m | 72->71: 37.39 m | 71->75: 25.62 m | 75->74: 26.43 m | 74->76: 10.46 m | 76->138: 19.27 m | 138->132: 16.76 m | 132->23: 26.94 m | 23->3: 27.17 m | 3->11: 31.59 m
+  total : 236.13 m | hops: 10 | time: 0.1309 ms
+  ref[bellman_ford] route : 9 (GOR Pertamina) -> 72 (GOR_P2) -> 71 (GOR_P1) -> 75 (GRIYA_P2) -> 74 (GRIYA_P1) -> 76 (GRIYA_P3) -> 138 (JLGOR_T13) -> 132 (JLGOR_T7) -> 23 (FILKOM_P5) -> 3 (Gedung G FILKOM UB) -> 11 (Junction FILKOM UB)
+  ref[bellman_ford] total : 236.13 m | time: 3.4565 ms
+  compare: match | distance_match=True | path_match=True
+[dijkstra] 9 (GOR Pertamina) -> 8 (GKM FILKOM UB)
+  route : 9 (GOR Pertamina) -> 72 (GOR_P2) -> 71 (GOR_P1) -> 75 (GRIYA_P2) -> 74 (GRIYA_P1) -> 76 (GRIYA_P3) -> 138 (JLGOR_T13) -> 132 (JLGOR_T7) -> 23 (FILKOM_P5) -> 3 (Gedung G FILKOM UB) -> 11 (Junction FILKOM UB) -> 49 (FILKOM_P31) -> 47 (FILKOM_P29) -> 46 (FILKOM_P28) -> 8 (GKM FILKOM UB)
+  edges : 9->72: 14.50 m | 72->71: 37.39 m | 71->75: 25.62 m | 75->74: 26.43 m | 74->76: 10.46 m | 76->138: 19.27 m | 138->132: 16.76 m | 132->23: 26.94 m | 23->3: 27.17 m | 3->11: 31.59 m | 11->49: 26.95 m | 49->47: 40.37 m | 47->46: 16.03 m | 46->8: 9.24 m
+  total : 328.72 m | hops: 14 | time: 0.2058 ms
+  ref[bellman_ford] route : 9 (GOR Pertamina) -> 72 (GOR_P2) -> 71 (GOR_P1) -> 75 (GRIYA_P2) -> 74 (GRIYA_P1) -> 76 (GRIYA_P3) -> 138 (JLGOR_T13) -> 132 (JLGOR_T7) -> 23 (FILKOM_P5) -> 3 (Gedung G FILKOM UB) -> 11 (Junction FILKOM UB) -> 49 (FILKOM_P31) -> 47 (FILKOM_P29) -> 46 (FILKOM_P28) -> 8 (GKM FILKOM UB)
+  ref[bellman_ford] total : 328.72 m | time: 3.456 ms
+  compare: match | distance_match=True | path_match=True
+[dijkstra] 10 (Griya Brawijaya) -> 1 (Gedung A FILKOM UB)
+  route : 10 (Griya Brawijaya) -> 138 (JLGOR_T13) -> 132 (JLGOR_T7) -> 24 (FILKOM_P6) -> 25 (FILKOM_P7) -> 34 (FILKOM_P16) -> 1 (Gedung A FILKOM UB)
+  edges : 10->138: 15.55 m | 138->132: 16.76 m | 132->24: 21.28 m | 24->25: 10.72 m | 25->34: 9.76 m | 34->1: 22.04 m
+  total : 96.11 m | hops: 6 | time: 0.0469 ms
+  ref[bellman_ford] route : 10 (Griya Brawijaya) -> 138 (JLGOR_T13) -> 132 (JLGOR_T7) -> 24 (FILKOM_P6) -> 25 (FILKOM_P7) -> 34 (FILKOM_P16) -> 1 (Gedung A FILKOM UB)
+  ref[bellman_ford] total : 96.11 m | time: 3.5706 ms
+  compare: match | distance_match=True | path_match=True
+[dijkstra] 10 (Griya Brawijaya) -> 2 (Gedung F FILKOM UB)
+  route : 10 (Griya Brawijaya) -> 138 (JLGOR_T13) -> 132 (JLGOR_T7) -> 23 (FILKOM_P5) -> 3 (Gedung G FILKOM UB) -> 11 (Junction FILKOM UB) -> 2 (Gedung F FILKOM UB)
+  edges : 10->138: 15.55 m | 138->132: 16.76 m | 132->23: 26.94 m | 23->3: 27.17 m | 3->11: 31.59 m | 11->2: 31.02 m
+  total : 149.03 m | hops: 6 | time: 0.0797 ms
+  ref[bellman_ford] route : 10 (Griya Brawijaya) -> 138 (JLGOR_T13) -> 132 (JLGOR_T7) -> 23 (FILKOM_P5) -> 3 (Gedung G FILKOM UB) -> 11 (Junction FILKOM UB) -> 2 (Gedung F FILKOM UB)
+  ref[bellman_ford] total : 149.03 m | time: 3.5981 ms
+  compare: match | distance_match=True | path_match=True
+[dijkstra] 10 (Griya Brawijaya) -> 3 (Gedung G FILKOM UB)
+  route : 10 (Griya Brawijaya) -> 138 (JLGOR_T13) -> 132 (JLGOR_T7) -> 23 (FILKOM_P5) -> 3 (Gedung G FILKOM UB)
+  edges : 10->138: 15.55 m | 138->132: 16.76 m | 132->23: 26.94 m | 23->3: 27.17 m
+  total : 86.42 m | hops: 4 | time: 0.0408 ms
+  ref[bellman_ford] route : 10 (Griya Brawijaya) -> 138 (JLGOR_T13) -> 132 (JLGOR_T7) -> 23 (FILKOM_P5) -> 3 (Gedung G FILKOM UB)
+  ref[bellman_ford] total : 86.42 m | time: 3.5832 ms
+  compare: match | distance_match=True | path_match=True
+[dijkstra] 10 (Griya Brawijaya) -> 11 (Junction FILKOM UB)
+  route : 10 (Griya Brawijaya) -> 138 (JLGOR_T13) -> 132 (JLGOR_T7) -> 23 (FILKOM_P5) -> 3 (Gedung G FILKOM UB) -> 11 (Junction FILKOM UB)
+  edges : 10->138: 15.55 m | 138->132: 16.76 m | 132->23: 26.94 m | 23->3: 27.17 m | 3->11: 31.59 m
+  total : 118.01 m | hops: 5 | time: 0.0619 ms
+  ref[bellman_ford] route : 10 (Griya Brawijaya) -> 138 (JLGOR_T13) -> 132 (JLGOR_T7) -> 23 (FILKOM_P5) -> 3 (Gedung G FILKOM UB) -> 11 (Junction FILKOM UB)
+  ref[bellman_ford] total : 118.01 m | time: 3.6151 ms
+  compare: match | distance_match=True | path_match=True
+[dijkstra] 10 (Griya Brawijaya) -> 8 (GKM FILKOM UB)
+  route : 10 (Griya Brawijaya) -> 138 (JLGOR_T13) -> 132 (JLGOR_T7) -> 23 (FILKOM_P5) -> 3 (Gedung G FILKOM UB) -> 11 (Junction FILKOM UB) -> 49 (FILKOM_P31) -> 47 (FILKOM_P29) -> 46 (FILKOM_P28) -> 8 (GKM FILKOM UB)
+  edges : 10->138: 15.55 m | 138->132: 16.76 m | 132->23: 26.94 m | 23->3: 27.17 m | 3->11: 31.59 m | 11->49: 26.95 m | 49->47: 40.37 m | 47->46: 16.03 m | 46->8: 9.24 m
+  total : 210.60 m | hops: 9 | time: 0.143 ms
+  ref[bellman_ford] route : 10 (Griya Brawijaya) -> 138 (JLGOR_T13) -> 132 (JLGOR_T7) -> 23 (FILKOM_P5) -> 3 (Gedung G FILKOM UB) -> 11 (Junction FILKOM UB) -> 49 (FILKOM_P31) -> 47 (FILKOM_P29) -> 46 (FILKOM_P28) -> 8 (GKM FILKOM UB)
+  ref[bellman_ford] total : 210.60 m | time: 3.5916 ms
+  compare: match | distance_match=True | path_match=True
+[dijkstra] 11 (Junction FILKOM UB) -> 1 (Gedung A FILKOM UB)
+  route : 11 (Junction FILKOM UB) -> 33 (FILKOM_P15) -> 54 (FILKOM_P36) -> 35 (FILKOM_P17) -> 1 (Gedung A FILKOM UB)
+  edges : 11->33: 21.87 m | 33->54: 14.50 m | 54->35: 8.99 m | 35->1: 11.42 m
+  total : 56.78 m | hops: 4 | time: 0.0243 ms
+  ref[bellman_ford] route : 11 (Junction FILKOM UB) -> 33 (FILKOM_P15) -> 54 (FILKOM_P36) -> 35 (FILKOM_P17) -> 1 (Gedung A FILKOM UB)
+  ref[bellman_ford] total : 56.78 m | time: 4.0111 ms
+  compare: match | distance_match=True | path_match=True
+[dijkstra] 11 (Junction FILKOM UB) -> 2 (Gedung F FILKOM UB)
+  route : 11 (Junction FILKOM UB) -> 2 (Gedung F FILKOM UB)
+  edges : 11->2: 31.02 m
+  total : 31.02 m | hops: 1 | time: 0.0151 ms
+  ref[bellman_ford] route : 11 (Junction FILKOM UB) -> 2 (Gedung F FILKOM UB)
+  ref[bellman_ford] total : 31.02 m | time: 3.9852 ms
+  compare: match | distance_match=True | path_match=True
+[dijkstra] 11 (Junction FILKOM UB) -> 3 (Gedung G FILKOM UB)
+  route : 11 (Junction FILKOM UB) -> 3 (Gedung G FILKOM UB)
+  edges : 11->3: 31.59 m
+  total : 31.59 m | hops: 1 | time: 0.0163 ms
+  ref[bellman_ford] route : 11 (Junction FILKOM UB) -> 3 (Gedung G FILKOM UB)
+  ref[bellman_ford] total : 31.59 m | time: 3.9151 ms
+  compare: match | distance_match=True | path_match=True
+[dijkstra] 11 (Junction FILKOM UB) -> 8 (GKM FILKOM UB)
+  route : 11 (Junction FILKOM UB) -> 49 (FILKOM_P31) -> 47 (FILKOM_P29) -> 46 (FILKOM_P28) -> 8 (GKM FILKOM UB)
+  edges : 11->49: 26.95 m | 49->47: 40.37 m | 47->46: 16.03 m | 46->8: 9.24 m
+  total : 92.59 m | hops: 4 | time: 0.0576 ms
+  ref[bellman_ford] route : 11 (Junction FILKOM UB) -> 49 (FILKOM_P31) -> 47 (FILKOM_P29) -> 46 (FILKOM_P28) -> 8 (GKM FILKOM UB)
+  ref[bellman_ford] total : 92.59 m | time: 3.904 ms
+  compare: match | distance_match=True | path_match=True
+[dijkstra] 12 (Kantin CL) -> 1 (Gedung A FILKOM UB)
+  route : 12 (Kantin CL) -> 104 (JLCL_P7) -> 103 (JLCL_P6) -> 102 (JLCL_P5) -> 101 (JLCL_P4) -> 100 (JLCL_P3) -> 120 (JLCL_T1) -> 72 (GOR_P2) -> 71 (GOR_P1) -> 75 (GRIYA_P2) -> 74 (GRIYA_P1) -> 76 (GRIYA_P3) -> 138 (JLGOR_T13) -> 132 (JLGOR_T7) -> 24 (FILKOM_P6) -> 25 (FILKOM_P7) -> 34 (FILKOM_P16) -> 1 (Gedung A FILKOM UB)
+  edges : 12->104: 12.21 m | 104->103: 8.50 m | 103->102: 15.79 m | 102->101: 19.49 m | 101->100: 19.64 m | 100->120: 4.89 m | 120->72: 15.51 m | 72->71: 37.39 m | 71->75: 25.62 m | 75->74: 26.43 m | 74->76: 10.46 m | 76->138: 19.27 m | 138->132: 16.76 m | 132->24: 21.28 m | 24->25: 10.72 m | 25->34: 9.76 m | 34->1: 22.04 m
+  total : 295.76 m | hops: 17 | time: 0.1612 ms
+  ref[bellman_ford] route : 12 (Kantin CL) -> 104 (JLCL_P7) -> 103 (JLCL_P6) -> 102 (JLCL_P5) -> 101 (JLCL_P4) -> 100 (JLCL_P3) -> 120 (JLCL_T1) -> 72 (GOR_P2) -> 71 (GOR_P1) -> 75 (GRIYA_P2) -> 74 (GRIYA_P1) -> 76 (GRIYA_P3) -> 138 (JLGOR_T13) -> 132 (JLGOR_T7) -> 24 (FILKOM_P6) -> 25 (FILKOM_P7) -> 34 (FILKOM_P16) -> 1 (Gedung A FILKOM UB)
+  ref[bellman_ford] total : 295.76 m | time: 4.7191 ms
+  compare: match | distance_match=True | path_match=True
+[dijkstra] 12 (Kantin CL) -> 2 (Gedung F FILKOM UB)
+  route : 12 (Kantin CL) -> 104 (JLCL_P7) -> 103 (JLCL_P6) -> 102 (JLCL_P5) -> 101 (JLCL_P4) -> 100 (JLCL_P3) -> 120 (JLCL_T1) -> 72 (GOR_P2) -> 71 (GOR_P1) -> 75 (GRIYA_P2) -> 74 (GRIYA_P1) -> 76 (GRIYA_P3) -> 138 (JLGOR_T13) -> 132 (JLGOR_T7) -> 23 (FILKOM_P5) -> 3 (Gedung G FILKOM UB) -> 11 (Junction FILKOM UB) -> 2 (Gedung F FILKOM UB)
+  edges : 12->104: 12.21 m | 104->103: 8.50 m | 103->102: 15.79 m | 102->101: 19.49 m | 101->100: 19.64 m | 100->120: 4.89 m | 120->72: 15.51 m | 72->71: 37.39 m | 71->75: 25.62 m | 75->74: 26.43 m | 74->76: 10.46 m | 76->138: 19.27 m | 138->132: 16.76 m | 132->23: 26.94 m | 23->3: 27.17 m | 3->11: 31.59 m | 11->2: 31.02 m
+  total : 348.68 m | hops: 17 | time: 0.1691 ms
+  ref[bellman_ford] route : 12 (Kantin CL) -> 104 (JLCL_P7) -> 103 (JLCL_P6) -> 102 (JLCL_P5) -> 101 (JLCL_P4) -> 100 (JLCL_P3) -> 120 (JLCL_T1) -> 72 (GOR_P2) -> 71 (GOR_P1) -> 75 (GRIYA_P2) -> 74 (GRIYA_P1) -> 76 (GRIYA_P3) -> 138 (JLGOR_T13) -> 132 (JLGOR_T7) -> 23 (FILKOM_P5) -> 3 (Gedung G FILKOM UB) -> 11 (Junction FILKOM UB) -> 2 (Gedung F FILKOM UB)
+  ref[bellman_ford] total : 348.68 m | time: 4.7188 ms
+  compare: match | distance_match=True | path_match=True
+[dijkstra] 12 (Kantin CL) -> 3 (Gedung G FILKOM UB)
+  route : 12 (Kantin CL) -> 104 (JLCL_P7) -> 103 (JLCL_P6) -> 102 (JLCL_P5) -> 101 (JLCL_P4) -> 100 (JLCL_P3) -> 120 (JLCL_T1) -> 72 (GOR_P2) -> 71 (GOR_P1) -> 75 (GRIYA_P2) -> 74 (GRIYA_P1) -> 76 (GRIYA_P3) -> 138 (JLGOR_T13) -> 132 (JLGOR_T7) -> 23 (FILKOM_P5) -> 3 (Gedung G FILKOM UB)
+  edges : 12->104: 12.21 m | 104->103: 8.50 m | 103->102: 15.79 m | 102->101: 19.49 m | 101->100: 19.64 m | 100->120: 4.89 m | 120->72: 15.51 m | 72->71: 37.39 m | 71->75: 25.62 m | 75->74: 26.43 m | 74->76: 10.46 m | 76->138: 19.27 m | 138->132: 16.76 m | 132->23: 26.94 m | 23->3: 27.17 m
+  total : 286.07 m | hops: 15 | time: 0.1498 ms
+  ref[bellman_ford] route : 12 (Kantin CL) -> 104 (JLCL_P7) -> 103 (JLCL_P6) -> 102 (JLCL_P5) -> 101 (JLCL_P4) -> 100 (JLCL_P3) -> 120 (JLCL_T1) -> 72 (GOR_P2) -> 71 (GOR_P1) -> 75 (GRIYA_P2) -> 74 (GRIYA_P1) -> 76 (GRIYA_P3) -> 138 (JLGOR_T13) -> 132 (JLGOR_T7) -> 23 (FILKOM_P5) -> 3 (Gedung G FILKOM UB)
+  ref[bellman_ford] total : 286.07 m | time: 4.6634 ms
+  compare: match | distance_match=True | path_match=True
+[dijkstra] 12 (Kantin CL) -> 11 (Junction FILKOM UB)
+  route : 12 (Kantin CL) -> 104 (JLCL_P7) -> 103 (JLCL_P6) -> 102 (JLCL_P5) -> 101 (JLCL_P4) -> 100 (JLCL_P3) -> 120 (JLCL_T1) -> 72 (GOR_P2) -> 71 (GOR_P1) -> 75 (GRIYA_P2) -> 74 (GRIYA_P1) -> 76 (GRIYA_P3) -> 138 (JLGOR_T13) -> 132 (JLGOR_T7) -> 23 (FILKOM_P5) -> 3 (Gedung G FILKOM UB) -> 11 (Junction FILKOM UB)
+  edges : 12->104: 12.21 m | 104->103: 8.50 m | 103->102: 15.79 m | 102->101: 19.49 m | 101->100: 19.64 m | 100->120: 4.89 m | 120->72: 15.51 m | 72->71: 37.39 m | 71->75: 25.62 m | 75->74: 26.43 m | 74->76: 10.46 m | 76->138: 19.27 m | 138->132: 16.76 m | 132->23: 26.94 m | 23->3: 27.17 m | 3->11: 31.59 m
+  total : 317.66 m | hops: 16 | time: 0.1556 ms
+  ref[bellman_ford] route : 12 (Kantin CL) -> 104 (JLCL_P7) -> 103 (JLCL_P6) -> 102 (JLCL_P5) -> 101 (JLCL_P4) -> 100 (JLCL_P3) -> 120 (JLCL_T1) -> 72 (GOR_P2) -> 71 (GOR_P1) -> 75 (GRIYA_P2) -> 74 (GRIYA_P1) -> 76 (GRIYA_P3) -> 138 (JLGOR_T13) -> 132 (JLGOR_T7) -> 23 (FILKOM_P5) -> 3 (Gedung G FILKOM UB) -> 11 (Junction FILKOM UB)
+  ref[bellman_ford] total : 317.66 m | time: 4.6845 ms
+  compare: match | distance_match=True | path_match=True
+[dijkstra] 12 (Kantin CL) -> 8 (GKM FILKOM UB)
+  route : 12 (Kantin CL) -> 104 (JLCL_P7) -> 103 (JLCL_P6) -> 102 (JLCL_P5) -> 101 (JLCL_P4) -> 100 (JLCL_P3) -> 120 (JLCL_T1) -> 72 (GOR_P2) -> 71 (GOR_P1) -> 75 (GRIYA_P2) -> 74 (GRIYA_P1) -> 76 (GRIYA_P3) -> 138 (JLGOR_T13) -> 132 (JLGOR_T7) -> 23 (FILKOM_P5) -> 3 (Gedung G FILKOM UB) -> 11 (Junction FILKOM UB) -> 49 (FILKOM_P31) -> 47 (FILKOM_P29) -> 46 (FILKOM_P28) -> 8 (GKM FILKOM UB)
+  edges : 12->104: 12.21 m | 104->103: 8.50 m | 103->102: 15.79 m | 102->101: 19.49 m | 101->100: 19.64 m | 100->120: 4.89 m | 120->72: 15.51 m | 72->71: 37.39 m | 71->75: 25.62 m | 75->74: 26.43 m | 74->76: 10.46 m | 76->138: 19.27 m | 138->132: 16.76 m | 132->23: 26.94 m | 23->3: 27.17 m | 3->11: 31.59 m | 11->49: 26.95 m | 49->47: 40.37 m | 47->46: 16.03 m | 46->8: 9.24 m
+  total : 410.25 m | hops: 20 | time: 0.2206 ms
+  ref[bellman_ford] route : 12 (Kantin CL) -> 104 (JLCL_P7) -> 103 (JLCL_P6) -> 102 (JLCL_P5) -> 101 (JLCL_P4) -> 100 (JLCL_P3) -> 120 (JLCL_T1) -> 72 (GOR_P2) -> 71 (GOR_P1) -> 75 (GRIYA_P2) -> 74 (GRIYA_P1) -> 76 (GRIYA_P3) -> 138 (JLGOR_T13) -> 132 (JLGOR_T7) -> 23 (FILKOM_P5) -> 3 (Gedung G FILKOM UB) -> 11 (Junction FILKOM UB) -> 49 (FILKOM_P31) -> 47 (FILKOM_P29) -> 46 (FILKOM_P28) -> 8 (GKM FILKOM UB)
+  ref[bellman_ford] total : 410.25 m | time: 4.7246 ms
+  compare: match | distance_match=True | path_match=True
+[dijkstra] 13 (Masjid Raden Patah) -> 1 (Gedung A FILKOM UB)
+  route : 13 (Masjid Raden Patah) -> 153 (JLMRP_T3) -> 154 (JLMRP_T4) -> 70 (FTP_P3) -> 141 (JLGOR_T16) -> 150 (JLGOR_T25) -> 162 (JLSKRI_T6) -> 161 (JLSKRI_T5) -> 68 (FTP_P1) -> 27 (FILKOM_P9) -> 26 (FILKOM_P8) -> 29 (FILKOM_P11) -> 30 (FILKOM_P12) -> 31 (FILKOM_P13) -> 1 (Gedung A FILKOM UB)
+  edges : 13->153: 35.81 m | 153->154: 40.10 m | 154->70: 9.62 m | 70->141: 32.25 m | 141->150: 37.36 m | 150->162: 21.13 m | 162->161: 9.05 m | 161->68: 37.05 m | 68->27: 12.37 m | 27->26: 22.95 m | 26->29: 13.97 m | 29->30: 8.76 m | 30->31: 5.32 m | 31->1: 12.08 m
+  total : 297.82 m | hops: 14 | time: 0.1684 ms
+  ref[bellman_ford] route : 13 (Masjid Raden Patah) -> 153 (JLMRP_T3) -> 154 (JLMRP_T4) -> 70 (FTP_P3) -> 141 (JLGOR_T16) -> 150 (JLGOR_T25) -> 162 (JLSKRI_T6) -> 161 (JLSKRI_T5) -> 68 (FTP_P1) -> 27 (FILKOM_P9) -> 26 (FILKOM_P8) -> 29 (FILKOM_P11) -> 30 (FILKOM_P12) -> 31 (FILKOM_P13) -> 1 (Gedung A FILKOM UB)
+  ref[bellman_ford] total : 297.82 m | time: 3.7715 ms
+  compare: match | distance_match=True | path_match=True
+[dijkstra] 13 (Masjid Raden Patah) -> 2 (Gedung F FILKOM UB)
+  route : 13 (Masjid Raden Patah) -> 153 (JLMRP_T3) -> 152 (JLMRP_T2) -> 114 (JLFTP_P4) -> 112 (JLFTP_P2) -> 111 (JLFTP_P1) -> 115 (JLFTP_P5) -> 158 (JLSKRI_T2) -> 157 (JLSKRI_T1) -> 69 (FTP_P2) -> 41 (FILKOM_P23) -> 40 (FILKOM_P22) -> 39 (FILKOM_P21) -> 2 (Gedung F FILKOM UB)
+  edges : 13->153: 35.81 m | 153->152: 29.17 m | 152->114: 10.38 m | 114->112: 37.40 m | 112->111: 7.99 m | 111->115: 44.96 m | 115->158: 10.99 m | 158->157: 10.01 m | 157->69: 14.06 m | 69->41: 47.55 m | 41->40: 15.28 m | 40->39: 24.80 m | 39->2: 17.40 m
+  total : 305.80 m | hops: 13 | time: 0.1636 ms
+  ref[bellman_ford] route : 13 (Masjid Raden Patah) -> 153 (JLMRP_T3) -> 152 (JLMRP_T2) -> 114 (JLFTP_P4) -> 112 (JLFTP_P2) -> 111 (JLFTP_P1) -> 115 (JLFTP_P5) -> 158 (JLSKRI_T2) -> 157 (JLSKRI_T1) -> 69 (FTP_P2) -> 41 (FILKOM_P23) -> 40 (FILKOM_P22) -> 39 (FILKOM_P21) -> 2 (Gedung F FILKOM UB)
+  ref[bellman_ford] total : 305.80 m | time: 3.776 ms
+  compare: match | distance_match=True | path_match=True
+[dijkstra] 13 (Masjid Raden Patah) -> 3 (Gedung G FILKOM UB)
+  route : 13 (Masjid Raden Patah) -> 153 (JLMRP_T3) -> 154 (JLMRP_T4) -> 70 (FTP_P3) -> 141 (JLGOR_T16) -> 150 (JLGOR_T25) -> 162 (JLSKRI_T6) -> 161 (JLSKRI_T5) -> 68 (FTP_P1) -> 27 (FILKOM_P9) -> 26 (FILKOM_P8) -> 34 (FILKOM_P16) -> 25 (FILKOM_P7) -> 35 (FILKOM_P17) -> 54 (FILKOM_P36) -> 3 (Gedung G FILKOM UB)
+  edges : 13->153: 35.81 m | 153->154: 40.10 m | 154->70: 9.62 m | 70->141: 32.25 m | 141->150: 37.36 m | 150->162: 21.13 m | 162->161: 9.05 m | 161->68: 37.05 m | 68->27: 12.37 m | 27->26: 22.95 m | 26->34: 18.33 m | 34->25: 9.76 m | 25->35: 21.30 m | 35->54: 8.99 m | 54->3: 25.81 m
+  total : 341.88 m | hops: 15 | time: 0.1884 ms
+  ref[bellman_ford] route : 13 (Masjid Raden Patah) -> 153 (JLMRP_T3) -> 154 (JLMRP_T4) -> 70 (FTP_P3) -> 141 (JLGOR_T16) -> 150 (JLGOR_T25) -> 162 (JLSKRI_T6) -> 161 (JLSKRI_T5) -> 68 (FTP_P1) -> 27 (FILKOM_P9) -> 26 (FILKOM_P8) -> 34 (FILKOM_P16) -> 25 (FILKOM_P7) -> 35 (FILKOM_P17) -> 54 (FILKOM_P36) -> 3 (Gedung G FILKOM UB)
+  ref[bellman_ford] total : 341.88 m | time: 3.7138 ms
+  compare: match | distance_match=True | path_match=True
+[dijkstra] 13 (Masjid Raden Patah) -> 11 (Junction FILKOM UB)
+  route : 13 (Masjid Raden Patah) -> 153 (JLMRP_T3) -> 152 (JLMRP_T2) -> 114 (JLFTP_P4) -> 112 (JLFTP_P2) -> 111 (JLFTP_P1) -> 115 (JLFTP_P5) -> 158 (JLSKRI_T2) -> 157 (JLSKRI_T1) -> 69 (FTP_P2) -> 41 (FILKOM_P23) -> 40 (FILKOM_P22) -> 39 (FILKOM_P21) -> 2 (Gedung F FILKOM UB) -> 11 (Junction FILKOM UB)
+  edges : 13->153: 35.81 m | 153->152: 29.17 m | 152->114: 10.38 m | 114->112: 37.40 m | 112->111: 7.99 m | 111->115: 44.96 m | 115->158: 10.99 m | 158->157: 10.01 m | 157->69: 14.06 m | 69->41: 47.55 m | 41->40: 15.28 m | 40->39: 24.80 m | 39->2: 17.40 m | 2->11: 31.02 m
+  total : 336.82 m | hops: 14 | time: 0.1824 ms
+  ref[bellman_ford] route : 13 (Masjid Raden Patah) -> 153 (JLMRP_T3) -> 152 (JLMRP_T2) -> 114 (JLFTP_P4) -> 112 (JLFTP_P2) -> 111 (JLFTP_P1) -> 115 (JLFTP_P5) -> 158 (JLSKRI_T2) -> 157 (JLSKRI_T1) -> 69 (FTP_P2) -> 41 (FILKOM_P23) -> 40 (FILKOM_P22) -> 39 (FILKOM_P21) -> 2 (Gedung F FILKOM UB) -> 11 (Junction FILKOM UB)
+  ref[bellman_ford] total : 336.82 m | time: 3.7389 ms
+  compare: match | distance_match=True | path_match=True
+[dijkstra] 13 (Masjid Raden Patah) -> 8 (GKM FILKOM UB)
+  route : 13 (Masjid Raden Patah) -> 153 (JLMRP_T3) -> 152 (JLMRP_T2) -> 114 (JLFTP_P4) -> 112 (JLFTP_P2) -> 111 (JLFTP_P1) -> 115 (JLFTP_P5) -> 158 (JLSKRI_T2) -> 157 (JLSKRI_T1) -> 69 (FTP_P2) -> 41 (FILKOM_P23) -> 40 (FILKOM_P22) -> 39 (FILKOM_P21) -> 2 (Gedung F FILKOM UB) -> 11 (Junction FILKOM UB) -> 49 (FILKOM_P31) -> 47 (FILKOM_P29) -> 46 (FILKOM_P28) -> 8 (GKM FILKOM UB)
+  edges : 13->153: 35.81 m | 153->152: 29.17 m | 152->114: 10.38 m | 114->112: 37.40 m | 112->111: 7.99 m | 111->115: 44.96 m | 115->158: 10.99 m | 158->157: 10.01 m | 157->69: 14.06 m | 69->41: 47.55 m | 41->40: 15.28 m | 40->39: 24.80 m | 39->2: 17.40 m | 2->11: 31.02 m | 11->49: 26.95 m | 49->47: 40.37 m | 47->46: 16.03 m | 46->8: 9.24 m
+  total : 429.41 m | hops: 18 | time: 0.2497 ms
+  ref[bellman_ford] route : 13 (Masjid Raden Patah) -> 153 (JLMRP_T3) -> 152 (JLMRP_T2) -> 114 (JLFTP_P4) -> 112 (JLFTP_P2) -> 111 (JLFTP_P1) -> 115 (JLFTP_P5) -> 158 (JLSKRI_T2) -> 157 (JLSKRI_T1) -> 69 (FTP_P2) -> 41 (FILKOM_P23) -> 40 (FILKOM_P22) -> 39 (FILKOM_P21) -> 2 (Gedung F FILKOM UB) -> 11 (Junction FILKOM UB) -> 49 (FILKOM_P31) -> 47 (FILKOM_P29) -> 46 (FILKOM_P28) -> 8 (GKM FILKOM UB)
+  ref[bellman_ford] total : 429.41 m | time: 3.7609 ms
+  compare: match | distance_match=True | path_match=True
+[dijkstra] 14 (Perpustakaan UB) -> 1 (Gedung A FILKOM UB)
+  route : 14 (Perpustakaan UB) -> 84 (PERPUS_P7) -> 83 (PERPUS_P6) -> 82 (PERPUS_P5) -> 81 (PERPUS_P4) -> 80 (PERPUS_P3) -> 79 (PERPUS_P2) -> 180 (JLUB_T17) -> 170 (JLUB_T7) -> 40 (FILKOM_P22) -> 32 (FILKOM_P14) -> 36 (FILKOM_P18) -> 1 (Gedung A FILKOM UB)
+  edges : 14->84: 9.52 m | 84->83: 13.82 m | 83->82: 11.64 m | 82->81: 8 m | 81->80: 8.12 m | 80->79: 23.21 m | 79->180: 18.89 m | 180->170: 19.73 m | 170->40: 28.67 m | 40->32: 37.49 m | 32->36: 10.49 m | 36->1: 23.25 m
+  total : 212.83 m | hops: 12 | time: 0.0757 ms
+  ref[bellman_ford] route : 14 (Perpustakaan UB) -> 84 (PERPUS_P7) -> 83 (PERPUS_P6) -> 82 (PERPUS_P5) -> 81 (PERPUS_P4) -> 80 (PERPUS_P3) -> 79 (PERPUS_P2) -> 180 (JLUB_T17) -> 170 (JLUB_T7) -> 40 (FILKOM_P22) -> 32 (FILKOM_P14) -> 36 (FILKOM_P18) -> 1 (Gedung A FILKOM UB)
+  ref[bellman_ford] total : 212.83 m | time: 4.1014 ms
+  compare: match | distance_match=True | path_match=True
+[dijkstra] 14 (Perpustakaan UB) -> 2 (Gedung F FILKOM UB)
+  route : 14 (Perpustakaan UB) -> 84 (PERPUS_P7) -> 83 (PERPUS_P6) -> 82 (PERPUS_P5) -> 81 (PERPUS_P4) -> 80 (PERPUS_P3) -> 79 (PERPUS_P2) -> 180 (JLUB_T17) -> 170 (JLUB_T7) -> 40 (FILKOM_P22) -> 39 (FILKOM_P21) -> 2 (Gedung F FILKOM UB)
+  edges : 14->84: 9.52 m | 84->83: 13.82 m | 83->82: 11.64 m | 82->81: 8 m | 81->80: 8.12 m | 80->79: 23.21 m | 79->180: 18.89 m | 180->170: 19.73 m | 170->40: 28.67 m | 40->39: 24.80 m | 39->2: 17.40 m
+  total : 183.80 m | hops: 11 | time: 0.0583 ms
+  ref[bellman_ford] route : 14 (Perpustakaan UB) -> 84 (PERPUS_P7) -> 83 (PERPUS_P6) -> 82 (PERPUS_P5) -> 81 (PERPUS_P4) -> 80 (PERPUS_P3) -> 79 (PERPUS_P2) -> 180 (JLUB_T17) -> 170 (JLUB_T7) -> 40 (FILKOM_P22) -> 39 (FILKOM_P21) -> 2 (Gedung F FILKOM UB)
+  ref[bellman_ford] total : 183.80 m | time: 4.1694 ms
+  compare: match | distance_match=True | path_match=True
+[dijkstra] 14 (Perpustakaan UB) -> 3 (Gedung G FILKOM UB)
+  route : 14 (Perpustakaan UB) -> 84 (PERPUS_P7) -> 83 (PERPUS_P6) -> 82 (PERPUS_P5) -> 81 (PERPUS_P4) -> 80 (PERPUS_P3) -> 79 (PERPUS_P2) -> 180 (JLUB_T17) -> 170 (JLUB_T7) -> 40 (FILKOM_P22) -> 32 (FILKOM_P14) -> 36 (FILKOM_P18) -> 33 (FILKOM_P15) -> 54 (FILKOM_P36) -> 3 (Gedung G FILKOM UB)
+  edges : 14->84: 9.52 m | 84->83: 13.82 m | 83->82: 11.64 m | 82->81: 8 m | 81->80: 8.12 m | 80->79: 23.21 m | 79->180: 18.89 m | 180->170: 19.73 m | 170->40: 28.67 m | 40->32: 37.49 m | 32->36: 10.49 m | 36->33: 13.04 m | 33->54: 14.50 m | 54->3: 25.81 m
+  total : 242.93 m | hops: 14 | time: 0.1042 ms
+  ref[bellman_ford] route : 14 (Perpustakaan UB) -> 84 (PERPUS_P7) -> 83 (PERPUS_P6) -> 82 (PERPUS_P5) -> 81 (PERPUS_P4) -> 80 (PERPUS_P3) -> 79 (PERPUS_P2) -> 180 (JLUB_T17) -> 170 (JLUB_T7) -> 40 (FILKOM_P22) -> 32 (FILKOM_P14) -> 36 (FILKOM_P18) -> 33 (FILKOM_P15) -> 54 (FILKOM_P36) -> 3 (Gedung G FILKOM UB)
+  ref[bellman_ford] total : 242.93 m | time: 4.1478 ms
+  compare: match | distance_match=True | path_match=True
+[dijkstra] 14 (Perpustakaan UB) -> 11 (Junction FILKOM UB)
+  route : 14 (Perpustakaan UB) -> 84 (PERPUS_P7) -> 83 (PERPUS_P6) -> 82 (PERPUS_P5) -> 81 (PERPUS_P4) -> 80 (PERPUS_P3) -> 79 (PERPUS_P2) -> 180 (JLUB_T17) -> 170 (JLUB_T7) -> 40 (FILKOM_P22) -> 39 (FILKOM_P21) -> 2 (Gedung F FILKOM UB) -> 11 (Junction FILKOM UB)
+  edges : 14->84: 9.52 m | 84->83: 13.82 m | 83->82: 11.64 m | 82->81: 8 m | 81->80: 8.12 m | 80->79: 23.21 m | 79->180: 18.89 m | 180->170: 19.73 m | 170->40: 28.67 m | 40->39: 24.80 m | 39->2: 17.40 m | 2->11: 31.02 m
+  total : 214.82 m | hops: 12 | time: 0.0878 ms
+  ref[bellman_ford] route : 14 (Perpustakaan UB) -> 84 (PERPUS_P7) -> 83 (PERPUS_P6) -> 82 (PERPUS_P5) -> 81 (PERPUS_P4) -> 80 (PERPUS_P3) -> 79 (PERPUS_P2) -> 180 (JLUB_T17) -> 170 (JLUB_T7) -> 40 (FILKOM_P22) -> 39 (FILKOM_P21) -> 2 (Gedung F FILKOM UB) -> 11 (Junction FILKOM UB)
+  ref[bellman_ford] total : 214.82 m | time: 4.2485 ms
+  compare: match | distance_match=True | path_match=True
+[dijkstra] 14 (Perpustakaan UB) -> 8 (GKM FILKOM UB)
+  route : 14 (Perpustakaan UB) -> 84 (PERPUS_P7) -> 83 (PERPUS_P6) -> 82 (PERPUS_P5) -> 81 (PERPUS_P4) -> 80 (PERPUS_P3) -> 79 (PERPUS_P2) -> 180 (JLUB_T17) -> 170 (JLUB_T7) -> 169 (JLUB_T6) -> 37 (FILKOM_P19) -> 38 (FILKOM_P20) -> 42 (FILKOM_P24) -> 43 (FILKOM_P25) -> 44 (FILKOM_P26) -> 45 (FILKOM_P27) -> 46 (FILKOM_P28) -> 8 (GKM FILKOM UB)
+  edges : 14->84: 9.52 m | 84->83: 13.82 m | 83->82: 11.64 m | 82->81: 8 m | 81->80: 8.12 m | 80->79: 23.21 m | 79->180: 18.89 m | 180->170: 19.73 m | 170->169: 41.35 m | 169->37: 20.75 m | 37->38: 25.28 m | 38->42: 21.48 m | 42->43: 8.27 m | 43->44: 22.57 m | 44->45: 11.97 m | 45->46: 20.55 m | 46->8: 9.24 m
+  total : 294.39 m | hops: 17 | time: 0.1496 ms
+  ref[bellman_ford] route : 14 (Perpustakaan UB) -> 84 (PERPUS_P7) -> 83 (PERPUS_P6) -> 82 (PERPUS_P5) -> 81 (PERPUS_P4) -> 80 (PERPUS_P3) -> 79 (PERPUS_P2) -> 180 (JLUB_T17) -> 170 (JLUB_T7) -> 169 (JLUB_T6) -> 37 (FILKOM_P19) -> 38 (FILKOM_P20) -> 42 (FILKOM_P24) -> 43 (FILKOM_P25) -> 44 (FILKOM_P26) -> 45 (FILKOM_P27) -> 46 (FILKOM_P28) -> 8 (GKM FILKOM UB)
+  ref[bellman_ford] total : 294.39 m | time: 4.1169 ms
+  compare: match | distance_match=True | path_match=True
+[dijkstra] 15 (Rusunawa UB) -> 1 (Gedung A FILKOM UB)
+  route : 15 (Rusunawa UB) -> 87 (RUSUN_P3) -> 86 (RUSUN_P2) -> 85 (RUSUN_P1) -> 123 (JLCL_T4) -> 124 (JLCL_T5) -> 145 (JLGOR_T20) -> 142 (JLGOR_T17) -> 154 (JLMRP_T4) -> 70 (FTP_P3) -> 141 (JLGOR_T16) -> 150 (JLGOR_T25) -> 162 (JLSKRI_T6) -> 161 (JLSKRI_T5) -> 68 (FTP_P1) -> 27 (FILKOM_P9) -> 26 (FILKOM_P8) -> 29 (FILKOM_P11) -> 30 (FILKOM_P12) -> 31 (FILKOM_P13) -> 1 (Gedung A FILKOM UB)
+  edges : 15->87: 11.54 m | 87->86: 8.09 m | 86->85: 18.02 m | 85->123: 12.74 m | 123->124: 16.54 m | 124->145: 9.49 m | 145->142: 52.60 m | 142->154: 16.76 m | 154->70: 9.62 m | 70->141: 32.25 m | 141->150: 37.36 m | 150->162: 21.13 m | 162->161: 9.05 m | 161->68: 37.05 m | 68->27: 12.37 m | 27->26: 22.95 m | 26->29: 13.97 m | 29->30: 8.76 m | 30->31: 5.32 m | 31->1: 12.08 m
+  total : 367.69 m | hops: 20 | time: 0.1485 ms
+  ref[bellman_ford] route : 15 (Rusunawa UB) -> 87 (RUSUN_P3) -> 86 (RUSUN_P2) -> 85 (RUSUN_P1) -> 123 (JLCL_T4) -> 124 (JLCL_T5) -> 145 (JLGOR_T20) -> 142 (JLGOR_T17) -> 154 (JLMRP_T4) -> 70 (FTP_P3) -> 141 (JLGOR_T16) -> 150 (JLGOR_T25) -> 162 (JLSKRI_T6) -> 161 (JLSKRI_T5) -> 68 (FTP_P1) -> 27 (FILKOM_P9) -> 26 (FILKOM_P8) -> 29 (FILKOM_P11) -> 30 (FILKOM_P12) -> 31 (FILKOM_P13) -> 1 (Gedung A FILKOM UB)
+  ref[bellman_ford] total : 367.69 m | time: 5.1007 ms
+  compare: match | distance_match=True | path_match=True
+[dijkstra] 15 (Rusunawa UB) -> 2 (Gedung F FILKOM UB)
+  route : 15 (Rusunawa UB) -> 87 (RUSUN_P3) -> 86 (RUSUN_P2) -> 85 (RUSUN_P1) -> 123 (JLCL_T4) -> 124 (JLCL_T5) -> 145 (JLGOR_T20) -> 142 (JLGOR_T17) -> 154 (JLMRP_T4) -> 70 (FTP_P3) -> 114 (JLFTP_P4) -> 112 (JLFTP_P2) -> 111 (JLFTP_P1) -> 115 (JLFTP_P5) -> 158 (JLSKRI_T2) -> 157 (JLSKRI_T1) -> 69 (FTP_P2) -> 41 (FILKOM_P23) -> 40 (FILKOM_P22) -> 39 (FILKOM_P21) -> 2 (Gedung F FILKOM UB)
+  edges : 15->87: 11.54 m | 87->86: 8.09 m | 86->85: 18.02 m | 85->123: 12.74 m | 123->124: 16.54 m | 124->145: 9.49 m | 145->142: 52.60 m | 142->154: 16.76 m | 154->70: 9.62 m | 70->114: 66.45 m | 114->112: 37.40 m | 112->111: 7.99 m | 111->115: 44.96 m | 115->158: 10.99 m | 158->157: 10.01 m | 157->69: 14.06 m | 69->41: 47.55 m | 41->40: 15.28 m | 40->39: 24.80 m | 39->2: 17.40 m
+  total : 452.29 m | hops: 20 | time: 0.1877 ms
+  ref[bellman_ford] route : 15 (Rusunawa UB) -> 87 (RUSUN_P3) -> 86 (RUSUN_P2) -> 85 (RUSUN_P1) -> 123 (JLCL_T4) -> 124 (JLCL_T5) -> 145 (JLGOR_T20) -> 142 (JLGOR_T17) -> 154 (JLMRP_T4) -> 70 (FTP_P3) -> 114 (JLFTP_P4) -> 112 (JLFTP_P2) -> 111 (JLFTP_P1) -> 115 (JLFTP_P5) -> 158 (JLSKRI_T2) -> 157 (JLSKRI_T1) -> 69 (FTP_P2) -> 41 (FILKOM_P23) -> 40 (FILKOM_P22) -> 39 (FILKOM_P21) -> 2 (Gedung F FILKOM UB)
+  ref[bellman_ford] total : 452.29 m | time: 5.0605 ms
+  compare: match | distance_match=True | path_match=True
+[dijkstra] 15 (Rusunawa UB) -> 3 (Gedung G FILKOM UB)
+  route : 15 (Rusunawa UB) -> 87 (RUSUN_P3) -> 88 (RUSUN_P4) -> 108 (JLCL_P11) -> 122 (JLCL_T3) -> 107 (JLCL_P10) -> 105 (JLCL_P8) -> 18 (CL_P2) -> 17 (CL_P1) -> 101 (JLCL_P4) -> 100 (JLCL_P3) -> 120 (JLCL_T1) -> 72 (GOR_P2) -> 71 (GOR_P1) -> 75 (GRIYA_P2) -> 74 (GRIYA_P1) -> 76 (GRIYA_P3) -> 138 (JLGOR_T13) -> 132 (JLGOR_T7) -> 23 (FILKOM_P5) -> 3 (Gedung G FILKOM UB)
+  edges : 15->87: 11.54 m | 87->88: 18.14 m | 88->108: 21.31 m | 108->122: 10.39 m | 122->107: 20.40 m | 107->105: 35.81 m | 105->18: 8.13 m | 18->17: 34.20 m | 17->101: 19.97 m | 101->100: 19.64 m | 100->120: 4.89 m | 120->72: 15.51 m | 72->71: 37.39 m | 71->75: 25.62 m | 75->74: 26.43 m | 74->76: 10.46 m | 76->138: 19.27 m | 138->132: 16.76 m | 132->23: 26.94 m | 23->3: 27.17 m
+  total : 409.97 m | hops: 20 | time: 0.1925 ms
+  ref[bellman_ford] route : 15 (Rusunawa UB) -> 87 (RUSUN_P3) -> 88 (RUSUN_P4) -> 108 (JLCL_P11) -> 122 (JLCL_T3) -> 107 (JLCL_P10) -> 105 (JLCL_P8) -> 18 (CL_P2) -> 17 (CL_P1) -> 101 (JLCL_P4) -> 100 (JLCL_P3) -> 120 (JLCL_T1) -> 72 (GOR_P2) -> 71 (GOR_P1) -> 75 (GRIYA_P2) -> 74 (GRIYA_P1) -> 76 (GRIYA_P3) -> 138 (JLGOR_T13) -> 132 (JLGOR_T7) -> 23 (FILKOM_P5) -> 3 (Gedung G FILKOM UB)
+  ref[bellman_ford] total : 409.97 m | time: 5.1803 ms
+  compare: match | distance_match=True | path_match=True
+[dijkstra] 15 (Rusunawa UB) -> 11 (Junction FILKOM UB)
+  route : 15 (Rusunawa UB) -> 87 (RUSUN_P3) -> 86 (RUSUN_P2) -> 85 (RUSUN_P1) -> 123 (JLCL_T4) -> 124 (JLCL_T5) -> 145 (JLGOR_T20) -> 142 (JLGOR_T17) -> 154 (JLMRP_T4) -> 70 (FTP_P3) -> 141 (JLGOR_T16) -> 150 (JLGOR_T25) -> 162 (JLSKRI_T6) -> 161 (JLSKRI_T5) -> 68 (FTP_P1) -> 27 (FILKOM_P9) -> 26 (FILKOM_P8) -> 34 (FILKOM_P16) -> 25 (FILKOM_P7) -> 35 (FILKOM_P17) -> 54 (FILKOM_P36) -> 33 (FILKOM_P15) -> 11 (Junction FILKOM UB)
+  edges : 15->87: 11.54 m | 87->86: 8.09 m | 86->85: 18.02 m | 85->123: 12.74 m | 123->124: 16.54 m | 124->145: 9.49 m | 145->142: 52.60 m | 142->154: 16.76 m | 154->70: 9.62 m | 70->141: 32.25 m | 141->150: 37.36 m | 150->162: 21.13 m | 162->161: 9.05 m | 161->68: 37.05 m | 68->27: 12.37 m | 27->26: 22.95 m | 26->34: 18.33 m | 34->25: 9.76 m | 25->35: 21.30 m | 35->54: 8.99 m | 54->33: 14.50 m | 33->11: 21.87 m
+  total : 422.31 m | hops: 22 | time: 0.1742 ms
+  ref[bellman_ford] route : 15 (Rusunawa UB) -> 87 (RUSUN_P3) -> 86 (RUSUN_P2) -> 85 (RUSUN_P1) -> 123 (JLCL_T4) -> 124 (JLCL_T5) -> 145 (JLGOR_T20) -> 142 (JLGOR_T17) -> 154 (JLMRP_T4) -> 70 (FTP_P3) -> 141 (JLGOR_T16) -> 150 (JLGOR_T25) -> 162 (JLSKRI_T6) -> 161 (JLSKRI_T5) -> 68 (FTP_P1) -> 27 (FILKOM_P9) -> 26 (FILKOM_P8) -> 34 (FILKOM_P16) -> 25 (FILKOM_P7) -> 35 (FILKOM_P17) -> 54 (FILKOM_P36) -> 33 (FILKOM_P15) -> 11 (Junction FILKOM UB)
+  ref[bellman_ford] total : 422.31 m | time: 5.1024 ms
+  compare: match | distance_match=True | path_match=True
+[dijkstra] 15 (Rusunawa UB) -> 8 (GKM FILKOM UB)
+  route : 15 (Rusunawa UB) -> 87 (RUSUN_P3) -> 86 (RUSUN_P2) -> 85 (RUSUN_P1) -> 123 (JLCL_T4) -> 124 (JLCL_T5) -> 145 (JLGOR_T20) -> 142 (JLGOR_T17) -> 154 (JLMRP_T4) -> 70 (FTP_P3) -> 141 (JLGOR_T16) -> 150 (JLGOR_T25) -> 162 (JLSKRI_T6) -> 161 (JLSKRI_T5) -> 68 (FTP_P1) -> 27 (FILKOM_P9) -> 26 (FILKOM_P8) -> 34 (FILKOM_P16) -> 25 (FILKOM_P7) -> 35 (FILKOM_P17) -> 54 (FILKOM_P36) -> 33 (FILKOM_P15) -> 11 (Junction FILKOM UB) -> 49 (FILKOM_P31) -> 47 (FILKOM_P29) -> 46 (FILKOM_P28) -> 8 (GKM FILKOM UB)
+  edges : 15->87: 11.54 m | 87->86: 8.09 m | 86->85: 18.02 m | 85->123: 12.74 m | 123->124: 16.54 m | 124->145: 9.49 m | 145->142: 52.60 m | 142->154: 16.76 m | 154->70: 9.62 m | 70->141: 32.25 m | 141->150: 37.36 m | 150->162: 21.13 m | 162->161: 9.05 m | 161->68: 37.05 m | 68->27: 12.37 m | 27->26: 22.95 m | 26->34: 18.33 m | 34->25: 9.76 m | 25->35: 21.30 m | 35->54: 8.99 m | 54->33: 14.50 m | 33->11: 21.87 m | 11->49: 26.95 m | 49->47: 40.37 m | 47->46: 16.03 m | 46->8: 9.24 m
+  total : 514.90 m | hops: 26 | time: 0.2268 ms
+  ref[bellman_ford] route : 15 (Rusunawa UB) -> 87 (RUSUN_P3) -> 86 (RUSUN_P2) -> 85 (RUSUN_P1) -> 123 (JLCL_T4) -> 124 (JLCL_T5) -> 145 (JLGOR_T20) -> 142 (JLGOR_T17) -> 154 (JLMRP_T4) -> 70 (FTP_P3) -> 141 (JLGOR_T16) -> 150 (JLGOR_T25) -> 162 (JLSKRI_T6) -> 161 (JLSKRI_T5) -> 68 (FTP_P1) -> 27 (FILKOM_P9) -> 26 (FILKOM_P8) -> 34 (FILKOM_P16) -> 25 (FILKOM_P7) -> 35 (FILKOM_P17) -> 54 (FILKOM_P36) -> 33 (FILKOM_P15) -> 11 (Junction FILKOM UB) -> 49 (FILKOM_P31) -> 47 (FILKOM_P29) -> 46 (FILKOM_P28) -> 8 (GKM FILKOM UB)
+  ref[bellman_ford] total : 514.90 m | time: 5.1004 ms
+  compare: match | distance_match=True | path_match=True
+[dijkstra] 16 (Samantha Krida) -> 1 (Gedung A FILKOM UB)
+  route : 16 (Samantha Krida) -> 89 (SAKRI_P1) -> 98 (JLCL_P1) -> 73 (GOR_P3) -> 140 (JLGOR_T15) -> 134 (JLGOR_T9) -> 133 (JLGOR_T8) -> 132 (JLGOR_T7) -> 24 (FILKOM_P6) -> 25 (FILKOM_P7) -> 34 (FILKOM_P16) -> 1 (Gedung A FILKOM UB)
+  edges : 16->89: 10.79 m | 89->98: 31.43 m | 98->73: 21.40 m | 73->140: 24.66 m | 140->134: 15.22 m | 134->133: 28.35 m | 133->132: 11.95 m | 132->24: 21.28 m | 24->25: 10.72 m | 25->34: 9.76 m | 34->1: 22.04 m
+  total : 207.60 m | hops: 11 | time: 0.1403 ms
+  ref[bellman_ford] route : 16 (Samantha Krida) -> 89 (SAKRI_P1) -> 98 (JLCL_P1) -> 73 (GOR_P3) -> 140 (JLGOR_T15) -> 134 (JLGOR_T9) -> 133 (JLGOR_T8) -> 132 (JLGOR_T7) -> 24 (FILKOM_P6) -> 25 (FILKOM_P7) -> 34 (FILKOM_P16) -> 1 (Gedung A FILKOM UB)
+  ref[bellman_ford] total : 207.60 m | time: 3.9514 ms
+  compare: match | distance_match=True | path_match=True
+[dijkstra] 16 (Samantha Krida) -> 2 (Gedung F FILKOM UB)
+  route : 16 (Samantha Krida) -> 89 (SAKRI_P1) -> 98 (JLCL_P1) -> 73 (GOR_P3) -> 140 (JLGOR_T15) -> 134 (JLGOR_T9) -> 133 (JLGOR_T8) -> 132 (JLGOR_T7) -> 23 (FILKOM_P5) -> 3 (Gedung G FILKOM UB) -> 11 (Junction FILKOM UB) -> 2 (Gedung F FILKOM UB)
+  edges : 16->89: 10.79 m | 89->98: 31.43 m | 98->73: 21.40 m | 73->140: 24.66 m | 140->134: 15.22 m | 134->133: 28.35 m | 133->132: 11.95 m | 132->23: 26.94 m | 23->3: 27.17 m | 3->11: 31.59 m | 11->2: 31.02 m
+  total : 260.52 m | hops: 11 | time: 0.1689 ms
+  ref[bellman_ford] route : 16 (Samantha Krida) -> 89 (SAKRI_P1) -> 98 (JLCL_P1) -> 73 (GOR_P3) -> 140 (JLGOR_T15) -> 134 (JLGOR_T9) -> 133 (JLGOR_T8) -> 132 (JLGOR_T7) -> 23 (FILKOM_P5) -> 3 (Gedung G FILKOM UB) -> 11 (Junction FILKOM UB) -> 2 (Gedung F FILKOM UB)
+  ref[bellman_ford] total : 260.52 m | time: 4.0015 ms
+  compare: match | distance_match=True | path_match=True
+[dijkstra] 16 (Samantha Krida) -> 3 (Gedung G FILKOM UB)
+  route : 16 (Samantha Krida) -> 89 (SAKRI_P1) -> 98 (JLCL_P1) -> 73 (GOR_P3) -> 140 (JLGOR_T15) -> 134 (JLGOR_T9) -> 133 (JLGOR_T8) -> 132 (JLGOR_T7) -> 23 (FILKOM_P5) -> 3 (Gedung G FILKOM UB)
+  edges : 16->89: 10.79 m | 89->98: 31.43 m | 98->73: 21.40 m | 73->140: 24.66 m | 140->134: 15.22 m | 134->133: 28.35 m | 133->132: 11.95 m | 132->23: 26.94 m | 23->3: 27.17 m
+  total : 197.91 m | hops: 9 | time: 0.1179 ms
+  ref[bellman_ford] route : 16 (Samantha Krida) -> 89 (SAKRI_P1) -> 98 (JLCL_P1) -> 73 (GOR_P3) -> 140 (JLGOR_T15) -> 134 (JLGOR_T9) -> 133 (JLGOR_T8) -> 132 (JLGOR_T7) -> 23 (FILKOM_P5) -> 3 (Gedung G FILKOM UB)
+  ref[bellman_ford] total : 197.91 m | time: 3.9686 ms
+  compare: match | distance_match=True | path_match=True
+[dijkstra] 16 (Samantha Krida) -> 11 (Junction FILKOM UB)
+  route : 16 (Samantha Krida) -> 89 (SAKRI_P1) -> 98 (JLCL_P1) -> 73 (GOR_P3) -> 140 (JLGOR_T15) -> 134 (JLGOR_T9) -> 133 (JLGOR_T8) -> 132 (JLGOR_T7) -> 23 (FILKOM_P5) -> 3 (Gedung G FILKOM UB) -> 11 (Junction FILKOM UB)
+  edges : 16->89: 10.79 m | 89->98: 31.43 m | 98->73: 21.40 m | 73->140: 24.66 m | 140->134: 15.22 m | 134->133: 28.35 m | 133->132: 11.95 m | 132->23: 26.94 m | 23->3: 27.17 m | 3->11: 31.59 m
+  total : 229.50 m | hops: 10 | time: 0.1746 ms
+  ref[bellman_ford] route : 16 (Samantha Krida) -> 89 (SAKRI_P1) -> 98 (JLCL_P1) -> 73 (GOR_P3) -> 140 (JLGOR_T15) -> 134 (JLGOR_T9) -> 133 (JLGOR_T8) -> 132 (JLGOR_T7) -> 23 (FILKOM_P5) -> 3 (Gedung G FILKOM UB) -> 11 (Junction FILKOM UB)
+  ref[bellman_ford] total : 229.50 m | time: 4.024 ms
+  compare: match | distance_match=True | path_match=True
+[dijkstra] 16 (Samantha Krida) -> 8 (GKM FILKOM UB)
+  route : 16 (Samantha Krida) -> 89 (SAKRI_P1) -> 98 (JLCL_P1) -> 73 (GOR_P3) -> 140 (JLGOR_T15) -> 134 (JLGOR_T9) -> 133 (JLGOR_T8) -> 132 (JLGOR_T7) -> 23 (FILKOM_P5) -> 3 (Gedung G FILKOM UB) -> 11 (Junction FILKOM UB) -> 49 (FILKOM_P31) -> 47 (FILKOM_P29) -> 46 (FILKOM_P28) -> 8 (GKM FILKOM UB)
+  edges : 16->89: 10.79 m | 89->98: 31.43 m | 98->73: 21.40 m | 73->140: 24.66 m | 140->134: 15.22 m | 134->133: 28.35 m | 133->132: 11.95 m | 132->23: 26.94 m | 23->3: 27.17 m | 3->11: 31.59 m | 11->49: 26.95 m | 49->47: 40.37 m | 47->46: 16.03 m | 46->8: 9.24 m
+  total : 322.09 m | hops: 14 | time: 0.2194 ms
+  ref[bellman_ford] route : 16 (Samantha Krida) -> 89 (SAKRI_P1) -> 98 (JLCL_P1) -> 73 (GOR_P3) -> 140 (JLGOR_T15) -> 134 (JLGOR_T9) -> 133 (JLGOR_T8) -> 132 (JLGOR_T7) -> 23 (FILKOM_P5) -> 3 (Gedung G FILKOM UB) -> 11 (Junction FILKOM UB) -> 49 (FILKOM_P31) -> 47 (FILKOM_P29) -> 46 (FILKOM_P28) -> 8 (GKM FILKOM UB)
+  ref[bellman_ford] total : 322.09 m | time: 4.0611 ms
+  compare: match | distance_match=True | path_match=True
+--- dijkstra summary ---
+pairs: 75 | success: 75 | failure: 0
+runtime (ms): total=8.5159 | avg=0.113545 | median=0.1042 | min=0.0072 | max=0.2497
+path stats: total_hops=847 | avg_hops=11.293333 | avg_distance_m=254.644133
+comparison: match=75 | tie-path-diff=0 | mismatch=0
+report json: C:\Users\edy\vsc-projects\ub-walk\data_processing\reports\dijkstra_test_report.json
+report csv : C:\Users\edy\vsc-projects\ub-walk\data_processing\reports\dijkstra_test_report.csv
