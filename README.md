@@ -1,19 +1,46 @@
-# Shortest Path using Dijkstra and Bellman Ford: UB Walk Study Case
+# UB Walk — Shortest Path Study Case
 
-Build with Love By:
-- Edy Rahman
-- Fauzan Pradana
-- Muhammad Zakki Islami
+Authors: Edy Rahman, Fauzan Pradana, Muhammad Zakki Islami
 
-## Architecture
+Overview
+--------
+UB Walk is a study project that implements shortest-path algorithms (Dijkstra and Bellman-Ford) over a campus map and exposes tools for benchmarking and a Next.js frontend for interactive route lookup.
 
-[Dijkstra | Bellman Ford][API] => [Web (FE)]
+This repository contains two main parts:
+- `data_processing`: Python algorithm engine, CLI, and benchmarking tools.
+- `fe-web/pencarian-fe`: Next.js frontend (maps UI) that calls a local API route which runs the Python processors.
 
-## Benchmark Scripts
+Quick start
+-----------
+1. Backend (algorithms & benchmarks)
 
-Di folder `data_processing`, jalankan:
+```bash
+cd data_processing
+python dijkstra_test.py
+python bellman_ford_test.py
+```
 
-- `python dijkstra_test.py`
-- `python bellman_ford_test.py`
+2. Frontend (development)
 
-Keduanya akan menjalankan semua hotspot sumber ke 5 node FILKOM UB target, menampilkan log rute, jarak per edge, total jarak, waktu proses, dan perbandingan hasil antar-algoritma. Report JSON dan CSV disimpan di `data_processing/reports/`.
+```bash
+cd fe-web/pencarian-fe
+pnpm install
+pnpm dev
+```
+
+3. Integration
+
+- The frontend API route (`/api/route`) spawns the Python script in `../data_processing` to compute routes and reads `output.json`. Run the frontend from `fe-web/pencarian-fe` so the relative path to `data_processing` is valid.
+
+Project docs
+------------
+- Backend (algorithms & benchmarks): [data_processing/README.md](data_processing/README.md)
+- Frontend (Next.js): [fe-web/pencarian-fe/README.md](fe-web/pencarian-fe/README.md)
+
+Architecture (simple)
+----------------------
+Client (browser) -> Next.js frontend UI -> POST /api/route -> Python scripts (data_processing) -> output.json / reports -> API response
+
+Notes
+-----
+- This README is a project index. See the module READMEs for details about run commands, configuration, and architecture.

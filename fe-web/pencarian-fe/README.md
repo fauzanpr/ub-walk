@@ -1,36 +1,60 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+pencarian-fe — UB Walk frontend
+================================
 
-## Getting Started
+This folder contains the frontend application for UB Walk: a Next.js + React TypeScript app that renders maps and lets users request shortest-path computations.
 
-First, run the development server:
+Prerequisites
+-------------
+- Node.js 18+ (or compatible LTS)
+- pnpm (recommended) or npm/yarn
+- Python 3.8+ available in PATH if you want the frontend API route to spawn the local Python scripts in `../data_processing`.
+
+Install and run (development)
+-----------------------------
+From the `fe-web/pencarian-fe` directory:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
+pnpm install
 pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Build and run (production)
+--------------------------
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+pnpm build
+pnpm start
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Environment
+-----------
+- `NEXT_PUBLIC_APP_URL` — base API URL used inside the app (see `src/configs/AppConfig.ts`). When running locally with Next.js API routes, this can be left empty.
 
-## Learn More
+Frontend API route
+------------------
+The app exposes a server-side API at `POST /api/route` which accepts:
 
-To learn more about Next.js, take a look at the following resources:
+```json
+{ "source_id": "<node id>", "destination_id": "<node id>", "algorithm": "dijkstra" | "bf" }
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The API route spawns the Python wrapper scripts in `../data_processing` (using `python3`) and returns the computed route by reading `output.json`.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Architecture (ASCII)
+-------------------
+Browser UI (React) -> Next.js API /api/route -> spawn Python (data_processing/main_*_forweb.py) -> data_processing/output.json -> API response
 
-## Deploy on Vercel
+Important notes
+---------------
+- When running locally, start the frontend from `fe-web/pencarian-fe` so the API route can find `../data_processing` by relative path.
+- Ensure `python3` is available in your PATH and that `data_processing` contains the `nodes.json` and `edges.json` files.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Project structure highlights
+--------------------------
+- `src/app/` — Next.js app routes and pages.
+- `src/app/api/route/route.ts` — API route that executes the Python scripts.
+- `src/features/maps/` — hooks and services for shortest-path requests.
+- `src/components/` — UI components used across pages.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+See the project root README for a short quick start: [README.md](../../README.md)
+
